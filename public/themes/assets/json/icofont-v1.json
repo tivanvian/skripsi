@@ -1,0 +1,8422 @@
+[
+ {
+  "id": "icofont-angry-monster",
+  "name": "angry-monster"
+ },
+ {
+  "id": "icofont-bathtub",
+  "name": "bathtub"
+ },
+ {
+  "id": "icofont-bird-wings",
+  "name": "bird-wings"
+ },
+ {
+  "id": "icofont-bow",
+  "name": "bow"
+ },
+ {
+  "id": "icofont-brain-alt",
+  "name": "brain-alt"
+ },
+ {
+  "id": "icofont-butterfly-alt",
+  "name": "butterfly-alt"
+ },
+ {
+  "id": "icofont-castle",
+  "name": "castle"
+ },
+ {
+  "id": "icofont-circuit",
+  "name": "circuit"
+ },
+ {
+  "id": "icofont-dart",
+  "name": "dart"
+ },
+ {
+  "id": "icofont-dice-alt",
+  "name": "dice-alt"
+ },
+ {
+  "id": "icofont-disability-race",
+  "name": "disability-race"
+ },
+ {
+  "id": "icofont-diving-goggle",
+  "name": "diving-goggle"
+ },
+ {
+  "id": "icofont-fire-alt",
+  "name": "fire-alt"
+ },
+ {
+  "id": "icofont-flame-torch",
+  "name": "flame-torch"
+ },
+ {
+  "id": "icofont-flora",
+  "name": "flora"
+ },
+ {
+  "id": "icofont-flora-flower",
+  "name": "flora-flower"
+ },
+ {
+  "id": "icofont-gift-box",
+  "name": "gift-box"
+ },
+ {
+  "id": "icofont-halloween-pumpkin",
+  "name": "halloween-pumpkin"
+ },
+ {
+  "id": "icofont-hand-power",
+  "name": "hand-power"
+ },
+ {
+  "id": "icofont-hand-thunder",
+  "name": "hand-thunder"
+ },
+ {
+  "id": "icofont-king-crown",
+  "name": "king-crown"
+ },
+ {
+  "id": "icofont-king-monster",
+  "name": "king-monster"
+ },
+ {
+  "id": "icofont-love",
+  "name": "love"
+ },
+ {
+  "id": "icofont-magician-hat",
+  "name": "magician-hat"
+ },
+ {
+  "id": "icofont-native-american",
+  "name": "native-american"
+ },
+ {
+  "id": "icofont-open-eye",
+  "name": "open-eye"
+ },
+ {
+  "id": "icofont-owl-look",
+  "name": "owl-look"
+ },
+ {
+  "id": "icofont-phoenix",
+  "name": "phoenix"
+ },
+ {
+  "id": "icofont-queen-crown",
+  "name": "queen-crown"
+ },
+ {
+  "id": "icofont-robot-face",
+  "name": "robot-face"
+ },
+ {
+  "id": "icofont-sand-clock",
+  "name": "sand-clock"
+ },
+ {
+  "id": "icofont-shield-alt",
+  "name": "shield-alt"
+ },
+ {
+  "id": "icofont-ship-wheel",
+  "name": "ship-wheel"
+ },
+ {
+  "id": "icofont-skull-danger",
+  "name": "skull-danger"
+ },
+ {
+  "id": "icofont-skull-face",
+  "name": "skull-face"
+ },
+ {
+  "id": "icofont-snail",
+  "name": "snail"
+ },
+ {
+  "id": "icofont-snow-alt",
+  "name": "snow-alt"
+ },
+ {
+  "id": "icofont-snow-flake",
+  "name": "snow-flake"
+ },
+ {
+  "id": "icofont-snowmobile",
+  "name": "snowmobile"
+ },
+ {
+  "id": "icofont-space-shuttle",
+  "name": "space-shuttle"
+ },
+ {
+  "id": "icofont-star-shape",
+  "name": "star-shape"
+ },
+ {
+  "id": "icofont-swirl",
+  "name": "swirl"
+ },
+ {
+  "id": "icofont-tattoo-wing",
+  "name": "tattoo-wing"
+ },
+ {
+  "id": "icofont-throne",
+  "name": "throne"
+ },
+ {
+  "id": "icofont-touch",
+  "name": "touch"
+ },
+ {
+  "id": "icofont-tree-alt",
+  "name": "tree-alt"
+ },
+ {
+  "id": "icofont-triangle",
+  "name": "triangle"
+ },
+ {
+  "id": "icofont-unity-hand",
+  "name": "unity-hand"
+ },
+ {
+  "id": "icofont-weed",
+  "name": "weed"
+ },
+ {
+  "id": "icofont-woman-bird",
+  "name": "woman-bird"
+ },
+ {
+  "id": "icofont-animal-bat",
+  "name": "animal-bat"
+ },
+ {
+  "id": "icofont-animal-bear",
+  "name": "animal-bear"
+ },
+ {
+  "id": "icofont-animal-bear-tracks",
+  "name": "animal-bear-tracks"
+ },
+ {
+  "id": "icofont-animal-bird",
+  "name": "animal-bird"
+ },
+ {
+  "id": "icofont-animal-bird-alt",
+  "name": "animal-bird-alt"
+ },
+ {
+  "id": "icofont-animal-bone",
+  "name": "animal-bone"
+ },
+ {
+  "id": "icofont-animal-bull",
+  "name": "animal-bull"
+ },
+ {
+  "id": "icofont-animal-camel",
+  "name": "animal-camel"
+ },
+ {
+  "id": "icofont-animal-camel-alt",
+  "name": "animal-camel-alt"
+ },
+ {
+  "id": "icofont-animal-camel-head",
+  "name": "animal-camel-head"
+ },
+ {
+  "id": "icofont-animal-cat",
+  "name": "animal-cat"
+ },
+ {
+  "id": "icofont-animal-cat-alt-1",
+  "name": "animal-cat-alt-1"
+ },
+ {
+  "id": "icofont-animal-cat-alt-2",
+  "name": "animal-cat-alt-2"
+ },
+ {
+  "id": "icofont-animal-cat-alt-3",
+  "name": "animal-cat-alt-3"
+ },
+ {
+  "id": "icofont-animal-cat-alt-4",
+  "name": "animal-cat-alt-4"
+ },
+ {
+  "id": "icofont-animal-cat-with-dog",
+  "name": "animal-cat-with-dog"
+ },
+ {
+  "id": "icofont-animal-cow",
+  "name": "animal-cow"
+ },
+ {
+  "id": "icofont-animal-cow-head",
+  "name": "animal-cow-head"
+ },
+ {
+  "id": "icofont-animal-crab",
+  "name": "animal-crab"
+ },
+ {
+  "id": "icofont-animal-crocodile",
+  "name": "animal-crocodile"
+ },
+ {
+  "id": "icofont-animal-deer-head",
+  "name": "animal-deer-head"
+ },
+ {
+  "id": "icofont-animal-dog",
+  "name": "animal-dog"
+ },
+ {
+  "id": "icofont-animal-dog-alt",
+  "name": "animal-dog-alt"
+ },
+ {
+  "id": "icofont-animal-dog-barking",
+  "name": "animal-dog-barking"
+ },
+ {
+  "id": "icofont-animal-dolphin",
+  "name": "animal-dolphin"
+ },
+ {
+  "id": "icofont-animal-duck-tracks",
+  "name": "animal-duck-tracks"
+ },
+ {
+  "id": "icofont-animal-eagle-head",
+  "name": "animal-eagle-head"
+ },
+ {
+  "id": "icofont-animal-eaten-fish",
+  "name": "animal-eaten-fish"
+ },
+ {
+  "id": "icofont-animal-elephant",
+  "name": "animal-elephant"
+ },
+ {
+  "id": "icofont-animal-elephant-alt",
+  "name": "animal-elephant-alt"
+ },
+ {
+  "id": "icofont-animal-elephant-head",
+  "name": "animal-elephant-head"
+ },
+ {
+  "id": "icofont-animal-elephant-head-alt",
+  "name": "animal-elephant-head-alt"
+ },
+ {
+  "id": "icofont-animal-elk",
+  "name": "animal-elk"
+ },
+ {
+  "id": "icofont-animal-fish",
+  "name": "animal-fish"
+ },
+ {
+  "id": "icofont-animal-fish-alt-1",
+  "name": "animal-fish-alt-1"
+ },
+ {
+  "id": "icofont-animal-fish-alt-2",
+  "name": "animal-fish-alt-2"
+ },
+ {
+  "id": "icofont-animal-fish-alt-3",
+  "name": "animal-fish-alt-3"
+ },
+ {
+  "id": "icofont-animal-fish-alt-4",
+  "name": "animal-fish-alt-4"
+ },
+ {
+  "id": "icofont-animal-fox",
+  "name": "animal-fox"
+ },
+ {
+  "id": "icofont-animal-fox-alt",
+  "name": "animal-fox-alt"
+ },
+ {
+  "id": "icofont-animal-frog",
+  "name": "animal-frog"
+ },
+ {
+  "id": "icofont-animal-frog-tracks",
+  "name": "animal-frog-tracks"
+ },
+ {
+  "id": "icofont-animal-froggy",
+  "name": "animal-froggy"
+ },
+ {
+  "id": "icofont-animal-giraffe",
+  "name": "animal-giraffe"
+ },
+ {
+  "id": "icofont-animal-giraffe-alt",
+  "name": "animal-giraffe-alt"
+ },
+ {
+  "id": "icofont-animal-goat-head",
+  "name": "animal-goat-head"
+ },
+ {
+  "id": "icofont-animal-goat-head-alt-1",
+  "name": "animal-goat-head-alt-1"
+ },
+ {
+  "id": "icofont-animal-goat-head-alt-2",
+  "name": "animal-goat-head-alt-2"
+ },
+ {
+  "id": "icofont-animal-gorilla",
+  "name": "animal-gorilla"
+ },
+ {
+  "id": "icofont-animal-hen-tracks",
+  "name": "animal-hen-tracks"
+ },
+ {
+  "id": "icofont-animal-horse-head",
+  "name": "animal-horse-head"
+ },
+ {
+  "id": "icofont-animal-horse-head-alt-1",
+  "name": "animal-horse-head-alt-1"
+ },
+ {
+  "id": "icofont-animal-horse-head-alt-2",
+  "name": "animal-horse-head-alt-2"
+ },
+ {
+  "id": "icofont-animal-horse-tracks",
+  "name": "animal-horse-tracks"
+ },
+ {
+  "id": "icofont-animal-jellyfish",
+  "name": "animal-jellyfish"
+ },
+ {
+  "id": "icofont-animal-kangaroo",
+  "name": "animal-kangaroo"
+ },
+ {
+  "id": "icofont-animal-lemur",
+  "name": "animal-lemur"
+ },
+ {
+  "id": "icofont-animal-lion",
+  "name": "animal-lion"
+ },
+ {
+  "id": "icofont-animal-lion-alt",
+  "name": "animal-lion-alt"
+ },
+ {
+  "id": "icofont-animal-lion-head",
+  "name": "animal-lion-head"
+ },
+ {
+  "id": "icofont-animal-lion-head-alt",
+  "name": "animal-lion-head-alt"
+ },
+ {
+  "id": "icofont-animal-monkey",
+  "name": "animal-monkey"
+ },
+ {
+  "id": "icofont-animal-monkey-alt-1",
+  "name": "animal-monkey-alt-1"
+ },
+ {
+  "id": "icofont-animal-monkey-alt-2",
+  "name": "animal-monkey-alt-2"
+ },
+ {
+  "id": "icofont-animal-monkey-alt-3",
+  "name": "animal-monkey-alt-3"
+ },
+ {
+  "id": "icofont-animal-octopus",
+  "name": "animal-octopus"
+ },
+ {
+  "id": "icofont-animal-octopus-alt",
+  "name": "animal-octopus-alt"
+ },
+ {
+  "id": "icofont-animal-owl",
+  "name": "animal-owl"
+ },
+ {
+  "id": "icofont-animal-panda",
+  "name": "animal-panda"
+ },
+ {
+  "id": "icofont-animal-panda-alt",
+  "name": "animal-panda-alt"
+ },
+ {
+  "id": "icofont-animal-panther",
+  "name": "animal-panther"
+ },
+ {
+  "id": "icofont-animal-parrot",
+  "name": "animal-parrot"
+ },
+ {
+  "id": "icofont-animal-parrot-lip",
+  "name": "animal-parrot-lip"
+ },
+ {
+  "id": "icofont-animal-paw",
+  "name": "animal-paw"
+ },
+ {
+  "id": "icofont-animal-pelican",
+  "name": "animal-pelican"
+ },
+ {
+  "id": "icofont-animal-penguin",
+  "name": "animal-penguin"
+ },
+ {
+  "id": "icofont-animal-pig",
+  "name": "animal-pig"
+ },
+ {
+  "id": "icofont-animal-pig-alt",
+  "name": "animal-pig-alt"
+ },
+ {
+  "id": "icofont-animal-pigeon",
+  "name": "animal-pigeon"
+ },
+ {
+  "id": "icofont-animal-pigeon-alt",
+  "name": "animal-pigeon-alt"
+ },
+ {
+  "id": "icofont-animal-pigeons",
+  "name": "animal-pigeons"
+ },
+ {
+  "id": "icofont-animal-rabbit-running",
+  "name": "animal-rabbit-running"
+ },
+ {
+  "id": "icofont-animal-rat-alt",
+  "name": "animal-rat-alt"
+ },
+ {
+  "id": "icofont-animal-rhino",
+  "name": "animal-rhino"
+ },
+ {
+  "id": "icofont-animal-rhino-head",
+  "name": "animal-rhino-head"
+ },
+ {
+  "id": "icofont-animal-rooster",
+  "name": "animal-rooster"
+ },
+ {
+  "id": "icofont-animal-seahorse",
+  "name": "animal-seahorse"
+ },
+ {
+  "id": "icofont-animal-seal",
+  "name": "animal-seal"
+ },
+ {
+  "id": "icofont-animal-shrimp",
+  "name": "animal-shrimp"
+ },
+ {
+  "id": "icofont-animal-snail",
+  "name": "animal-snail"
+ },
+ {
+  "id": "icofont-animal-snail-alt-1",
+  "name": "animal-snail-alt-1"
+ },
+ {
+  "id": "icofont-animal-snail-alt-2",
+  "name": "animal-snail-alt-2"
+ },
+ {
+  "id": "icofont-animal-snake",
+  "name": "animal-snake"
+ },
+ {
+  "id": "icofont-animal-squid",
+  "name": "animal-squid"
+ },
+ {
+  "id": "icofont-animal-squirrel",
+  "name": "animal-squirrel"
+ },
+ {
+  "id": "icofont-animal-tiger",
+  "name": "animal-tiger"
+ },
+ {
+  "id": "icofont-animal-tiger-alt",
+  "name": "animal-tiger-alt"
+ },
+ {
+  "id": "icofont-animal-turtle",
+  "name": "animal-turtle"
+ },
+ {
+  "id": "icofont-animal-whale",
+  "name": "animal-whale"
+ },
+ {
+  "id": "icofont-animal-woodpecker",
+  "name": "animal-woodpecker"
+ },
+ {
+  "id": "icofont-animal-zebra",
+  "name": "animal-zebra"
+ },
+ {
+  "id": "icofont-brand-acer",
+  "name": "brand-acer"
+ },
+ {
+  "id": "icofont-brand-adidas",
+  "name": "brand-adidas"
+ },
+ {
+  "id": "icofont-brand-adobe",
+  "name": "brand-adobe"
+ },
+ {
+  "id": "icofont-brand-air-new-zealand",
+  "name": "brand-air-new-zealand"
+ },
+ {
+  "id": "icofont-brand-airbnb",
+  "name": "brand-airbnb"
+ },
+ {
+  "id": "icofont-brand-aircell",
+  "name": "brand-aircell"
+ },
+ {
+  "id": "icofont-brand-airtel",
+  "name": "brand-airtel"
+ },
+ {
+  "id": "icofont-brand-alcatel",
+  "name": "brand-alcatel"
+ },
+ {
+  "id": "icofont-brand-alibaba",
+  "name": "brand-alibaba"
+ },
+ {
+  "id": "icofont-brand-aliexpress",
+  "name": "brand-aliexpress"
+ },
+ {
+  "id": "icofont-brand-alipay",
+  "name": "brand-alipay"
+ },
+ {
+  "id": "icofont-brand-amazon",
+  "name": "brand-amazon"
+ },
+ {
+  "id": "icofont-brand-amd",
+  "name": "brand-amd"
+ },
+ {
+  "id": "icofont-brand-american-airlines",
+  "name": "brand-american-airlines"
+ },
+ {
+  "id": "icofont-brand-android",
+  "name": "brand-android"
+ },
+ {
+  "id": "icofont-brand-android-robot",
+  "name": "brand-android-robot"
+ },
+ {
+  "id": "icofont-brand-aol",
+  "name": "brand-aol"
+ },
+ {
+  "id": "icofont-brand-apple",
+  "name": "brand-apple"
+ },
+ {
+  "id": "icofont-brand-appstore",
+  "name": "brand-appstore"
+ },
+ {
+  "id": "icofont-brand-asus",
+  "name": "brand-asus"
+ },
+ {
+  "id": "icofont-brand-ati",
+  "name": "brand-ati"
+ },
+ {
+  "id": "icofont-brand-att",
+  "name": "brand-att"
+ },
+ {
+  "id": "icofont-brand-audi",
+  "name": "brand-audi"
+ },
+ {
+  "id": "icofont-brand-axiata",
+  "name": "brand-axiata"
+ },
+ {
+  "id": "icofont-brand-bada",
+  "name": "brand-bada"
+ },
+ {
+  "id": "icofont-brand-bbc",
+  "name": "brand-bbc"
+ },
+ {
+  "id": "icofont-brand-bing",
+  "name": "brand-bing"
+ },
+ {
+  "id": "icofont-brand-blackberry",
+  "name": "brand-blackberry"
+ },
+ {
+  "id": "icofont-brand-bmw",
+  "name": "brand-bmw"
+ },
+ {
+  "id": "icofont-brand-box",
+  "name": "brand-box"
+ },
+ {
+  "id": "icofont-brand-burger-king",
+  "name": "brand-burger-king"
+ },
+ {
+  "id": "icofont-brand-business-insider",
+  "name": "brand-business-insider"
+ },
+ {
+  "id": "icofont-brand-buzzfeed",
+  "name": "brand-buzzfeed"
+ },
+ {
+  "id": "icofont-brand-cannon",
+  "name": "brand-cannon"
+ },
+ {
+  "id": "icofont-brand-casio",
+  "name": "brand-casio"
+ },
+ {
+  "id": "icofont-brand-china-mobile",
+  "name": "brand-china-mobile"
+ },
+ {
+  "id": "icofont-brand-china-telecom",
+  "name": "brand-china-telecom"
+ },
+ {
+  "id": "icofont-brand-china-unicom",
+  "name": "brand-china-unicom"
+ },
+ {
+  "id": "icofont-brand-cisco",
+  "name": "brand-cisco"
+ },
+ {
+  "id": "icofont-brand-citibank",
+  "name": "brand-citibank"
+ },
+ {
+  "id": "icofont-brand-cnet",
+  "name": "brand-cnet"
+ },
+ {
+  "id": "icofont-brand-cnn",
+  "name": "brand-cnn"
+ },
+ {
+  "id": "icofont-brand-cocal-cola",
+  "name": "brand-cocal-cola"
+ },
+ {
+  "id": "icofont-brand-compaq",
+  "name": "brand-compaq"
+ },
+ {
+  "id": "icofont-brand-copy",
+  "name": "brand-copy"
+ },
+ {
+  "id": "icofont-brand-debian",
+  "name": "brand-debian"
+ },
+ {
+  "id": "icofont-brand-delicious",
+  "name": "brand-delicious"
+ },
+ {
+  "id": "icofont-brand-dell",
+  "name": "brand-dell"
+ },
+ {
+  "id": "icofont-brand-designbump",
+  "name": "brand-designbump"
+ },
+ {
+  "id": "icofont-brand-designfloat",
+  "name": "brand-designfloat"
+ },
+ {
+  "id": "icofont-brand-disney",
+  "name": "brand-disney"
+ },
+ {
+  "id": "icofont-brand-dodge",
+  "name": "brand-dodge"
+ },
+ {
+  "id": "icofont-brand-dove",
+  "name": "brand-dove"
+ },
+ {
+  "id": "icofont-brand-ebay",
+  "name": "brand-ebay"
+ },
+ {
+  "id": "icofont-brand-eleven",
+  "name": "brand-eleven"
+ },
+ {
+  "id": "icofont-brand-emirates",
+  "name": "brand-emirates"
+ },
+ {
+  "id": "icofont-brand-espn",
+  "name": "brand-espn"
+ },
+ {
+  "id": "icofont-brand-etihad-airways",
+  "name": "brand-etihad-airways"
+ },
+ {
+  "id": "icofont-brand-etisalat",
+  "name": "brand-etisalat"
+ },
+ {
+  "id": "icofont-brand-etsy",
+  "name": "brand-etsy"
+ },
+ {
+  "id": "icofont-brand-facebook",
+  "name": "brand-facebook"
+ },
+ {
+  "id": "icofont-brand-fastrack",
+  "name": "brand-fastrack"
+ },
+ {
+  "id": "icofont-brand-fedex",
+  "name": "brand-fedex"
+ },
+ {
+  "id": "icofont-brand-ferrari",
+  "name": "brand-ferrari"
+ },
+ {
+  "id": "icofont-brand-fitbit",
+  "name": "brand-fitbit"
+ },
+ {
+  "id": "icofont-brand-flikr",
+  "name": "brand-flikr"
+ },
+ {
+  "id": "icofont-brand-forbes",
+  "name": "brand-forbes"
+ },
+ {
+  "id": "icofont-brand-foursquare",
+  "name": "brand-foursquare"
+ },
+ {
+  "id": "icofont-brand-fox",
+  "name": "brand-fox"
+ },
+ {
+  "id": "icofont-brand-foxconn",
+  "name": "brand-foxconn"
+ },
+ {
+  "id": "icofont-brand-fujitsu",
+  "name": "brand-fujitsu"
+ },
+ {
+  "id": "icofont-brand-general-electric",
+  "name": "brand-general-electric"
+ },
+ {
+  "id": "icofont-brand-gillette",
+  "name": "brand-gillette"
+ },
+ {
+  "id": "icofont-brand-gizmodo",
+  "name": "brand-gizmodo"
+ },
+ {
+  "id": "icofont-brand-gnome",
+  "name": "brand-gnome"
+ },
+ {
+  "id": "icofont-brand-google",
+  "name": "brand-google"
+ },
+ {
+  "id": "icofont-brand-gopro",
+  "name": "brand-gopro"
+ },
+ {
+  "id": "icofont-brand-gucci",
+  "name": "brand-gucci"
+ },
+ {
+  "id": "icofont-brand-hallmark",
+  "name": "brand-hallmark"
+ },
+ {
+  "id": "icofont-brand-hi5",
+  "name": "brand-hi5"
+ },
+ {
+  "id": "icofont-brand-honda",
+  "name": "brand-honda"
+ },
+ {
+  "id": "icofont-brand-hp",
+  "name": "brand-hp"
+ },
+ {
+  "id": "icofont-brand-hsbc",
+  "name": "brand-hsbc"
+ },
+ {
+  "id": "icofont-brand-htc",
+  "name": "brand-htc"
+ },
+ {
+  "id": "icofont-brand-huawei",
+  "name": "brand-huawei"
+ },
+ {
+  "id": "icofont-brand-hulu",
+  "name": "brand-hulu"
+ },
+ {
+  "id": "icofont-brand-hyundai",
+  "name": "brand-hyundai"
+ },
+ {
+  "id": "icofont-brand-ibm",
+  "name": "brand-ibm"
+ },
+ {
+  "id": "icofont-brand-icofont",
+  "name": "brand-icofont"
+ },
+ {
+  "id": "icofont-brand-icq",
+  "name": "brand-icq"
+ },
+ {
+  "id": "icofont-brand-ikea",
+  "name": "brand-ikea"
+ },
+ {
+  "id": "icofont-brand-imdb",
+  "name": "brand-imdb"
+ },
+ {
+  "id": "icofont-brand-indiegogo",
+  "name": "brand-indiegogo"
+ },
+ {
+  "id": "icofont-brand-intel",
+  "name": "brand-intel"
+ },
+ {
+  "id": "icofont-brand-ipair",
+  "name": "brand-ipair"
+ },
+ {
+  "id": "icofont-brand-jaguar",
+  "name": "brand-jaguar"
+ },
+ {
+  "id": "icofont-brand-java",
+  "name": "brand-java"
+ },
+ {
+  "id": "icofont-brand-joomla",
+  "name": "brand-joomla"
+ },
+ {
+  "id": "icofont-brand-joomshaper",
+  "name": "brand-joomshaper"
+ },
+ {
+  "id": "icofont-brand-kickstarter",
+  "name": "brand-kickstarter"
+ },
+ {
+  "id": "icofont-brand-kik",
+  "name": "brand-kik"
+ },
+ {
+  "id": "icofont-brand-lastfm",
+  "name": "brand-lastfm"
+ },
+ {
+  "id": "icofont-brand-lego",
+  "name": "brand-lego"
+ },
+ {
+  "id": "icofont-brand-lenovo",
+  "name": "brand-lenovo"
+ },
+ {
+  "id": "icofont-brand-levis",
+  "name": "brand-levis"
+ },
+ {
+  "id": "icofont-brand-lexus",
+  "name": "brand-lexus"
+ },
+ {
+  "id": "icofont-brand-lg",
+  "name": "brand-lg"
+ },
+ {
+  "id": "icofont-brand-life-hacker",
+  "name": "brand-life-hacker"
+ },
+ {
+  "id": "icofont-brand-line-messenger",
+  "name": "brand-line-messenger"
+ },
+ {
+  "id": "icofont-brand-linkedin",
+  "name": "brand-linkedin"
+ },
+ {
+  "id": "icofont-brand-linux",
+  "name": "brand-linux"
+ },
+ {
+  "id": "icofont-brand-linux-mint",
+  "name": "brand-linux-mint"
+ },
+ {
+  "id": "icofont-brand-lionix",
+  "name": "brand-lionix"
+ },
+ {
+  "id": "icofont-brand-live-messenger",
+  "name": "brand-live-messenger"
+ },
+ {
+  "id": "icofont-brand-loreal",
+  "name": "brand-loreal"
+ },
+ {
+  "id": "icofont-brand-louis-vuitton",
+  "name": "brand-louis-vuitton"
+ },
+ {
+  "id": "icofont-brand-mac-os",
+  "name": "brand-mac-os"
+ },
+ {
+  "id": "icofont-brand-marvel-app",
+  "name": "brand-marvel-app"
+ },
+ {
+  "id": "icofont-brand-mashable",
+  "name": "brand-mashable"
+ },
+ {
+  "id": "icofont-brand-mazda",
+  "name": "brand-mazda"
+ },
+ {
+  "id": "icofont-brand-mcdonals",
+  "name": "brand-mcdonals"
+ },
+ {
+  "id": "icofont-brand-mercedes",
+  "name": "brand-mercedes"
+ },
+ {
+  "id": "icofont-brand-micromax",
+  "name": "brand-micromax"
+ },
+ {
+  "id": "icofont-brand-microsoft",
+  "name": "brand-microsoft"
+ },
+ {
+  "id": "icofont-brand-mobileme",
+  "name": "brand-mobileme"
+ },
+ {
+  "id": "icofont-brand-mobily",
+  "name": "brand-mobily"
+ },
+ {
+  "id": "icofont-brand-motorola",
+  "name": "brand-motorola"
+ },
+ {
+  "id": "icofont-brand-msi",
+  "name": "brand-msi"
+ },
+ {
+  "id": "icofont-brand-mts",
+  "name": "brand-mts"
+ },
+ {
+  "id": "icofont-brand-myspace",
+  "name": "brand-myspace"
+ },
+ {
+  "id": "icofont-brand-mytv",
+  "name": "brand-mytv"
+ },
+ {
+  "id": "icofont-brand-nasa",
+  "name": "brand-nasa"
+ },
+ {
+  "id": "icofont-brand-natgeo",
+  "name": "brand-natgeo"
+ },
+ {
+  "id": "icofont-brand-nbc",
+  "name": "brand-nbc"
+ },
+ {
+  "id": "icofont-brand-nescafe",
+  "name": "brand-nescafe"
+ },
+ {
+  "id": "icofont-brand-nestle",
+  "name": "brand-nestle"
+ },
+ {
+  "id": "icofont-brand-netflix",
+  "name": "brand-netflix"
+ },
+ {
+  "id": "icofont-brand-nexus",
+  "name": "brand-nexus"
+ },
+ {
+  "id": "icofont-brand-nike",
+  "name": "brand-nike"
+ },
+ {
+  "id": "icofont-brand-nokia",
+  "name": "brand-nokia"
+ },
+ {
+  "id": "icofont-brand-nvidia",
+  "name": "brand-nvidia"
+ },
+ {
+  "id": "icofont-brand-omega",
+  "name": "brand-omega"
+ },
+ {
+  "id": "icofont-brand-opensuse",
+  "name": "brand-opensuse"
+ },
+ {
+  "id": "icofont-brand-oracle",
+  "name": "brand-oracle"
+ },
+ {
+  "id": "icofont-brand-panasonic",
+  "name": "brand-panasonic"
+ },
+ {
+  "id": "icofont-brand-paypal",
+  "name": "brand-paypal"
+ },
+ {
+  "id": "icofont-brand-pepsi",
+  "name": "brand-pepsi"
+ },
+ {
+  "id": "icofont-brand-philips",
+  "name": "brand-philips"
+ },
+ {
+  "id": "icofont-brand-pizza-hut",
+  "name": "brand-pizza-hut"
+ },
+ {
+  "id": "icofont-brand-playstation",
+  "name": "brand-playstation"
+ },
+ {
+  "id": "icofont-brand-puma",
+  "name": "brand-puma"
+ },
+ {
+  "id": "icofont-brand-qatar-air",
+  "name": "brand-qatar-air"
+ },
+ {
+  "id": "icofont-brand-qvc",
+  "name": "brand-qvc"
+ },
+ {
+  "id": "icofont-brand-readernaut",
+  "name": "brand-readernaut"
+ },
+ {
+  "id": "icofont-brand-redbull",
+  "name": "brand-redbull"
+ },
+ {
+  "id": "icofont-brand-reebok",
+  "name": "brand-reebok"
+ },
+ {
+  "id": "icofont-brand-reuters",
+  "name": "brand-reuters"
+ },
+ {
+  "id": "icofont-brand-samsung",
+  "name": "brand-samsung"
+ },
+ {
+  "id": "icofont-brand-sap",
+  "name": "brand-sap"
+ },
+ {
+  "id": "icofont-brand-saudia-airlines",
+  "name": "brand-saudia-airlines"
+ },
+ {
+  "id": "icofont-brand-scribd",
+  "name": "brand-scribd"
+ },
+ {
+  "id": "icofont-brand-shell",
+  "name": "brand-shell"
+ },
+ {
+  "id": "icofont-brand-siemens",
+  "name": "brand-siemens"
+ },
+ {
+  "id": "icofont-brand-sk-telecom",
+  "name": "brand-sk-telecom"
+ },
+ {
+  "id": "icofont-brand-slideshare",
+  "name": "brand-slideshare"
+ },
+ {
+  "id": "icofont-brand-smashing-magazine",
+  "name": "brand-smashing-magazine"
+ },
+ {
+  "id": "icofont-brand-snapchat",
+  "name": "brand-snapchat"
+ },
+ {
+  "id": "icofont-brand-sony",
+  "name": "brand-sony"
+ },
+ {
+  "id": "icofont-brand-sony-ericsson",
+  "name": "brand-sony-ericsson"
+ },
+ {
+  "id": "icofont-brand-soundcloud",
+  "name": "brand-soundcloud"
+ },
+ {
+  "id": "icofont-brand-sprint",
+  "name": "brand-sprint"
+ },
+ {
+  "id": "icofont-brand-squidoo",
+  "name": "brand-squidoo"
+ },
+ {
+  "id": "icofont-brand-starbucks",
+  "name": "brand-starbucks"
+ },
+ {
+  "id": "icofont-brand-stc",
+  "name": "brand-stc"
+ },
+ {
+  "id": "icofont-brand-steam",
+  "name": "brand-steam"
+ },
+ {
+  "id": "icofont-brand-suzuki",
+  "name": "brand-suzuki"
+ },
+ {
+  "id": "icofont-brand-symbian",
+  "name": "brand-symbian"
+ },
+ {
+  "id": "icofont-brand-t-mobile",
+  "name": "brand-t-mobile"
+ },
+ {
+  "id": "icofont-brand-tango",
+  "name": "brand-tango"
+ },
+ {
+  "id": "icofont-brand-target",
+  "name": "brand-target"
+ },
+ {
+  "id": "icofont-brand-tata-indicom",
+  "name": "brand-tata-indicom"
+ },
+ {
+  "id": "icofont-brand-techcrunch",
+  "name": "brand-techcrunch"
+ },
+ {
+  "id": "icofont-brand-telenor",
+  "name": "brand-telenor"
+ },
+ {
+  "id": "icofont-brand-teliasonera",
+  "name": "brand-teliasonera"
+ },
+ {
+  "id": "icofont-brand-tesla",
+  "name": "brand-tesla"
+ },
+ {
+  "id": "icofont-brand-the-verge",
+  "name": "brand-the-verge"
+ },
+ {
+  "id": "icofont-brand-thenextweb",
+  "name": "brand-thenextweb"
+ },
+ {
+  "id": "icofont-brand-toshiba",
+  "name": "brand-toshiba"
+ },
+ {
+  "id": "icofont-brand-toyota",
+  "name": "brand-toyota"
+ },
+ {
+  "id": "icofont-brand-tribenet",
+  "name": "brand-tribenet"
+ },
+ {
+  "id": "icofont-brand-ubuntu",
+  "name": "brand-ubuntu"
+ },
+ {
+  "id": "icofont-brand-unilever",
+  "name": "brand-unilever"
+ },
+ {
+  "id": "icofont-brand-vaio",
+  "name": "brand-vaio"
+ },
+ {
+  "id": "icofont-brand-verizon",
+  "name": "brand-verizon"
+ },
+ {
+  "id": "icofont-brand-viber",
+  "name": "brand-viber"
+ },
+ {
+  "id": "icofont-brand-vodafone",
+  "name": "brand-vodafone"
+ },
+ {
+  "id": "icofont-brand-volkswagen",
+  "name": "brand-volkswagen"
+ },
+ {
+  "id": "icofont-brand-walmart",
+  "name": "brand-walmart"
+ },
+ {
+  "id": "icofont-brand-warnerbros",
+  "name": "brand-warnerbros"
+ },
+ {
+  "id": "icofont-brand-whatsapp",
+  "name": "brand-whatsapp"
+ },
+ {
+  "id": "icofont-brand-wikipedia",
+  "name": "brand-wikipedia"
+ },
+ {
+  "id": "icofont-brand-windows",
+  "name": "brand-windows"
+ },
+ {
+  "id": "icofont-brand-wire",
+  "name": "brand-wire"
+ },
+ {
+  "id": "icofont-brand-wordpress",
+  "name": "brand-wordpress"
+ },
+ {
+  "id": "icofont-brand-xiaomi",
+  "name": "brand-xiaomi"
+ },
+ {
+  "id": "icofont-brand-yahoobuzz",
+  "name": "brand-yahoobuzz"
+ },
+ {
+  "id": "icofont-brand-yamaha",
+  "name": "brand-yamaha"
+ },
+ {
+  "id": "icofont-brand-youtube",
+  "name": "brand-youtube"
+ },
+ {
+  "id": "icofont-brand-zain",
+  "name": "brand-zain"
+ },
+ {
+  "id": "icofont-social-envato",
+  "name": "social-envato"
+ },
+ {
+  "id": "icofont-bank-alt",
+  "name": "bank-alt"
+ },
+ {
+  "id": "icofont-barcode",
+  "name": "barcode"
+ },
+ {
+  "id": "icofont-basket",
+  "name": "basket"
+ },
+ {
+  "id": "icofont-bill-alt",
+  "name": "bill-alt"
+ },
+ {
+  "id": "icofont-billboard",
+  "name": "billboard"
+ },
+ {
+  "id": "icofont-briefcase-alt-1",
+  "name": "briefcase-alt-1"
+ },
+ {
+  "id": "icofont-briefcase-alt-2",
+  "name": "briefcase-alt-2"
+ },
+ {
+  "id": "icofont-building-alt",
+  "name": "building-alt"
+ },
+ {
+  "id": "icofont-businessman",
+  "name": "businessman"
+ },
+ {
+  "id": "icofont-businesswoman",
+  "name": "businesswoman"
+ },
+ {
+  "id": "icofont-cart-alt",
+  "name": "cart-alt"
+ },
+ {
+  "id": "icofont-chair",
+  "name": "chair"
+ },
+ {
+  "id": "icofont-clip",
+  "name": "clip"
+ },
+ {
+  "id": "icofont-coins",
+  "name": "coins"
+ },
+ {
+  "id": "icofont-company",
+  "name": "company"
+ },
+ {
+  "id": "icofont-contact-add",
+  "name": "contact-add"
+ },
+ {
+  "id": "icofont-deal",
+  "name": "deal"
+ },
+ {
+  "id": "icofont-files",
+  "name": "files"
+ },
+ {
+  "id": "icofont-growth",
+  "name": "growth"
+ },
+ {
+  "id": "icofont-id-card",
+  "name": "id-card"
+ },
+ {
+  "id": "icofont-idea",
+  "name": "idea"
+ },
+ {
+  "id": "icofont-list",
+  "name": "list"
+ },
+ {
+  "id": "icofont-meeting-add",
+  "name": "meeting-add"
+ },
+ {
+  "id": "icofont-money-bag",
+  "name": "money-bag"
+ },
+ {
+  "id": "icofont-people",
+  "name": "people"
+ },
+ {
+  "id": "icofont-pie-chart",
+  "name": "pie-chart"
+ },
+ {
+  "id": "icofont-presentation-alt",
+  "name": "presentation-alt"
+ },
+ {
+  "id": "icofont-stamp",
+  "name": "stamp"
+ },
+ {
+  "id": "icofont-stock-mobile",
+  "name": "stock-mobile"
+ },
+ {
+  "id": "icofont-support",
+  "name": "support"
+ },
+ {
+  "id": "icofont-tasks-alt",
+  "name": "tasks-alt"
+ },
+ {
+  "id": "icofont-wheel",
+  "name": "wheel"
+ },
+ {
+  "id": "icofont-chart-arrows-axis",
+  "name": "chart-arrows-axis"
+ },
+ {
+  "id": "icofont-chart-bar-graph",
+  "name": "chart-bar-graph"
+ },
+ {
+  "id": "icofont-chart-flow",
+  "name": "chart-flow"
+ },
+ {
+  "id": "icofont-chart-flow-alt-1",
+  "name": "chart-flow-alt-1"
+ },
+ {
+  "id": "icofont-chart-flow-alt-2",
+  "name": "chart-flow-alt-2"
+ },
+ {
+  "id": "icofont-chart-histogram",
+  "name": "chart-histogram"
+ },
+ {
+  "id": "icofont-chart-histogram-alt",
+  "name": "chart-histogram-alt"
+ },
+ {
+  "id": "icofont-chart-line",
+  "name": "chart-line"
+ },
+ {
+  "id": "icofont-chart-line-alt",
+  "name": "chart-line-alt"
+ },
+ {
+  "id": "icofont-chart-pie",
+  "name": "chart-pie"
+ },
+ {
+  "id": "icofont-chart-pie-alt",
+  "name": "chart-pie-alt"
+ },
+ {
+  "id": "icofont-chart-radar-graph",
+  "name": "chart-radar-graph"
+ },
+ {
+  "id": "icofont-architecture",
+  "name": "architecture"
+ },
+ {
+  "id": "icofont-architecture-alt",
+  "name": "architecture-alt"
+ },
+ {
+  "id": "icofont-barricade",
+  "name": "barricade"
+ },
+ {
+  "id": "icofont-bricks",
+  "name": "bricks"
+ },
+ {
+  "id": "icofont-calculations",
+  "name": "calculations"
+ },
+ {
+  "id": "icofont-cement-mix",
+  "name": "cement-mix"
+ },
+ {
+  "id": "icofont-cement-mixer",
+  "name": "cement-mixer"
+ },
+ {
+  "id": "icofont-danger-zone",
+  "name": "danger-zone"
+ },
+ {
+  "id": "icofont-drill",
+  "name": "drill"
+ },
+ {
+  "id": "icofont-eco-energy",
+  "name": "eco-energy"
+ },
+ {
+  "id": "icofont-eco-environmen",
+  "name": "eco-environmen"
+ },
+ {
+  "id": "icofont-energy-air",
+  "name": "energy-air"
+ },
+ {
+  "id": "icofont-energy-oil",
+  "name": "energy-oil"
+ },
+ {
+  "id": "icofont-energy-savings",
+  "name": "energy-savings"
+ },
+ {
+  "id": "icofont-energy-solar",
+  "name": "energy-solar"
+ },
+ {
+  "id": "icofont-energy-water",
+  "name": "energy-water"
+ },
+ {
+  "id": "icofont-engineer",
+  "name": "engineer"
+ },
+ {
+  "id": "icofont-fire-extinguisher-alt",
+  "name": "fire-extinguisher-alt"
+ },
+ {
+  "id": "icofont-fix-tools",
+  "name": "fix-tools"
+ },
+ {
+  "id": "icofont-glue-oil",
+  "name": "glue-oil"
+ },
+ {
+  "id": "icofont-hammer-alt",
+  "name": "hammer-alt"
+ },
+ {
+  "id": "icofont-help-robot",
+  "name": "help-robot"
+ },
+ {
+  "id": "icofont-industries",
+  "name": "industries"
+ },
+ {
+  "id": "icofont-industries-alt-1",
+  "name": "industries-alt-1"
+ },
+ {
+  "id": "icofont-industries-alt-2",
+  "name": "industries-alt-2"
+ },
+ {
+  "id": "icofont-industries-alt-3",
+  "name": "industries-alt-3"
+ },
+ {
+  "id": "icofont-industries-alt-4",
+  "name": "industries-alt-4"
+ },
+ {
+  "id": "icofont-industries-alt-5",
+  "name": "industries-alt-5"
+ },
+ {
+  "id": "icofont-labour",
+  "name": "labour"
+ },
+ {
+  "id": "icofont-mining",
+  "name": "mining"
+ },
+ {
+  "id": "icofont-paint-brush",
+  "name": "paint-brush"
+ },
+ {
+  "id": "icofont-pollution",
+  "name": "pollution"
+ },
+ {
+  "id": "icofont-power-zone",
+  "name": "power-zone"
+ },
+ {
+  "id": "icofont-radio-active",
+  "name": "radio-active"
+ },
+ {
+  "id": "icofont-recycle-alt",
+  "name": "recycle-alt"
+ },
+ {
+  "id": "icofont-recycling-man",
+  "name": "recycling-man"
+ },
+ {
+  "id": "icofont-safety-hat",
+  "name": "safety-hat"
+ },
+ {
+  "id": "icofont-safety-hat-light",
+  "name": "safety-hat-light"
+ },
+ {
+  "id": "icofont-saw",
+  "name": "saw"
+ },
+ {
+  "id": "icofont-screw-driver",
+  "name": "screw-driver"
+ },
+ {
+  "id": "icofont-settings-alt",
+  "name": "settings-alt"
+ },
+ {
+  "id": "icofont-tools-alt-1",
+  "name": "tools-alt-1"
+ },
+ {
+  "id": "icofont-tools-alt-2",
+  "name": "tools-alt-2"
+ },
+ {
+  "id": "icofont-tools-bag",
+  "name": "tools-bag"
+ },
+ {
+  "id": "icofont-trolley",
+  "name": "trolley"
+ },
+ {
+  "id": "icofont-trowel",
+  "name": "trowel"
+ },
+ {
+  "id": "icofont-under-construction",
+  "name": "under-construction"
+ },
+ {
+  "id": "icofont-under-construction-alt",
+  "name": "under-construction-alt"
+ },
+ {
+  "id": "icofont-vehicle-cement",
+  "name": "vehicle-cement"
+ },
+ {
+  "id": "icofont-vehicle-crane",
+  "name": "vehicle-crane"
+ },
+ {
+  "id": "icofont-vehicle-delivery-van",
+  "name": "vehicle-delivery-van"
+ },
+ {
+  "id": "icofont-vehicle-dozer",
+  "name": "vehicle-dozer"
+ },
+ {
+  "id": "icofont-vehicle-excavator",
+  "name": "vehicle-excavator"
+ },
+ {
+  "id": "icofont-vehicle-trucktor",
+  "name": "vehicle-trucktor"
+ },
+ {
+  "id": "icofont-vehicle-wrecking",
+  "name": "vehicle-wrecking"
+ },
+ {
+  "id": "icofont-worker",
+  "name": "worker"
+ },
+ {
+  "id": "icofont-worker-group",
+  "name": "worker-group"
+ },
+ {
+  "id": "icofont-wrench",
+  "name": "wrench"
+ },
+ {
+  "id": "icofont-cur-afghani",
+  "name": "cur-afghani"
+ },
+ {
+  "id": "icofont-cur-afghani-false",
+  "name": "cur-afghani-false"
+ },
+ {
+  "id": "icofont-cur-afghani-minus",
+  "name": "cur-afghani-minus"
+ },
+ {
+  "id": "icofont-cur-afghani-plus",
+  "name": "cur-afghani-plus"
+ },
+ {
+  "id": "icofont-cur-afghani-true",
+  "name": "cur-afghani-true"
+ },
+ {
+  "id": "icofont-cur-baht",
+  "name": "cur-baht"
+ },
+ {
+  "id": "icofont-cur-baht-false",
+  "name": "cur-baht-false"
+ },
+ {
+  "id": "icofont-cur-baht-minus",
+  "name": "cur-baht-minus"
+ },
+ {
+  "id": "icofont-cur-baht-plus",
+  "name": "cur-baht-plus"
+ },
+ {
+  "id": "icofont-cur-baht-true",
+  "name": "cur-baht-true"
+ },
+ {
+  "id": "icofont-cur-bitcoin",
+  "name": "cur-bitcoin"
+ },
+ {
+  "id": "icofont-cur-bitcoin-false",
+  "name": "cur-bitcoin-false"
+ },
+ {
+  "id": "icofont-cur-bitcoin-minus",
+  "name": "cur-bitcoin-minus"
+ },
+ {
+  "id": "icofont-cur-bitcoin-plus",
+  "name": "cur-bitcoin-plus"
+ },
+ {
+  "id": "icofont-cur-bitcoin-true",
+  "name": "cur-bitcoin-true"
+ },
+ {
+  "id": "icofont-cur-dollar",
+  "name": "cur-dollar"
+ },
+ {
+  "id": "icofont-cur-dollar-flase",
+  "name": "cur-dollar-flase"
+ },
+ {
+  "id": "icofont-cur-dollar-minus",
+  "name": "cur-dollar-minus"
+ },
+ {
+  "id": "icofont-cur-dollar-plus",
+  "name": "cur-dollar-plus"
+ },
+ {
+  "id": "icofont-cur-dollar-true",
+  "name": "cur-dollar-true"
+ },
+ {
+  "id": "icofont-cur-dong",
+  "name": "cur-dong"
+ },
+ {
+  "id": "icofont-cur-dong-false",
+  "name": "cur-dong-false"
+ },
+ {
+  "id": "icofont-cur-dong-minus",
+  "name": "cur-dong-minus"
+ },
+ {
+  "id": "icofont-cur-dong-plus",
+  "name": "cur-dong-plus"
+ },
+ {
+  "id": "icofont-cur-dong-true",
+  "name": "cur-dong-true"
+ },
+ {
+  "id": "icofont-cur-euro",
+  "name": "cur-euro"
+ },
+ {
+  "id": "icofont-cur-euro-false",
+  "name": "cur-euro-false"
+ },
+ {
+  "id": "icofont-cur-euro-minus",
+  "name": "cur-euro-minus"
+ },
+ {
+  "id": "icofont-cur-euro-plus",
+  "name": "cur-euro-plus"
+ },
+ {
+  "id": "icofont-cur-euro-true",
+  "name": "cur-euro-true"
+ },
+ {
+  "id": "icofont-cur-frank",
+  "name": "cur-frank"
+ },
+ {
+  "id": "icofont-cur-frank-false",
+  "name": "cur-frank-false"
+ },
+ {
+  "id": "icofont-cur-frank-minus",
+  "name": "cur-frank-minus"
+ },
+ {
+  "id": "icofont-cur-frank-plus",
+  "name": "cur-frank-plus"
+ },
+ {
+  "id": "icofont-cur-frank-true",
+  "name": "cur-frank-true"
+ },
+ {
+  "id": "icofont-cur-hryvnia",
+  "name": "cur-hryvnia"
+ },
+ {
+  "id": "icofont-cur-hryvnia-false",
+  "name": "cur-hryvnia-false"
+ },
+ {
+  "id": "icofont-cur-hryvnia-minus",
+  "name": "cur-hryvnia-minus"
+ },
+ {
+  "id": "icofont-cur-hryvnia-plus",
+  "name": "cur-hryvnia-plus"
+ },
+ {
+  "id": "icofont-cur-hryvnia-true",
+  "name": "cur-hryvnia-true"
+ },
+ {
+  "id": "icofont-cur-lira",
+  "name": "cur-lira"
+ },
+ {
+  "id": "icofont-cur-lira-false",
+  "name": "cur-lira-false"
+ },
+ {
+  "id": "icofont-cur-lira-minus",
+  "name": "cur-lira-minus"
+ },
+ {
+  "id": "icofont-cur-lira-plus",
+  "name": "cur-lira-plus"
+ },
+ {
+  "id": "icofont-cur-lira-true",
+  "name": "cur-lira-true"
+ },
+ {
+  "id": "icofont-cur-peseta",
+  "name": "cur-peseta"
+ },
+ {
+  "id": "icofont-cur-peseta-false",
+  "name": "cur-peseta-false"
+ },
+ {
+  "id": "icofont-cur-peseta-minus",
+  "name": "cur-peseta-minus"
+ },
+ {
+  "id": "icofont-cur-peseta-plus",
+  "name": "cur-peseta-plus"
+ },
+ {
+  "id": "icofont-cur-peseta-true",
+  "name": "cur-peseta-true"
+ },
+ {
+  "id": "icofont-cur-peso",
+  "name": "cur-peso"
+ },
+ {
+  "id": "icofont-cur-peso-false",
+  "name": "cur-peso-false"
+ },
+ {
+  "id": "icofont-cur-peso-minus",
+  "name": "cur-peso-minus"
+ },
+ {
+  "id": "icofont-cur-peso-plus",
+  "name": "cur-peso-plus"
+ },
+ {
+  "id": "icofont-cur-peso-true",
+  "name": "cur-peso-true"
+ },
+ {
+  "id": "icofont-cur-pound",
+  "name": "cur-pound"
+ },
+ {
+  "id": "icofont-cur-pound-false",
+  "name": "cur-pound-false"
+ },
+ {
+  "id": "icofont-cur-pound-minus",
+  "name": "cur-pound-minus"
+ },
+ {
+  "id": "icofont-cur-pound-plus",
+  "name": "cur-pound-plus"
+ },
+ {
+  "id": "icofont-cur-pound-true",
+  "name": "cur-pound-true"
+ },
+ {
+  "id": "icofont-cur-renminbi",
+  "name": "cur-renminbi"
+ },
+ {
+  "id": "icofont-cur-renminbi-false",
+  "name": "cur-renminbi-false"
+ },
+ {
+  "id": "icofont-cur-renminbi-minus",
+  "name": "cur-renminbi-minus"
+ },
+ {
+  "id": "icofont-cur-renminbi-plus",
+  "name": "cur-renminbi-plus"
+ },
+ {
+  "id": "icofont-cur-renminbi-true",
+  "name": "cur-renminbi-true"
+ },
+ {
+  "id": "icofont-cur-riyal",
+  "name": "cur-riyal"
+ },
+ {
+  "id": "icofont-cur-riyal-false",
+  "name": "cur-riyal-false"
+ },
+ {
+  "id": "icofont-cur-riyal-minus",
+  "name": "cur-riyal-minus"
+ },
+ {
+  "id": "icofont-cur-riyal-plus",
+  "name": "cur-riyal-plus"
+ },
+ {
+  "id": "icofont-cur-riyal-true",
+  "name": "cur-riyal-true"
+ },
+ {
+  "id": "icofont-cur-rouble",
+  "name": "cur-rouble"
+ },
+ {
+  "id": "icofont-cur-rouble-false",
+  "name": "cur-rouble-false"
+ },
+ {
+  "id": "icofont-cur-rouble-minus",
+  "name": "cur-rouble-minus"
+ },
+ {
+  "id": "icofont-cur-rouble-plus",
+  "name": "cur-rouble-plus"
+ },
+ {
+  "id": "icofont-cur-rouble-true",
+  "name": "cur-rouble-true"
+ },
+ {
+  "id": "icofont-cur-rupee",
+  "name": "cur-rupee"
+ },
+ {
+  "id": "icofont-cur-rupee-false",
+  "name": "cur-rupee-false"
+ },
+ {
+  "id": "icofont-cur-rupee-minus",
+  "name": "cur-rupee-minus"
+ },
+ {
+  "id": "icofont-cur-rupee-plus",
+  "name": "cur-rupee-plus"
+ },
+ {
+  "id": "icofont-cur-rupee-true",
+  "name": "cur-rupee-true"
+ },
+ {
+  "id": "icofont-cur-taka",
+  "name": "cur-taka"
+ },
+ {
+  "id": "icofont-cur-taka-false",
+  "name": "cur-taka-false"
+ },
+ {
+  "id": "icofont-cur-taka-minus",
+  "name": "cur-taka-minus"
+ },
+ {
+  "id": "icofont-cur-taka-plus",
+  "name": "cur-taka-plus"
+ },
+ {
+  "id": "icofont-cur-taka-true",
+  "name": "cur-taka-true"
+ },
+ {
+  "id": "icofont-cur-turkish-lira",
+  "name": "cur-turkish-lira"
+ },
+ {
+  "id": "icofont-cur-turkish-lira-false",
+  "name": "cur-turkish-lira-false"
+ },
+ {
+  "id": "icofont-cur-turkish-lira-minus",
+  "name": "cur-turkish-lira-minus"
+ },
+ {
+  "id": "icofont-cur-turkish-lira-plus",
+  "name": "cur-turkish-lira-plus"
+ },
+ {
+  "id": "icofont-cur-turkish-lira-true",
+  "name": "cur-turkish-lira-true"
+ },
+ {
+  "id": "icofont-cur-won",
+  "name": "cur-won"
+ },
+ {
+  "id": "icofont-cur-won-false",
+  "name": "cur-won-false"
+ },
+ {
+  "id": "icofont-cur-won-minus",
+  "name": "cur-won-minus"
+ },
+ {
+  "id": "icofont-cur-won-plus",
+  "name": "cur-won-plus"
+ },
+ {
+  "id": "icofont-cur-won-true",
+  "name": "cur-won-true"
+ },
+ {
+  "id": "icofont-cur-yen",
+  "name": "cur-yen"
+ },
+ {
+  "id": "icofont-cur-yen-false",
+  "name": "cur-yen-false"
+ },
+ {
+  "id": "icofont-cur-yen-minus",
+  "name": "cur-yen-minus"
+ },
+ {
+  "id": "icofont-cur-yen-plus",
+  "name": "cur-yen-plus"
+ },
+ {
+  "id": "icofont-cur-yen-true",
+  "name": "cur-yen-true"
+ },
+ {
+  "id": "icofont-android-nexus",
+  "name": "android-nexus"
+ },
+ {
+  "id": "icofont-android-tablet",
+  "name": "android-tablet"
+ },
+ {
+  "id": "icofont-apple-watch",
+  "name": "apple-watch"
+ },
+ {
+  "id": "icofont-drwaing-tablet",
+  "name": "drwaing-tablet"
+ },
+ {
+  "id": "icofont-earphone",
+  "name": "earphone"
+ },
+ {
+  "id": "icofont-flash-drive",
+  "name": "flash-drive"
+ },
+ {
+  "id": "icofont-game-control",
+  "name": "game-control"
+ },
+ {
+  "id": "icofont-headphone-alt",
+  "name": "headphone-alt"
+ },
+ {
+  "id": "icofont-htc-one",
+  "name": "htc-one"
+ },
+ {
+  "id": "icofont-imac",
+  "name": "imac"
+ },
+ {
+  "id": "icofont-ipad-touch",
+  "name": "ipad-touch"
+ },
+ {
+  "id": "icofont-iphone",
+  "name": "iphone"
+ },
+ {
+  "id": "icofont-ipod-nano",
+  "name": "ipod-nano"
+ },
+ {
+  "id": "icofont-ipod-touch",
+  "name": "ipod-touch"
+ },
+ {
+  "id": "icofont-keyboard-alt",
+  "name": "keyboard-alt"
+ },
+ {
+  "id": "icofont-keyboard-wireless",
+  "name": "keyboard-wireless"
+ },
+ {
+  "id": "icofont-laptop-alt",
+  "name": "laptop-alt"
+ },
+ {
+  "id": "icofont-macbook",
+  "name": "macbook"
+ },
+ {
+  "id": "icofont-magic-mouse",
+  "name": "magic-mouse"
+ },
+ {
+  "id": "icofont-microphone-alt",
+  "name": "microphone-alt"
+ },
+ {
+  "id": "icofont-monitor",
+  "name": "monitor"
+ },
+ {
+  "id": "icofont-mouse",
+  "name": "mouse"
+ },
+ {
+  "id": "icofont-nintendo",
+  "name": "nintendo"
+ },
+ {
+  "id": "icofont-playstation",
+  "name": "playstation"
+ },
+ {
+  "id": "icofont-psvita",
+  "name": "psvita"
+ },
+ {
+  "id": "icofont-radio-mic",
+  "name": "radio-mic"
+ },
+ {
+  "id": "icofont-refrigerator",
+  "name": "refrigerator"
+ },
+ {
+  "id": "icofont-samsung-galaxy",
+  "name": "samsung-galaxy"
+ },
+ {
+  "id": "icofont-surface-tablet",
+  "name": "surface-tablet"
+ },
+ {
+  "id": "icofont-washing-machine",
+  "name": "washing-machine"
+ },
+ {
+  "id": "icofont-wifi-router",
+  "name": "wifi-router"
+ },
+ {
+  "id": "icofont-wii-u",
+  "name": "wii-u"
+ },
+ {
+  "id": "icofont-windows-lumia",
+  "name": "windows-lumia"
+ },
+ {
+  "id": "icofont-wireless-mouse",
+  "name": "wireless-mouse"
+ },
+ {
+  "id": "icofont-xbox-360",
+  "name": "xbox-360"
+ },
+ {
+  "id": "icofont-arrow-down",
+  "name": "arrow-down"
+ },
+ {
+  "id": "icofont-arrow-left",
+  "name": "arrow-left"
+ },
+ {
+  "id": "icofont-arrow-right",
+  "name": "arrow-right"
+ },
+ {
+  "id": "icofont-arrow-up",
+  "name": "arrow-up"
+ },
+ {
+  "id": "icofont-block-down",
+  "name": "block-down"
+ },
+ {
+  "id": "icofont-block-left",
+  "name": "block-left"
+ },
+ {
+  "id": "icofont-block-right",
+  "name": "block-right"
+ },
+ {
+  "id": "icofont-block-up",
+  "name": "block-up"
+ },
+ {
+  "id": "icofont-bubble-down",
+  "name": "bubble-down"
+ },
+ {
+  "id": "icofont-bubble-left",
+  "name": "bubble-left"
+ },
+ {
+  "id": "icofont-bubble-right",
+  "name": "bubble-right"
+ },
+ {
+  "id": "icofont-bubble-up",
+  "name": "bubble-up"
+ },
+ {
+  "id": "icofont-caret-down",
+  "name": "caret-down"
+ },
+ {
+  "id": "icofont-caret-left",
+  "name": "caret-left"
+ },
+ {
+  "id": "icofont-caret-right",
+  "name": "caret-right"
+ },
+ {
+  "id": "icofont-caret-up",
+  "name": "caret-up"
+ },
+ {
+  "id": "icofont-circled-down",
+  "name": "circled-down"
+ },
+ {
+  "id": "icofont-circled-left",
+  "name": "circled-left"
+ },
+ {
+  "id": "icofont-circled-right",
+  "name": "circled-right"
+ },
+ {
+  "id": "icofont-circled-up",
+  "name": "circled-up"
+ },
+ {
+  "id": "icofont-collapse",
+  "name": "collapse"
+ },
+ {
+  "id": "icofont-cursor-drag",
+  "name": "cursor-drag"
+ },
+ {
+  "id": "icofont-curved-double-left",
+  "name": "curved-double-left"
+ },
+ {
+  "id": "icofont-curved-double-right",
+  "name": "curved-double-right"
+ },
+ {
+  "id": "icofont-curved-down",
+  "name": "curved-down"
+ },
+ {
+  "id": "icofont-curved-left",
+  "name": "curved-left"
+ },
+ {
+  "id": "icofont-curved-right",
+  "name": "curved-right"
+ },
+ {
+  "id": "icofont-curved-up",
+  "name": "curved-up"
+ },
+ {
+  "id": "icofont-dotted-down",
+  "name": "dotted-down"
+ },
+ {
+  "id": "icofont-dotted-left",
+  "name": "dotted-left"
+ },
+ {
+  "id": "icofont-dotted-right",
+  "name": "dotted-right"
+ },
+ {
+  "id": "icofont-dotted-up",
+  "name": "dotted-up"
+ },
+ {
+  "id": "icofont-double-left",
+  "name": "double-left"
+ },
+ {
+  "id": "icofont-double-right",
+  "name": "double-right"
+ },
+ {
+  "id": "icofont-drag",
+  "name": "drag"
+ },
+ {
+  "id": "icofont-drag1",
+  "name": "drag1"
+ },
+ {
+  "id": "icofont-drag2",
+  "name": "drag2"
+ },
+ {
+  "id": "icofont-drag3",
+  "name": "drag3"
+ },
+ {
+  "id": "icofont-expand-alt",
+  "name": "expand-alt"
+ },
+ {
+  "id": "icofont-hand-down",
+  "name": "hand-down"
+ },
+ {
+  "id": "icofont-hand-drag",
+  "name": "hand-drag"
+ },
+ {
+  "id": "icofont-hand-drag1",
+  "name": "hand-drag1"
+ },
+ {
+  "id": "icofont-hand-drag2",
+  "name": "hand-drag2"
+ },
+ {
+  "id": "icofont-hand-drawn-alt-down",
+  "name": "hand-drawn-alt-down"
+ },
+ {
+  "id": "icofont-hand-drawn-alt-left",
+  "name": "hand-drawn-alt-left"
+ },
+ {
+  "id": "icofont-hand-drawn-alt-right",
+  "name": "hand-drawn-alt-right"
+ },
+ {
+  "id": "icofont-hand-drawn-alt-up",
+  "name": "hand-drawn-alt-up"
+ },
+ {
+  "id": "icofont-hand-drawn-down",
+  "name": "hand-drawn-down"
+ },
+ {
+  "id": "icofont-hand-drawn-left",
+  "name": "hand-drawn-left"
+ },
+ {
+  "id": "icofont-hand-drawn-right",
+  "name": "hand-drawn-right"
+ },
+ {
+  "id": "icofont-hand-drawn-up",
+  "name": "hand-drawn-up"
+ },
+ {
+  "id": "icofont-hand-left",
+  "name": "hand-left"
+ },
+ {
+  "id": "icofont-hand-right",
+  "name": "hand-right"
+ },
+ {
+  "id": "icofont-hand-up",
+  "name": "hand-up"
+ },
+ {
+  "id": "icofont-line-block-down",
+  "name": "line-block-down"
+ },
+ {
+  "id": "icofont-line-block-left",
+  "name": "line-block-left"
+ },
+ {
+  "id": "icofont-line-block-right",
+  "name": "line-block-right"
+ },
+ {
+  "id": "icofont-line-block-up",
+  "name": "line-block-up"
+ },
+ {
+  "id": "icofont-long-arrow-down",
+  "name": "long-arrow-down"
+ },
+ {
+  "id": "icofont-long-arrow-left",
+  "name": "long-arrow-left"
+ },
+ {
+  "id": "icofont-long-arrow-right",
+  "name": "long-arrow-right"
+ },
+ {
+  "id": "icofont-long-arrow-up",
+  "name": "long-arrow-up"
+ },
+ {
+  "id": "icofont-rounded-collapse",
+  "name": "rounded-collapse"
+ },
+ {
+  "id": "icofont-rounded-double-left",
+  "name": "rounded-double-left"
+ },
+ {
+  "id": "icofont-rounded-double-right",
+  "name": "rounded-double-right"
+ },
+ {
+  "id": "icofont-rounded-down",
+  "name": "rounded-down"
+ },
+ {
+  "id": "icofont-rounded-expand",
+  "name": "rounded-expand"
+ },
+ {
+  "id": "icofont-rounded-left",
+  "name": "rounded-left"
+ },
+ {
+  "id": "icofont-rounded-left-down",
+  "name": "rounded-left-down"
+ },
+ {
+  "id": "icofont-rounded-left-up",
+  "name": "rounded-left-up"
+ },
+ {
+  "id": "icofont-rounded-right",
+  "name": "rounded-right"
+ },
+ {
+  "id": "icofont-rounded-right-down",
+  "name": "rounded-right-down"
+ },
+ {
+  "id": "icofont-rounded-right-up",
+  "name": "rounded-right-up"
+ },
+ {
+  "id": "icofont-rounded-up",
+  "name": "rounded-up"
+ },
+ {
+  "id": "icofont-scroll-bubble-down",
+  "name": "scroll-bubble-down"
+ },
+ {
+  "id": "icofont-scroll-bubble-left",
+  "name": "scroll-bubble-left"
+ },
+ {
+  "id": "icofont-scroll-bubble-right",
+  "name": "scroll-bubble-right"
+ },
+ {
+  "id": "icofont-scroll-bubble-up",
+  "name": "scroll-bubble-up"
+ },
+ {
+  "id": "icofont-scroll-double-down",
+  "name": "scroll-double-down"
+ },
+ {
+  "id": "icofont-scroll-double-left",
+  "name": "scroll-double-left"
+ },
+ {
+  "id": "icofont-scroll-double-right",
+  "name": "scroll-double-right"
+ },
+ {
+  "id": "icofont-scroll-double-up",
+  "name": "scroll-double-up"
+ },
+ {
+  "id": "icofont-scroll-down",
+  "name": "scroll-down"
+ },
+ {
+  "id": "icofont-scroll-left",
+  "name": "scroll-left"
+ },
+ {
+  "id": "icofont-scroll-long-down",
+  "name": "scroll-long-down"
+ },
+ {
+  "id": "icofont-scroll-long-left",
+  "name": "scroll-long-left"
+ },
+ {
+  "id": "icofont-scroll-long-right",
+  "name": "scroll-long-right"
+ },
+ {
+  "id": "icofont-scroll-long-up",
+  "name": "scroll-long-up"
+ },
+ {
+  "id": "icofont-scroll-right",
+  "name": "scroll-right"
+ },
+ {
+  "id": "icofont-scroll-up",
+  "name": "scroll-up"
+ },
+ {
+  "id": "icofont-simple-down",
+  "name": "simple-down"
+ },
+ {
+  "id": "icofont-simple-left",
+  "name": "simple-left"
+ },
+ {
+  "id": "icofont-simple-left-down",
+  "name": "simple-left-down"
+ },
+ {
+  "id": "icofont-simple-left-up",
+  "name": "simple-left-up"
+ },
+ {
+  "id": "icofont-simple-right",
+  "name": "simple-right"
+ },
+ {
+  "id": "icofont-simple-right-down",
+  "name": "simple-right-down"
+ },
+ {
+  "id": "icofont-simple-right-up",
+  "name": "simple-right-up"
+ },
+ {
+  "id": "icofont-simple-up",
+  "name": "simple-up"
+ },
+ {
+  "id": "icofont-square-down",
+  "name": "square-down"
+ },
+ {
+  "id": "icofont-square-left",
+  "name": "square-left"
+ },
+ {
+  "id": "icofont-square-right",
+  "name": "square-right"
+ },
+ {
+  "id": "icofont-square-up",
+  "name": "square-up"
+ },
+ {
+  "id": "icofont-stylish-down",
+  "name": "stylish-down"
+ },
+ {
+  "id": "icofont-stylish-left",
+  "name": "stylish-left"
+ },
+ {
+  "id": "icofont-stylish-right",
+  "name": "stylish-right"
+ },
+ {
+  "id": "icofont-stylish-up",
+  "name": "stylish-up"
+ },
+ {
+  "id": "icofont-swoosh-down",
+  "name": "swoosh-down"
+ },
+ {
+  "id": "icofont-swoosh-left",
+  "name": "swoosh-left"
+ },
+ {
+  "id": "icofont-swoosh-right",
+  "name": "swoosh-right"
+ },
+ {
+  "id": "icofont-swoosh-up",
+  "name": "swoosh-up"
+ },
+ {
+  "id": "icofont-thin-double-left",
+  "name": "thin-double-left"
+ },
+ {
+  "id": "icofont-thin-double-right",
+  "name": "thin-double-right"
+ },
+ {
+  "id": "icofont-thin-down",
+  "name": "thin-down"
+ },
+ {
+  "id": "icofont-thin-left",
+  "name": "thin-left"
+ },
+ {
+  "id": "icofont-thin-right",
+  "name": "thin-right"
+ },
+ {
+  "id": "icofont-thin-up",
+  "name": "thin-up"
+ },
+ {
+  "id": "icofont-atom",
+  "name": "atom"
+ },
+ {
+  "id": "icofont-award",
+  "name": "award"
+ },
+ {
+  "id": "icofont-bell-alt",
+  "name": "bell-alt"
+ },
+ {
+  "id": "icofont-book-alt",
+  "name": "book-alt"
+ },
+ {
+  "id": "icofont-brainstorming",
+  "name": "brainstorming"
+ },
+ {
+  "id": "icofont-certificate-alt-1",
+  "name": "certificate-alt-1"
+ },
+ {
+  "id": "icofont-certificate-alt-2",
+  "name": "certificate-alt-2"
+ },
+ {
+  "id": "icofont-dna-alt-2",
+  "name": "dna-alt-2"
+ },
+ {
+  "id": "icofont-education",
+  "name": "education"
+ },
+ {
+  "id": "icofont-electron",
+  "name": "electron"
+ },
+ {
+  "id": "icofont-fountain-pen",
+  "name": "fountain-pen"
+ },
+ {
+  "id": "icofont-globe-alt",
+  "name": "globe-alt"
+ },
+ {
+  "id": "icofont-graduate-alt",
+  "name": "graduate-alt"
+ },
+ {
+  "id": "icofont-group-students",
+  "name": "group-students"
+ },
+ {
+  "id": "icofont-hat",
+  "name": "hat"
+ },
+ {
+  "id": "icofont-hat-alt",
+  "name": "hat-alt"
+ },
+ {
+  "id": "icofont-instrument",
+  "name": "instrument"
+ },
+ {
+  "id": "icofont-lamp-light",
+  "name": "lamp-light"
+ },
+ {
+  "id": "icofont-microscope-alt",
+  "name": "microscope-alt"
+ },
+ {
+  "id": "icofont-paper",
+  "name": "paper"
+ },
+ {
+  "id": "icofont-pen-alt-4",
+  "name": "pen-alt-4"
+ },
+ {
+  "id": "icofont-pen-nib",
+  "name": "pen-nib"
+ },
+ {
+  "id": "icofont-pencil-alt-5",
+  "name": "pencil-alt-5"
+ },
+ {
+  "id": "icofont-quill-pen",
+  "name": "quill-pen"
+ },
+ {
+  "id": "icofont-read-book",
+  "name": "read-book"
+ },
+ {
+  "id": "icofont-read-book-alt",
+  "name": "read-book-alt"
+ },
+ {
+  "id": "icofont-school-bag",
+  "name": "school-bag"
+ },
+ {
+  "id": "icofont-school-bus",
+  "name": "school-bus"
+ },
+ {
+  "id": "icofont-student",
+  "name": "student"
+ },
+ {
+  "id": "icofont-student-alt",
+  "name": "student-alt"
+ },
+ {
+  "id": "icofont-teacher",
+  "name": "teacher"
+ },
+ {
+  "id": "icofont-test-bulb",
+  "name": "test-bulb"
+ },
+ {
+  "id": "icofont-test-tube-alt",
+  "name": "test-tube-alt"
+ },
+ {
+  "id": "icofont-university",
+  "name": "university"
+ },
+ {
+  "id": "icofont-emo-angry",
+  "name": "emo-angry"
+ },
+ {
+  "id": "icofont-emo-astonished",
+  "name": "emo-astonished"
+ },
+ {
+  "id": "icofont-emo-confounded",
+  "name": "emo-confounded"
+ },
+ {
+  "id": "icofont-emo-confused",
+  "name": "emo-confused"
+ },
+ {
+  "id": "icofont-emo-crying",
+  "name": "emo-crying"
+ },
+ {
+  "id": "icofont-emo-dizzy",
+  "name": "emo-dizzy"
+ },
+ {
+  "id": "icofont-emo-expressionless",
+  "name": "emo-expressionless"
+ },
+ {
+  "id": "icofont-emo-heart-eyes",
+  "name": "emo-heart-eyes"
+ },
+ {
+  "id": "icofont-emo-laughing",
+  "name": "emo-laughing"
+ },
+ {
+  "id": "icofont-emo-nerd-smile",
+  "name": "emo-nerd-smile"
+ },
+ {
+  "id": "icofont-emo-open-mouth",
+  "name": "emo-open-mouth"
+ },
+ {
+  "id": "icofont-emo-rage",
+  "name": "emo-rage"
+ },
+ {
+  "id": "icofont-emo-rolling-eyes",
+  "name": "emo-rolling-eyes"
+ },
+ {
+  "id": "icofont-emo-sad",
+  "name": "emo-sad"
+ },
+ {
+  "id": "icofont-emo-simple-smile",
+  "name": "emo-simple-smile"
+ },
+ {
+  "id": "icofont-emo-slightly-smile",
+  "name": "emo-slightly-smile"
+ },
+ {
+  "id": "icofont-emo-smirk",
+  "name": "emo-smirk"
+ },
+ {
+  "id": "icofont-emo-stuck-out-tongue",
+  "name": "emo-stuck-out-tongue"
+ },
+ {
+  "id": "icofont-emo-wink-smile",
+  "name": "emo-wink-smile"
+ },
+ {
+  "id": "icofont-emo-worried",
+  "name": "emo-worried"
+ },
+ {
+  "id": "icofont-file-audio",
+  "name": "file-audio"
+ },
+ {
+  "id": "icofont-file-avi-mp4",
+  "name": "file-avi-mp4"
+ },
+ {
+  "id": "icofont-file-bmp",
+  "name": "file-bmp"
+ },
+ {
+  "id": "icofont-file-code",
+  "name": "file-code"
+ },
+ {
+  "id": "icofont-file-css",
+  "name": "file-css"
+ },
+ {
+  "id": "icofont-file-document",
+  "name": "file-document"
+ },
+ {
+  "id": "icofont-file-eps",
+  "name": "file-eps"
+ },
+ {
+  "id": "icofont-file-excel",
+  "name": "file-excel"
+ },
+ {
+  "id": "icofont-file-exe",
+  "name": "file-exe"
+ },
+ {
+  "id": "icofont-file-file",
+  "name": "file-file"
+ },
+ {
+  "id": "icofont-file-flv",
+  "name": "file-flv"
+ },
+ {
+  "id": "icofont-file-gif",
+  "name": "file-gif"
+ },
+ {
+  "id": "icofont-file-html5",
+  "name": "file-html5"
+ },
+ {
+  "id": "icofont-file-image",
+  "name": "file-image"
+ },
+ {
+  "id": "icofont-file-iso",
+  "name": "file-iso"
+ },
+ {
+  "id": "icofont-file-java",
+  "name": "file-java"
+ },
+ {
+  "id": "icofont-file-javascript",
+  "name": "file-javascript"
+ },
+ {
+  "id": "icofont-file-jpg",
+  "name": "file-jpg"
+ },
+ {
+  "id": "icofont-file-midi",
+  "name": "file-midi"
+ },
+ {
+  "id": "icofont-file-mov",
+  "name": "file-mov"
+ },
+ {
+  "id": "icofont-file-mp3",
+  "name": "file-mp3"
+ },
+ {
+  "id": "icofont-file-pdf",
+  "name": "file-pdf"
+ },
+ {
+  "id": "icofont-file-php",
+  "name": "file-php"
+ },
+ {
+  "id": "icofont-file-png",
+  "name": "file-png"
+ },
+ {
+  "id": "icofont-file-powerpoint",
+  "name": "file-powerpoint"
+ },
+ {
+  "id": "icofont-file-presentation",
+  "name": "file-presentation"
+ },
+ {
+  "id": "icofont-file-psb",
+  "name": "file-psb"
+ },
+ {
+  "id": "icofont-file-psd",
+  "name": "file-psd"
+ },
+ {
+  "id": "icofont-file-python",
+  "name": "file-python"
+ },
+ {
+  "id": "icofont-file-ruby",
+  "name": "file-ruby"
+ },
+ {
+  "id": "icofont-file-spreadsheet",
+  "name": "file-spreadsheet"
+ },
+ {
+  "id": "icofont-file-sql",
+  "name": "file-sql"
+ },
+ {
+  "id": "icofont-file-svg",
+  "name": "file-svg"
+ },
+ {
+  "id": "icofont-file-text",
+  "name": "file-text"
+ },
+ {
+  "id": "icofont-file-tiff",
+  "name": "file-tiff"
+ },
+ {
+  "id": "icofont-file-video",
+  "name": "file-video"
+ },
+ {
+  "id": "icofont-file-wave",
+  "name": "file-wave"
+ },
+ {
+  "id": "icofont-file-wmv",
+  "name": "file-wmv"
+ },
+ {
+  "id": "icofont-file-word",
+  "name": "file-word"
+ },
+ {
+  "id": "icofont-file-zip",
+  "name": "file-zip"
+ },
+ {
+  "id": "icofont-apple",
+  "name": "apple"
+ },
+ {
+  "id": "icofont-arabian-coffee",
+  "name": "arabian-coffee"
+ },
+ {
+  "id": "icofont-artichoke",
+  "name": "artichoke"
+ },
+ {
+  "id": "icofont-asparagus",
+  "name": "asparagus"
+ },
+ {
+  "id": "icofont-avocado",
+  "name": "avocado"
+ },
+ {
+  "id": "icofont-baby-food",
+  "name": "baby-food"
+ },
+ {
+  "id": "icofont-banana",
+  "name": "banana"
+ },
+ {
+  "id": "icofont-bbq",
+  "name": "bbq"
+ },
+ {
+  "id": "icofont-beans",
+  "name": "beans"
+ },
+ {
+  "id": "icofont-beer",
+  "name": "beer"
+ },
+ {
+  "id": "icofont-bell-pepper-capsicum",
+  "name": "bell-pepper-capsicum"
+ },
+ {
+  "id": "icofont-birthday-cake",
+  "name": "birthday-cake"
+ },
+ {
+  "id": "icofont-bread",
+  "name": "bread"
+ },
+ {
+  "id": "icofont-broccoli",
+  "name": "broccoli"
+ },
+ {
+  "id": "icofont-burger",
+  "name": "burger"
+ },
+ {
+  "id": "icofont-cabbage",
+  "name": "cabbage"
+ },
+ {
+  "id": "icofont-carrot",
+  "name": "carrot"
+ },
+ {
+  "id": "icofont-cauli-flower",
+  "name": "cauli-flower"
+ },
+ {
+  "id": "icofont-cheese",
+  "name": "cheese"
+ },
+ {
+  "id": "icofont-chef",
+  "name": "chef"
+ },
+ {
+  "id": "icofont-cherry",
+  "name": "cherry"
+ },
+ {
+  "id": "icofont-chicken",
+  "name": "chicken"
+ },
+ {
+  "id": "icofont-chicken-fry",
+  "name": "chicken-fry"
+ },
+ {
+  "id": "icofont-cocktail",
+  "name": "cocktail"
+ },
+ {
+  "id": "icofont-coconut",
+  "name": "coconut"
+ },
+ {
+  "id": "icofont-coffee-alt",
+  "name": "coffee-alt"
+ },
+ {
+  "id": "icofont-coffee-mug",
+  "name": "coffee-mug"
+ },
+ {
+  "id": "icofont-coffee-pot",
+  "name": "coffee-pot"
+ },
+ {
+  "id": "icofont-cola",
+  "name": "cola"
+ },
+ {
+  "id": "icofont-corn",
+  "name": "corn"
+ },
+ {
+  "id": "icofont-croissant",
+  "name": "croissant"
+ },
+ {
+  "id": "icofont-crop-plant",
+  "name": "crop-plant"
+ },
+ {
+  "id": "icofont-cucumber",
+  "name": "cucumber"
+ },
+ {
+  "id": "icofont-cup-cake",
+  "name": "cup-cake"
+ },
+ {
+  "id": "icofont-dining-table",
+  "name": "dining-table"
+ },
+ {
+  "id": "icofont-donut",
+  "name": "donut"
+ },
+ {
+  "id": "icofont-egg-plant",
+  "name": "egg-plant"
+ },
+ {
+  "id": "icofont-egg-poached",
+  "name": "egg-poached"
+ },
+ {
+  "id": "icofont-farmer",
+  "name": "farmer"
+ },
+ {
+  "id": "icofont-farmer1",
+  "name": "farmer1"
+ },
+ {
+  "id": "icofont-fast-food",
+  "name": "fast-food"
+ },
+ {
+  "id": "icofont-fish",
+  "name": "fish"
+ },
+ {
+  "id": "icofont-food-basket",
+  "name": "food-basket"
+ },
+ {
+  "id": "icofont-food-cart",
+  "name": "food-cart"
+ },
+ {
+  "id": "icofont-fork-and-knife",
+  "name": "fork-and-knife"
+ },
+ {
+  "id": "icofont-french-fries",
+  "name": "french-fries"
+ },
+ {
+  "id": "icofont-fresh-juice",
+  "name": "fresh-juice"
+ },
+ {
+  "id": "icofont-fruits",
+  "name": "fruits"
+ },
+ {
+  "id": "icofont-grapes",
+  "name": "grapes"
+ },
+ {
+  "id": "icofont-honey",
+  "name": "honey"
+ },
+ {
+  "id": "icofont-hot-dog",
+  "name": "hot-dog"
+ },
+ {
+  "id": "icofont-hotel-alt",
+  "name": "hotel-alt"
+ },
+ {
+  "id": "icofont-ice-cream",
+  "name": "ice-cream"
+ },
+ {
+  "id": "icofont-ice-cream-alt",
+  "name": "ice-cream-alt"
+ },
+ {
+  "id": "icofont-ketchup",
+  "name": "ketchup"
+ },
+ {
+  "id": "icofont-kiwi",
+  "name": "kiwi"
+ },
+ {
+  "id": "icofont-layered-cake",
+  "name": "layered-cake"
+ },
+ {
+  "id": "icofont-lemon-alt",
+  "name": "lemon-alt"
+ },
+ {
+  "id": "icofont-lobster",
+  "name": "lobster"
+ },
+ {
+  "id": "icofont-mango",
+  "name": "mango"
+ },
+ {
+  "id": "icofont-milk",
+  "name": "milk"
+ },
+ {
+  "id": "icofont-mushroom",
+  "name": "mushroom"
+ },
+ {
+  "id": "icofont-noodles",
+  "name": "noodles"
+ },
+ {
+  "id": "icofont-onion",
+  "name": "onion"
+ },
+ {
+  "id": "icofont-orange",
+  "name": "orange"
+ },
+ {
+  "id": "icofont-pear",
+  "name": "pear"
+ },
+ {
+  "id": "icofont-peas",
+  "name": "peas"
+ },
+ {
+  "id": "icofont-pepper",
+  "name": "pepper"
+ },
+ {
+  "id": "icofont-pie-alt",
+  "name": "pie-alt"
+ },
+ {
+  "id": "icofont-pineapple",
+  "name": "pineapple"
+ },
+ {
+  "id": "icofont-pizza",
+  "name": "pizza"
+ },
+ {
+  "id": "icofont-pizza-slice",
+  "name": "pizza-slice"
+ },
+ {
+  "id": "icofont-plant",
+  "name": "plant"
+ },
+ {
+  "id": "icofont-popcorn",
+  "name": "popcorn"
+ },
+ {
+  "id": "icofont-potato",
+  "name": "potato"
+ },
+ {
+  "id": "icofont-pumpkin",
+  "name": "pumpkin"
+ },
+ {
+  "id": "icofont-raddish",
+  "name": "raddish"
+ },
+ {
+  "id": "icofont-restaurant",
+  "name": "restaurant"
+ },
+ {
+  "id": "icofont-restaurant-menu",
+  "name": "restaurant-menu"
+ },
+ {
+  "id": "icofont-salt-and-pepper",
+  "name": "salt-and-pepper"
+ },
+ {
+  "id": "icofont-sandwich",
+  "name": "sandwich"
+ },
+ {
+  "id": "icofont-sausage",
+  "name": "sausage"
+ },
+ {
+  "id": "icofont-shrimp",
+  "name": "shrimp"
+ },
+ {
+  "id": "icofont-sof-drinks",
+  "name": "sof-drinks"
+ },
+ {
+  "id": "icofont-soup-bowl",
+  "name": "soup-bowl"
+ },
+ {
+  "id": "icofont-spoon-and-fork",
+  "name": "spoon-and-fork"
+ },
+ {
+  "id": "icofont-steak",
+  "name": "steak"
+ },
+ {
+  "id": "icofont-strawberry",
+  "name": "strawberry"
+ },
+ {
+  "id": "icofont-sub-sandwich",
+  "name": "sub-sandwich"
+ },
+ {
+  "id": "icofont-sushi",
+  "name": "sushi"
+ },
+ {
+  "id": "icofont-taco",
+  "name": "taco"
+ },
+ {
+  "id": "icofont-tea",
+  "name": "tea"
+ },
+ {
+  "id": "icofont-tea-pot",
+  "name": "tea-pot"
+ },
+ {
+  "id": "icofont-tomato",
+  "name": "tomato"
+ },
+ {
+  "id": "icofont-waiter-alt",
+  "name": "waiter-alt"
+ },
+ {
+  "id": "icofont-watermelon",
+  "name": "watermelon"
+ },
+ {
+  "id": "icofont-wheat",
+  "name": "wheat"
+ },
+ {
+  "id": "icofont-abc",
+  "name": "abc"
+ },
+ {
+  "id": "icofont-baby-cloth",
+  "name": "baby-cloth"
+ },
+ {
+  "id": "icofont-baby-milk-bottle",
+  "name": "baby-milk-bottle"
+ },
+ {
+  "id": "icofont-baby-trolley",
+  "name": "baby-trolley"
+ },
+ {
+  "id": "icofont-back-pack",
+  "name": "back-pack"
+ },
+ {
+  "id": "icofont-candy",
+  "name": "candy"
+ },
+ {
+  "id": "icofont-cycling",
+  "name": "cycling"
+ },
+ {
+  "id": "icofont-holding-hands",
+  "name": "holding-hands"
+ },
+ {
+  "id": "icofont-infant-nipple",
+  "name": "infant-nipple"
+ },
+ {
+  "id": "icofont-kids-scooter",
+  "name": "kids-scooter"
+ },
+ {
+  "id": "icofont-safety-pin",
+  "name": "safety-pin"
+ },
+ {
+  "id": "icofont-teddy-bear",
+  "name": "teddy-bear"
+ },
+ {
+  "id": "icofont-toy-ball",
+  "name": "toy-ball"
+ },
+ {
+  "id": "icofont-toy-cat",
+  "name": "toy-cat"
+ },
+ {
+  "id": "icofont-toy-duck",
+  "name": "toy-duck"
+ },
+ {
+  "id": "icofont-toy-elephant",
+  "name": "toy-elephant"
+ },
+ {
+  "id": "icofont-toy-hand",
+  "name": "toy-hand"
+ },
+ {
+  "id": "icofont-toy-horse",
+  "name": "toy-horse"
+ },
+ {
+  "id": "icofont-toy-lattu",
+  "name": "toy-lattu"
+ },
+ {
+  "id": "icofont-toy-train",
+  "name": "toy-train"
+ },
+ {
+  "id": "icofont-unique-idea",
+  "name": "unique-idea"
+ },
+ {
+  "id": "icofont-bag-alt",
+  "name": "bag-alt"
+ },
+ {
+  "id": "icofont-burglar",
+  "name": "burglar"
+ },
+ {
+  "id": "icofont-cannon-firing",
+  "name": "cannon-firing"
+ },
+ {
+  "id": "icofont-cc-camera",
+  "name": "cc-camera"
+ },
+ {
+  "id": "icofont-cop",
+  "name": "cop"
+ },
+ {
+  "id": "icofont-cop-badge",
+  "name": "cop-badge"
+ },
+ {
+  "id": "icofont-court",
+  "name": "court"
+ },
+ {
+  "id": "icofont-court-hammer",
+  "name": "court-hammer"
+ },
+ {
+  "id": "icofont-finger-print",
+  "name": "finger-print"
+ },
+ {
+  "id": "icofont-handcuff",
+  "name": "handcuff"
+ },
+ {
+  "id": "icofont-handcuff-alt",
+  "name": "handcuff-alt"
+ },
+ {
+  "id": "icofont-investigation",
+  "name": "investigation"
+ },
+ {
+  "id": "icofont-investigator",
+  "name": "investigator"
+ },
+ {
+  "id": "icofont-jail",
+  "name": "jail"
+ },
+ {
+  "id": "icofont-judge",
+  "name": "judge"
+ },
+ {
+  "id": "icofont-law",
+  "name": "law"
+ },
+ {
+  "id": "icofont-law-alt-1",
+  "name": "law-alt-1"
+ },
+ {
+  "id": "icofont-law-alt-2",
+  "name": "law-alt-2"
+ },
+ {
+  "id": "icofont-law-alt-3",
+  "name": "law-alt-3"
+ },
+ {
+  "id": "icofont-law-book",
+  "name": "law-book"
+ },
+ {
+  "id": "icofont-law-document",
+  "name": "law-document"
+ },
+ {
+  "id": "icofont-lawyer",
+  "name": "lawyer"
+ },
+ {
+  "id": "icofont-lawyer-alt-1",
+  "name": "lawyer-alt-1"
+ },
+ {
+  "id": "icofont-lawyer-alt-2",
+  "name": "lawyer-alt-2"
+ },
+ {
+  "id": "icofont-order",
+  "name": "order"
+ },
+ {
+  "id": "icofont-pistol",
+  "name": "pistol"
+ },
+ {
+  "id": "icofont-police",
+  "name": "police"
+ },
+ {
+  "id": "icofont-police-badge",
+  "name": "police-badge"
+ },
+ {
+  "id": "icofont-police-cap",
+  "name": "police-cap"
+ },
+ {
+  "id": "icofont-police-car-alt-1",
+  "name": "police-car-alt-1"
+ },
+ {
+  "id": "icofont-police-car-alt-2",
+  "name": "police-car-alt-2"
+ },
+ {
+  "id": "icofont-police-hat",
+  "name": "police-hat"
+ },
+ {
+  "id": "icofont-police-van",
+  "name": "police-van"
+ },
+ {
+  "id": "icofont-protect",
+  "name": "protect"
+ },
+ {
+  "id": "icofont-scales",
+  "name": "scales"
+ },
+ {
+  "id": "icofont-thief",
+  "name": "thief"
+ },
+ {
+  "id": "icofont-thief-alt",
+  "name": "thief-alt"
+ },
+ {
+  "id": "icofont-abacus",
+  "name": "abacus"
+ },
+ {
+  "id": "icofont-abacus-alt",
+  "name": "abacus-alt"
+ },
+ {
+  "id": "icofont-angle",
+  "name": "angle"
+ },
+ {
+  "id": "icofont-calculator-alt-1",
+  "name": "calculator-alt-1"
+ },
+ {
+  "id": "icofont-calculator-alt-2",
+  "name": "calculator-alt-2"
+ },
+ {
+  "id": "icofont-circle-ruler",
+  "name": "circle-ruler"
+ },
+ {
+  "id": "icofont-circle-ruler-alt",
+  "name": "circle-ruler-alt"
+ },
+ {
+  "id": "icofont-compass-alt-1",
+  "name": "compass-alt-1"
+ },
+ {
+  "id": "icofont-compass-alt-2",
+  "name": "compass-alt-2"
+ },
+ {
+  "id": "icofont-compass-alt-3",
+  "name": "compass-alt-3"
+ },
+ {
+  "id": "icofont-compass-alt-4",
+  "name": "compass-alt-4"
+ },
+ {
+  "id": "icofont-degrees",
+  "name": "degrees"
+ },
+ {
+  "id": "icofont-degrees-alt-1",
+  "name": "degrees-alt-1"
+ },
+ {
+  "id": "icofont-degrees-alt-2",
+  "name": "degrees-alt-2"
+ },
+ {
+  "id": "icofont-golden-ratio",
+  "name": "golden-ratio"
+ },
+ {
+  "id": "icofont-marker-alt-1",
+  "name": "marker-alt-1"
+ },
+ {
+  "id": "icofont-marker-alt-2",
+  "name": "marker-alt-2"
+ },
+ {
+  "id": "icofont-marker-alt-3",
+  "name": "marker-alt-3"
+ },
+ {
+  "id": "icofont-mathematical",
+  "name": "mathematical"
+ },
+ {
+  "id": "icofont-mathematical-alt-1",
+  "name": "mathematical-alt-1"
+ },
+ {
+  "id": "icofont-mathematical-alt-2",
+  "name": "mathematical-alt-2"
+ },
+ {
+  "id": "icofont-pen-alt-1",
+  "name": "pen-alt-1"
+ },
+ {
+  "id": "icofont-pen-alt-2",
+  "name": "pen-alt-2"
+ },
+ {
+  "id": "icofont-pen-alt-3",
+  "name": "pen-alt-3"
+ },
+ {
+  "id": "icofont-pen-holder",
+  "name": "pen-holder"
+ },
+ {
+  "id": "icofont-pen-holder-alt-1",
+  "name": "pen-holder-alt-1"
+ },
+ {
+  "id": "icofont-pencil-alt-1",
+  "name": "pencil-alt-1"
+ },
+ {
+  "id": "icofont-pencil-alt-2",
+  "name": "pencil-alt-2"
+ },
+ {
+  "id": "icofont-pencil-alt-3",
+  "name": "pencil-alt-3"
+ },
+ {
+  "id": "icofont-pencil-alt-4",
+  "name": "pencil-alt-4"
+ },
+ {
+  "id": "icofont-ruler",
+  "name": "ruler"
+ },
+ {
+  "id": "icofont-ruler-alt-1",
+  "name": "ruler-alt-1"
+ },
+ {
+  "id": "icofont-ruler-alt-2",
+  "name": "ruler-alt-2"
+ },
+ {
+  "id": "icofont-ruler-compass",
+  "name": "ruler-compass"
+ },
+ {
+  "id": "icofont-ruler-compass-alt",
+  "name": "ruler-compass-alt"
+ },
+ {
+  "id": "icofont-ruler-pencil",
+  "name": "ruler-pencil"
+ },
+ {
+  "id": "icofont-ruler-pencil-alt-1",
+  "name": "ruler-pencil-alt-1"
+ },
+ {
+  "id": "icofont-ruler-pencil-alt-2",
+  "name": "ruler-pencil-alt-2"
+ },
+ {
+  "id": "icofont-rulers",
+  "name": "rulers"
+ },
+ {
+  "id": "icofont-rulers-alt",
+  "name": "rulers-alt"
+ },
+ {
+  "id": "icofont-square-root",
+  "name": "square-root"
+ },
+ {
+  "id": "icofont-aids",
+  "name": "aids"
+ },
+ {
+  "id": "icofont-ambulance",
+  "name": "ambulance"
+ },
+ {
+  "id": "icofont-autism",
+  "name": "autism"
+ },
+ {
+  "id": "icofont-bandage",
+  "name": "bandage"
+ },
+ {
+  "id": "icofont-bed-patient",
+  "name": "bed-patient"
+ },
+ {
+  "id": "icofont-blind",
+  "name": "blind"
+ },
+ {
+  "id": "icofont-blood",
+  "name": "blood"
+ },
+ {
+  "id": "icofont-blood-drop",
+  "name": "blood-drop"
+ },
+ {
+  "id": "icofont-blood-test",
+  "name": "blood-test"
+ },
+ {
+  "id": "icofont-capsule",
+  "name": "capsule"
+ },
+ {
+  "id": "icofont-crutches",
+  "name": "crutches"
+ },
+ {
+  "id": "icofont-dna",
+  "name": "dna"
+ },
+ {
+  "id": "icofont-dna-alt-1",
+  "name": "dna-alt-1"
+ },
+ {
+  "id": "icofont-doctor",
+  "name": "doctor"
+ },
+ {
+  "id": "icofont-doctor-alt",
+  "name": "doctor-alt"
+ },
+ {
+  "id": "icofont-drug",
+  "name": "drug"
+ },
+ {
+  "id": "icofont-drug-pack",
+  "name": "drug-pack"
+ },
+ {
+  "id": "icofont-eye-alt",
+  "name": "eye-alt"
+ },
+ {
+  "id": "icofont-first-aid-alt",
+  "name": "first-aid-alt"
+ },
+ {
+  "id": "icofont-garbage",
+  "name": "garbage"
+ },
+ {
+  "id": "icofont-heart-alt",
+  "name": "heart-alt"
+ },
+ {
+  "id": "icofont-heartbeat",
+  "name": "heartbeat"
+ },
+ {
+  "id": "icofont-herbal",
+  "name": "herbal"
+ },
+ {
+  "id": "icofont-hospital",
+  "name": "hospital"
+ },
+ {
+  "id": "icofont-icu",
+  "name": "icu"
+ },
+ {
+  "id": "icofont-injection-syringe",
+  "name": "injection-syringe"
+ },
+ {
+  "id": "icofont-laboratory",
+  "name": "laboratory"
+ },
+ {
+  "id": "icofont-medical-sign",
+  "name": "medical-sign"
+ },
+ {
+  "id": "icofont-medical-sign-alt",
+  "name": "medical-sign-alt"
+ },
+ {
+  "id": "icofont-nurse",
+  "name": "nurse"
+ },
+ {
+  "id": "icofont-nurse-alt",
+  "name": "nurse-alt"
+ },
+ {
+  "id": "icofont-nursing-home",
+  "name": "nursing-home"
+ },
+ {
+  "id": "icofont-operation-theater",
+  "name": "operation-theater"
+ },
+ {
+  "id": "icofont-paralysis-disability",
+  "name": "paralysis-disability"
+ },
+ {
+  "id": "icofont-pills",
+  "name": "pills"
+ },
+ {
+  "id": "icofont-prescription",
+  "name": "prescription"
+ },
+ {
+  "id": "icofont-pulse",
+  "name": "pulse"
+ },
+ {
+  "id": "icofont-stethoscope",
+  "name": "stethoscope"
+ },
+ {
+  "id": "icofont-stethoscope-alt",
+  "name": "stethoscope-alt"
+ },
+ {
+  "id": "icofont-stretcher",
+  "name": "stretcher"
+ },
+ {
+  "id": "icofont-surgeon",
+  "name": "surgeon"
+ },
+ {
+  "id": "icofont-surgeon-alt",
+  "name": "surgeon-alt"
+ },
+ {
+  "id": "icofont-tablets",
+  "name": "tablets"
+ },
+ {
+  "id": "icofont-test-bottle",
+  "name": "test-bottle"
+ },
+ {
+  "id": "icofont-test-tube",
+  "name": "test-tube"
+ },
+ {
+  "id": "icofont-thermometer-alt",
+  "name": "thermometer-alt"
+ },
+ {
+  "id": "icofont-tooth",
+  "name": "tooth"
+ },
+ {
+  "id": "icofont-xray",
+  "name": "xray"
+ },
+ {
+  "id": "icofont-ui-add",
+  "name": "ui-add"
+ },
+ {
+  "id": "icofont-ui-alarm",
+  "name": "ui-alarm"
+ },
+ {
+  "id": "icofont-ui-battery",
+  "name": "ui-battery"
+ },
+ {
+  "id": "icofont-ui-block",
+  "name": "ui-block"
+ },
+ {
+  "id": "icofont-ui-bluetooth",
+  "name": "ui-bluetooth"
+ },
+ {
+  "id": "icofont-ui-brightness",
+  "name": "ui-brightness"
+ },
+ {
+  "id": "icofont-ui-browser",
+  "name": "ui-browser"
+ },
+ {
+  "id": "icofont-ui-calculator",
+  "name": "ui-calculator"
+ },
+ {
+  "id": "icofont-ui-calendar",
+  "name": "ui-calendar"
+ },
+ {
+  "id": "icofont-ui-call",
+  "name": "ui-call"
+ },
+ {
+  "id": "icofont-ui-camera",
+  "name": "ui-camera"
+ },
+ {
+  "id": "icofont-ui-cart",
+  "name": "ui-cart"
+ },
+ {
+  "id": "icofont-ui-cell-phone",
+  "name": "ui-cell-phone"
+ },
+ {
+  "id": "icofont-ui-chat",
+  "name": "ui-chat"
+ },
+ {
+  "id": "icofont-ui-check",
+  "name": "ui-check"
+ },
+ {
+  "id": "icofont-ui-clip",
+  "name": "ui-clip"
+ },
+ {
+  "id": "icofont-ui-clip-board",
+  "name": "ui-clip-board"
+ },
+ {
+  "id": "icofont-ui-clock",
+  "name": "ui-clock"
+ },
+ {
+  "id": "icofont-ui-close",
+  "name": "ui-close"
+ },
+ {
+  "id": "icofont-ui-contact-list",
+  "name": "ui-contact-list"
+ },
+ {
+  "id": "icofont-ui-copy",
+  "name": "ui-copy"
+ },
+ {
+  "id": "icofont-ui-cut",
+  "name": "ui-cut"
+ },
+ {
+  "id": "icofont-ui-delete",
+  "name": "ui-delete"
+ },
+ {
+  "id": "icofont-ui-dial-phone",
+  "name": "ui-dial-phone"
+ },
+ {
+  "id": "icofont-ui-edit",
+  "name": "ui-edit"
+ },
+ {
+  "id": "icofont-ui-email",
+  "name": "ui-email"
+ },
+ {
+  "id": "icofont-ui-file",
+  "name": "ui-file"
+ },
+ {
+  "id": "icofont-ui-fire-wall",
+  "name": "ui-fire-wall"
+ },
+ {
+  "id": "icofont-ui-flash-light",
+  "name": "ui-flash-light"
+ },
+ {
+  "id": "icofont-ui-flight",
+  "name": "ui-flight"
+ },
+ {
+  "id": "icofont-ui-folder",
+  "name": "ui-folder"
+ },
+ {
+  "id": "icofont-ui-game",
+  "name": "ui-game"
+ },
+ {
+  "id": "icofont-ui-handicapped",
+  "name": "ui-handicapped"
+ },
+ {
+  "id": "icofont-ui-head-phone",
+  "name": "ui-head-phone"
+ },
+ {
+  "id": "icofont-ui-home",
+  "name": "ui-home"
+ },
+ {
+  "id": "icofont-ui-image",
+  "name": "ui-image"
+ },
+ {
+  "id": "icofont-ui-keyboard",
+  "name": "ui-keyboard"
+ },
+ {
+  "id": "icofont-ui-laoding",
+  "name": "ui-laoding"
+ },
+ {
+  "id": "icofont-ui-lock",
+  "name": "ui-lock"
+ },
+ {
+  "id": "icofont-ui-love",
+  "name": "ui-love"
+ },
+ {
+  "id": "icofont-ui-love-add",
+  "name": "ui-love-add"
+ },
+ {
+  "id": "icofont-ui-love-broken",
+  "name": "ui-love-broken"
+ },
+ {
+  "id": "icofont-ui-love-remove",
+  "name": "ui-love-remove"
+ },
+ {
+  "id": "icofont-ui-map",
+  "name": "ui-map"
+ },
+ {
+  "id": "icofont-ui-message",
+  "name": "ui-message"
+ },
+ {
+  "id": "icofont-ui-messaging",
+  "name": "ui-messaging"
+ },
+ {
+  "id": "icofont-ui-movie",
+  "name": "ui-movie"
+ },
+ {
+  "id": "icofont-ui-music",
+  "name": "ui-music"
+ },
+ {
+  "id": "icofont-ui-music-player",
+  "name": "ui-music-player"
+ },
+ {
+  "id": "icofont-ui-mute",
+  "name": "ui-mute"
+ },
+ {
+  "id": "icofont-ui-Refferal",
+  "name": "ui-Refferal"
+ },
+ {
+  "id": "icofont-ui-next",
+  "name": "ui-next"
+ },
+ {
+  "id": "icofont-ui-note",
+  "name": "ui-note"
+ },
+ {
+  "id": "icofont-ui-office",
+  "name": "ui-office"
+ },
+ {
+  "id": "icofont-ui-password",
+  "name": "ui-password"
+ },
+ {
+  "id": "icofont-ui-pause",
+  "name": "ui-pause"
+ },
+ {
+  "id": "icofont-ui-play",
+  "name": "ui-play"
+ },
+ {
+  "id": "icofont-ui-play-stop",
+  "name": "ui-play-stop"
+ },
+ {
+  "id": "icofont-ui-pointer",
+  "name": "ui-pointer"
+ },
+ {
+  "id": "icofont-ui-power",
+  "name": "ui-power"
+ },
+ {
+  "id": "icofont-ui-press",
+  "name": "ui-press"
+ },
+ {
+  "id": "icofont-ui-previous",
+  "name": "ui-previous"
+ },
+ {
+  "id": "icofont-ui-rate-add",
+  "name": "ui-rate-add"
+ },
+ {
+  "id": "icofont-ui-rate-blank",
+  "name": "ui-rate-blank"
+ },
+ {
+  "id": "icofont-ui-rate-remove",
+  "name": "ui-rate-remove"
+ },
+ {
+  "id": "icofont-ui-rating",
+  "name": "ui-rating"
+ },
+ {
+  "id": "icofont-ui-record",
+  "name": "ui-record"
+ },
+ {
+  "id": "icofont-ui-remove",
+  "name": "ui-remove"
+ },
+ {
+  "id": "icofont-ui-reply",
+  "name": "ui-reply"
+ },
+ {
+  "id": "icofont-ui-rotation",
+  "name": "ui-rotation"
+ },
+ {
+  "id": "icofont-ui-rss",
+  "name": "ui-rss"
+ },
+ {
+  "id": "icofont-ui-search",
+  "name": "ui-search"
+ },
+ {
+  "id": "icofont-ui-settings",
+  "name": "ui-settings"
+ },
+ {
+  "id": "icofont-ui-social-link",
+  "name": "ui-social-link"
+ },
+ {
+  "id": "icofont-ui-tag",
+  "name": "ui-tag"
+ },
+ {
+  "id": "icofont-ui-text-chat",
+  "name": "ui-text-chat"
+ },
+ {
+  "id": "icofont-ui-text-loading",
+  "name": "ui-text-loading"
+ },
+ {
+  "id": "icofont-ui-theme",
+  "name": "ui-theme"
+ },
+ {
+  "id": "icofont-ui-timer",
+  "name": "ui-timer"
+ },
+ {
+  "id": "icofont-ui-touch-phone",
+  "name": "ui-touch-phone"
+ },
+ {
+  "id": "icofont-ui-travel",
+  "name": "ui-travel"
+ },
+ {
+  "id": "icofont-ui-unlock",
+  "name": "ui-unlock"
+ },
+ {
+  "id": "icofont-ui-user",
+  "name": "ui-user"
+ },
+ {
+  "id": "icofont-ui-user-group",
+  "name": "ui-user-group"
+ },
+ {
+  "id": "icofont-ui-v-card",
+  "name": "ui-v-card"
+ },
+ {
+  "id": "icofont-ui-video",
+  "name": "ui-video"
+ },
+ {
+  "id": "icofont-ui-video-chat",
+  "name": "ui-video-chat"
+ },
+ {
+  "id": "icofont-ui-video-message",
+  "name": "ui-video-message"
+ },
+ {
+  "id": "icofont-ui-video-play",
+  "name": "ui-video-play"
+ },
+ {
+  "id": "icofont-ui-volume",
+  "name": "ui-volume"
+ },
+ {
+  "id": "icofont-ui-weather",
+  "name": "ui-weather"
+ },
+ {
+  "id": "icofont-ui-wifi",
+  "name": "ui-wifi"
+ },
+ {
+  "id": "icofont-ui-zoom-in",
+  "name": "ui-zoom-in"
+ },
+ {
+  "id": "icofont-ui-zoom-out",
+  "name": "ui-zoom-out"
+ },
+ {
+  "id": "icofont-cassette",
+  "name": "cassette"
+ },
+ {
+  "id": "icofont-cassette-player",
+  "name": "cassette-player"
+ },
+ {
+  "id": "icofont-forward",
+  "name": "forward"
+ },
+ {
+  "id": "icofont-game",
+  "name": "game"
+ },
+ {
+  "id": "icofont-guiter",
+  "name": "guiter"
+ },
+ {
+  "id": "icofont-headphone-alt-1",
+  "name": "headphone-alt-1"
+ },
+ {
+  "id": "icofont-headphone-alt-2",
+  "name": "headphone-alt-2"
+ },
+ {
+  "id": "icofont-headphone-alt-3",
+  "name": "headphone-alt-3"
+ },
+ {
+  "id": "icofont-listening",
+  "name": "listening"
+ },
+ {
+  "id": "icofont-megaphone",
+  "name": "megaphone"
+ },
+ {
+  "id": "icofont-megaphone-alt",
+  "name": "megaphone-alt"
+ },
+ {
+  "id": "icofont-movie",
+  "name": "movie"
+ },
+ {
+  "id": "icofont-mp3-player",
+  "name": "mp3-player"
+ },
+ {
+  "id": "icofont-multimedia",
+  "name": "multimedia"
+ },
+ {
+  "id": "icofont-music-disk",
+  "name": "music-disk"
+ },
+ {
+  "id": "icofont-music-note",
+  "name": "music-note"
+ },
+ {
+  "id": "icofont-pause",
+  "name": "pause"
+ },
+ {
+  "id": "icofont-play-alt-1",
+  "name": "play-alt-1"
+ },
+ {
+  "id": "icofont-play-alt-2",
+  "name": "play-alt-2"
+ },
+ {
+  "id": "icofont-play-alt-3",
+  "name": "play-alt-3"
+ },
+ {
+  "id": "icofont-play-pause",
+  "name": "play-pause"
+ },
+ {
+  "id": "icofont-record",
+  "name": "record"
+ },
+ {
+  "id": "icofont-retro-music-disk",
+  "name": "retro-music-disk"
+ },
+ {
+  "id": "icofont-rewind",
+  "name": "rewind"
+ },
+ {
+  "id": "icofont-song-notes",
+  "name": "song-notes"
+ },
+ {
+  "id": "icofont-sound-wave",
+  "name": "sound-wave"
+ },
+ {
+  "id": "icofont-sound-wave-alt",
+  "name": "sound-wave-alt"
+ },
+ {
+  "id": "icofont-stop",
+  "name": "stop"
+ },
+ {
+  "id": "icofont-video-alt",
+  "name": "video-alt"
+ },
+ {
+  "id": "icofont-video-cam",
+  "name": "video-cam"
+ },
+ {
+  "id": "icofont-volume-bar",
+  "name": "volume-bar"
+ },
+ {
+  "id": "icofont-volume-mute",
+  "name": "volume-mute"
+ },
+ {
+  "id": "icofont-youtube-play",
+  "name": "youtube-play"
+ },
+ {
+  "id": "icofont-amazon",
+  "name": "amazon"
+ },
+ {
+  "id": "icofont-amazon-alt",
+  "name": "amazon-alt"
+ },
+ {
+  "id": "icofont-american-express",
+  "name": "american-express"
+ },
+ {
+  "id": "icofont-american-express-alt",
+  "name": "american-express-alt"
+ },
+ {
+  "id": "icofont-apple-pay",
+  "name": "apple-pay"
+ },
+ {
+  "id": "icofont-apple-pay-alt",
+  "name": "apple-pay-alt"
+ },
+ {
+  "id": "icofont-bank-transfer",
+  "name": "bank-transfer"
+ },
+ {
+  "id": "icofont-bank-transfer-alt",
+  "name": "bank-transfer-alt"
+ },
+ {
+  "id": "icofont-braintree",
+  "name": "braintree"
+ },
+ {
+  "id": "icofont-braintree-alt",
+  "name": "braintree-alt"
+ },
+ {
+  "id": "icofont-cash-on-delivery",
+  "name": "cash-on-delivery"
+ },
+ {
+  "id": "icofont-cash-on-delivery-alt",
+  "name": "cash-on-delivery-alt"
+ },
+ {
+  "id": "icofont-checkout",
+  "name": "checkout"
+ },
+ {
+  "id": "icofont-checkout-alt",
+  "name": "checkout-alt"
+ },
+ {
+  "id": "icofont-diners-club",
+  "name": "diners-club"
+ },
+ {
+  "id": "icofont-diners-club-alt-1",
+  "name": "diners-club-alt-1"
+ },
+ {
+  "id": "icofont-diners-club-alt-2",
+  "name": "diners-club-alt-2"
+ },
+ {
+  "id": "icofont-diners-club-alt-3",
+  "name": "diners-club-alt-3"
+ },
+ {
+  "id": "icofont-discover",
+  "name": "discover"
+ },
+ {
+  "id": "icofont-discover-alt",
+  "name": "discover-alt"
+ },
+ {
+  "id": "icofont-eway",
+  "name": "eway"
+ },
+ {
+  "id": "icofont-eway-alt",
+  "name": "eway-alt"
+ },
+ {
+  "id": "icofont-google-wallet",
+  "name": "google-wallet"
+ },
+ {
+  "id": "icofont-google-wallet-alt-1",
+  "name": "google-wallet-alt-1"
+ },
+ {
+  "id": "icofont-google-wallet-alt-2",
+  "name": "google-wallet-alt-2"
+ },
+ {
+  "id": "icofont-google-wallet-alt-3",
+  "name": "google-wallet-alt-3"
+ },
+ {
+  "id": "icofont-jcb",
+  "name": "jcb"
+ },
+ {
+  "id": "icofont-jcb-alt",
+  "name": "jcb-alt"
+ },
+ {
+  "id": "icofont-maestro",
+  "name": "maestro"
+ },
+ {
+  "id": "icofont-maestro-alt",
+  "name": "maestro-alt"
+ },
+ {
+  "id": "icofont-mastercard",
+  "name": "mastercard"
+ },
+ {
+  "id": "icofont-mastercard-alt",
+  "name": "mastercard-alt"
+ },
+ {
+  "id": "icofont-payoneer",
+  "name": "payoneer"
+ },
+ {
+  "id": "icofont-payoneer-alt",
+  "name": "payoneer-alt"
+ },
+ {
+  "id": "icofont-paypal",
+  "name": "paypal"
+ },
+ {
+  "id": "icofont-paypal-alt",
+  "name": "paypal-alt"
+ },
+ {
+  "id": "icofont-sage",
+  "name": "sage"
+ },
+ {
+  "id": "icofont-sage-alt",
+  "name": "sage-alt"
+ },
+ {
+  "id": "icofont-skrill",
+  "name": "skrill"
+ },
+ {
+  "id": "icofont-skrill-alt",
+  "name": "skrill-alt"
+ },
+ {
+  "id": "icofont-stripe",
+  "name": "stripe"
+ },
+ {
+  "id": "icofont-stripe-alt",
+  "name": "stripe-alt"
+ },
+ {
+  "id": "icofont-visa",
+  "name": "visa"
+ },
+ {
+  "id": "icofont-visa-alt",
+  "name": "visa-alt"
+ },
+ {
+  "id": "icofont-visa-electron",
+  "name": "visa-electron"
+ },
+ {
+  "id": "icofont-western-union",
+  "name": "western-union"
+ },
+ {
+  "id": "icofont-western-union-alt",
+  "name": "western-union-alt"
+ },
+ {
+  "id": "icofont-boy",
+  "name": "boy"
+ },
+ {
+  "id": "icofont-business-man",
+  "name": "business-man"
+ },
+ {
+  "id": "icofont-business-man-alt-1",
+  "name": "business-man-alt-1"
+ },
+ {
+  "id": "icofont-business-man-alt-2",
+  "name": "business-man-alt-2"
+ },
+ {
+  "id": "icofont-business-man-alt-3",
+  "name": "business-man-alt-3"
+ },
+ {
+  "id": "icofont-funky-man",
+  "name": "funky-man"
+ },
+ {
+  "id": "icofont-girl",
+  "name": "girl"
+ },
+ {
+  "id": "icofont-girl-alt",
+  "name": "girl-alt"
+ },
+ {
+  "id": "icofont-hotel-boy",
+  "name": "hotel-boy"
+ },
+ {
+  "id": "icofont-hotel-boy-alt",
+  "name": "hotel-boy-alt"
+ },
+ {
+  "id": "icofont-man-in-glasses",
+  "name": "man-in-glasses"
+ },
+ {
+  "id": "icofont-user",
+  "name": "user"
+ },
+ {
+  "id": "icofont-user-alt-1",
+  "name": "user-alt-1"
+ },
+ {
+  "id": "icofont-user-alt-2",
+  "name": "user-alt-2"
+ },
+ {
+  "id": "icofont-user-alt-3",
+  "name": "user-alt-3"
+ },
+ {
+  "id": "icofont-user-alt-4",
+  "name": "user-alt-4"
+ },
+ {
+  "id": "icofont-user-alt-5",
+  "name": "user-alt-5"
+ },
+ {
+  "id": "icofont-user-alt-6",
+  "name": "user-alt-6"
+ },
+ {
+  "id": "icofont-user-alt-7",
+  "name": "user-alt-7"
+ },
+ {
+  "id": "icofont-user-female",
+  "name": "user-female"
+ },
+ {
+  "id": "icofont-user-male",
+  "name": "user-male"
+ },
+ {
+  "id": "icofont-user-suited",
+  "name": "user-suited"
+ },
+ {
+  "id": "icofont-users",
+  "name": "users"
+ },
+ {
+  "id": "icofont-users-alt-1",
+  "name": "users-alt-1"
+ },
+ {
+  "id": "icofont-users-alt-2",
+  "name": "users-alt-2"
+ },
+ {
+  "id": "icofont-users-alt-3",
+  "name": "users-alt-3"
+ },
+ {
+  "id": "icofont-users-alt-4",
+  "name": "users-alt-4"
+ },
+ {
+  "id": "icofont-users-alt-5",
+  "name": "users-alt-5"
+ },
+ {
+  "id": "icofont-users-alt-6",
+  "name": "users-alt-6"
+ },
+ {
+  "id": "icofont-users-social",
+  "name": "users-social"
+ },
+ {
+  "id": "icofont-waiter",
+  "name": "waiter"
+ },
+ {
+  "id": "icofont-woman-in-glasses",
+  "name": "woman-in-glasses"
+ },
+ {
+  "id": "icofont-document-search",
+  "name": "document-search"
+ },
+ {
+  "id": "icofont-folder-search",
+  "name": "folder-search"
+ },
+ {
+  "id": "icofont-home-search",
+  "name": "home-search"
+ },
+ {
+  "id": "icofont-job-search",
+  "name": "job-search"
+ },
+ {
+  "id": "icofont-map-search",
+  "name": "map-search"
+ },
+ {
+  "id": "icofont-restaurant-search",
+  "name": "restaurant-search"
+ },
+ {
+  "id": "icofont-search",
+  "name": "search"
+ },
+ {
+  "id": "icofont-search-alt-1",
+  "name": "search-alt-1"
+ },
+ {
+  "id": "icofont-search-alt-2",
+  "name": "search-alt-2"
+ },
+ {
+  "id": "icofont-stock-search",
+  "name": "stock-search"
+ },
+ {
+  "id": "icofont-user-search",
+  "name": "user-search"
+ },
+ {
+  "id": "icofont-brand-drupal",
+  "name": "brand-drupal"
+ },
+ {
+  "id": "icofont-social-500px",
+  "name": "social-500px"
+ },
+ {
+  "id": "icofont-social-aim",
+  "name": "social-aim"
+ },
+ {
+  "id": "icofont-social-badoo",
+  "name": "social-badoo"
+ },
+ {
+  "id": "icofont-social-baidu-tieba",
+  "name": "social-baidu-tieba"
+ },
+ {
+  "id": "icofont-social-bbm-messenger",
+  "name": "social-bbm-messenger"
+ },
+ {
+  "id": "icofont-social-bebo",
+  "name": "social-bebo"
+ },
+ {
+  "id": "icofont-social-behance",
+  "name": "social-behance"
+ },
+ {
+  "id": "icofont-social-blogger",
+  "name": "social-blogger"
+ },
+ {
+  "id": "icofont-social-bootstrap",
+  "name": "social-bootstrap"
+ },
+ {
+  "id": "icofont-social-brightkite",
+  "name": "social-brightkite"
+ },
+ {
+  "id": "icofont-social-cloudapp",
+  "name": "social-cloudapp"
+ },
+ {
+  "id": "icofont-social-concrete5",
+  "name": "social-concrete5"
+ },
+ {
+  "id": "icofont-social-delicious",
+  "name": "social-delicious"
+ },
+ {
+  "id": "icofont-social-designbump",
+  "name": "social-designbump"
+ },
+ {
+  "id": "icofont-social-designfloat",
+  "name": "social-designfloat"
+ },
+ {
+  "id": "icofont-social-deviantart",
+  "name": "social-deviantart"
+ },
+ {
+  "id": "icofont-social-digg",
+  "name": "social-digg"
+ },
+ {
+  "id": "icofont-social-dotcms",
+  "name": "social-dotcms"
+ },
+ {
+  "id": "icofont-social-dribbble",
+  "name": "social-dribbble"
+ },
+ {
+  "id": "icofont-social-dribble",
+  "name": "social-dribble"
+ },
+ {
+  "id": "icofont-social-dropbox",
+  "name": "social-dropbox"
+ },
+ {
+  "id": "icofont-social-ebuddy",
+  "name": "social-ebuddy"
+ },
+ {
+  "id": "icofont-social-ello",
+  "name": "social-ello"
+ },
+ {
+  "id": "icofont-social-ember",
+  "name": "social-ember"
+ },
+ {
+  "id": "icofont-social-evernote",
+  "name": "social-evernote"
+ },
+ {
+  "id": "icofont-social-facebook",
+  "name": "social-facebook"
+ },
+ {
+  "id": "icofont-social-facebook-messenger",
+  "name": "social-facebook-messenger"
+ },
+ {
+  "id": "icofont-social-feedburner",
+  "name": "social-feedburner"
+ },
+ {
+  "id": "icofont-social-flikr",
+  "name": "social-flikr"
+ },
+ {
+  "id": "icofont-social-folkd",
+  "name": "social-folkd"
+ },
+ {
+  "id": "icofont-social-foursquare",
+  "name": "social-foursquare"
+ },
+ {
+  "id": "icofont-social-friendfeed",
+  "name": "social-friendfeed"
+ },
+ {
+  "id": "icofont-social-ghost",
+  "name": "social-ghost"
+ },
+ {
+  "id": "icofont-social-github",
+  "name": "social-github"
+ },
+ {
+  "id": "icofont-social-gnome",
+  "name": "social-gnome"
+ },
+ {
+  "id": "icofont-social-google-buzz",
+  "name": "social-google-buzz"
+ },
+ {
+  "id": "icofont-social-google-hangouts",
+  "name": "social-google-hangouts"
+ },
+ {
+  "id": "icofont-social-google-map",
+  "name": "social-google-map"
+ },
+ {
+  "id": "icofont-social-google-plus",
+  "name": "social-google-plus"
+ },
+ {
+  "id": "icofont-social-google-talk",
+  "name": "social-google-talk"
+ },
+ {
+  "id": "icofont-social-hype-machine",
+  "name": "social-hype-machine"
+ },
+ {
+  "id": "icofont-social-instagram",
+  "name": "social-instagram"
+ },
+ {
+  "id": "icofont-social-kakaotalk",
+  "name": "social-kakaotalk"
+ },
+ {
+  "id": "icofont-social-kickstarter",
+  "name": "social-kickstarter"
+ },
+ {
+  "id": "icofont-social-kik",
+  "name": "social-kik"
+ },
+ {
+  "id": "icofont-social-kiwibox",
+  "name": "social-kiwibox"
+ },
+ {
+  "id": "icofont-social-line",
+  "name": "social-line"
+ },
+ {
+  "id": "icofont-social-linkedin",
+  "name": "social-linkedin"
+ },
+ {
+  "id": "icofont-social-linux-mint",
+  "name": "social-linux-mint"
+ },
+ {
+  "id": "icofont-social-livejournal",
+  "name": "social-livejournal"
+ },
+ {
+  "id": "icofont-social-magento",
+  "name": "social-magento"
+ },
+ {
+  "id": "icofont-social-meetme",
+  "name": "social-meetme"
+ },
+ {
+  "id": "icofont-social-meetup",
+  "name": "social-meetup"
+ },
+ {
+  "id": "icofont-social-mixx",
+  "name": "social-mixx"
+ },
+ {
+  "id": "icofont-social-newsvine",
+  "name": "social-newsvine"
+ },
+ {
+  "id": "icofont-social-nimbuss",
+  "name": "social-nimbuss"
+ },
+ {
+  "id": "icofont-social-odnoklassniki",
+  "name": "social-odnoklassniki"
+ },
+ {
+  "id": "icofont-social-opencart",
+  "name": "social-opencart"
+ },
+ {
+  "id": "icofont-social-oscommerce",
+  "name": "social-oscommerce"
+ },
+ {
+  "id": "icofont-social-pandora",
+  "name": "social-pandora"
+ },
+ {
+  "id": "icofont-social-photobucket",
+  "name": "social-photobucket"
+ },
+ {
+  "id": "icofont-social-picasa",
+  "name": "social-picasa"
+ },
+ {
+  "id": "icofont-social-pinterest",
+  "name": "social-pinterest"
+ },
+ {
+  "id": "icofont-social-prestashop",
+  "name": "social-prestashop"
+ },
+ {
+  "id": "icofont-social-qik",
+  "name": "social-qik"
+ },
+ {
+  "id": "icofont-social-qq",
+  "name": "social-qq"
+ },
+ {
+  "id": "icofont-social-readernaut",
+  "name": "social-readernaut"
+ },
+ {
+  "id": "icofont-social-reddit",
+  "name": "social-reddit"
+ },
+ {
+  "id": "icofont-social-renren",
+  "name": "social-renren"
+ },
+ {
+  "id": "icofont-social-rss",
+  "name": "social-rss"
+ },
+ {
+  "id": "icofont-social-shopify",
+  "name": "social-shopify"
+ },
+ {
+  "id": "icofont-social-silverstripe",
+  "name": "social-silverstripe"
+ },
+ {
+  "id": "icofont-social-skype",
+  "name": "social-skype"
+ },
+ {
+  "id": "icofont-social-slack",
+  "name": "social-slack"
+ },
+ {
+  "id": "icofont-social-slashdot",
+  "name": "social-slashdot"
+ },
+ {
+  "id": "icofont-social-slidshare",
+  "name": "social-slidshare"
+ },
+ {
+  "id": "icofont-social-smugmug",
+  "name": "social-smugmug"
+ },
+ {
+  "id": "icofont-social-snapchat",
+  "name": "social-snapchat"
+ },
+ {
+  "id": "icofont-social-soundcloud",
+  "name": "social-soundcloud"
+ },
+ {
+  "id": "icofont-social-spotify",
+  "name": "social-spotify"
+ },
+ {
+  "id": "icofont-social-stack-exchange",
+  "name": "social-stack-exchange"
+ },
+ {
+  "id": "icofont-social-stack-overflow",
+  "name": "social-stack-overflow"
+ },
+ {
+  "id": "icofont-social-steam",
+  "name": "social-steam"
+ },
+ {
+  "id": "icofont-social-stumbleupon",
+  "name": "social-stumbleupon"
+ },
+ {
+  "id": "icofont-social-tagged",
+  "name": "social-tagged"
+ },
+ {
+  "id": "icofont-social-technorati",
+  "name": "social-technorati"
+ },
+ {
+  "id": "icofont-social-telegram",
+  "name": "social-telegram"
+ },
+ {
+  "id": "icofont-social-tinder",
+  "name": "social-tinder"
+ },
+ {
+  "id": "icofont-social-trello",
+  "name": "social-trello"
+ },
+ {
+  "id": "icofont-social-tumblr",
+  "name": "social-tumblr"
+ },
+ {
+  "id": "icofont-social-twitch",
+  "name": "social-twitch"
+ },
+ {
+  "id": "icofont-social-twitter",
+  "name": "social-twitter"
+ },
+ {
+  "id": "icofont-social-typo3",
+  "name": "social-typo3"
+ },
+ {
+  "id": "icofont-social-ubercart",
+  "name": "social-ubercart"
+ },
+ {
+  "id": "icofont-social-viber",
+  "name": "social-viber"
+ },
+ {
+  "id": "icofont-social-viddler",
+  "name": "social-viddler"
+ },
+ {
+  "id": "icofont-social-vimeo",
+  "name": "social-vimeo"
+ },
+ {
+  "id": "icofont-social-vine",
+  "name": "social-vine"
+ },
+ {
+  "id": "icofont-social-virb",
+  "name": "social-virb"
+ },
+ {
+  "id": "icofont-social-virtuemart",
+  "name": "social-virtuemart"
+ },
+ {
+  "id": "icofont-social-vk",
+  "name": "social-vk"
+ },
+ {
+  "id": "icofont-social-wechat",
+  "name": "social-wechat"
+ },
+ {
+  "id": "icofont-social-weibo",
+  "name": "social-weibo"
+ },
+ {
+  "id": "icofont-social-whatsapp",
+  "name": "social-whatsapp"
+ },
+ {
+  "id": "icofont-social-xing",
+  "name": "social-xing"
+ },
+ {
+  "id": "icofont-social-yahoo",
+  "name": "social-yahoo"
+ },
+ {
+  "id": "icofont-social-yelp",
+  "name": "social-yelp"
+ },
+ {
+  "id": "icofont-social-youku",
+  "name": "social-youku"
+ },
+ {
+  "id": "icofont-social-youtube",
+  "name": "social-youtube"
+ },
+ {
+  "id": "icofont-social-youtube-play",
+  "name": "social-youtube-play"
+ },
+ {
+  "id": "icofont-social-zencart",
+  "name": "social-zencart"
+ },
+ {
+  "id": "icofont-badminton-birdie",
+  "name": "badminton-birdie"
+ },
+ {
+  "id": "icofont-baseball",
+  "name": "baseball"
+ },
+ {
+  "id": "icofont-baseballer",
+  "name": "baseballer"
+ },
+ {
+  "id": "icofont-basketball",
+  "name": "basketball"
+ },
+ {
+  "id": "icofont-basketball-hoop",
+  "name": "basketball-hoop"
+ },
+ {
+  "id": "icofont-billiard-ball",
+  "name": "billiard-ball"
+ },
+ {
+  "id": "icofont-boot-alt-1",
+  "name": "boot-alt-1"
+ },
+ {
+  "id": "icofont-boot-alt-2",
+  "name": "boot-alt-2"
+ },
+ {
+  "id": "icofont-bowling",
+  "name": "bowling"
+ },
+ {
+  "id": "icofont-bowling-alt",
+  "name": "bowling-alt"
+ },
+ {
+  "id": "icofont-canoe",
+  "name": "canoe"
+ },
+ {
+  "id": "icofont-cheer-leader",
+  "name": "cheer-leader"
+ },
+ {
+  "id": "icofont-climbing",
+  "name": "climbing"
+ },
+ {
+  "id": "icofont-corner",
+  "name": "corner"
+ },
+ {
+  "id": "icofont-cyclist",
+  "name": "cyclist"
+ },
+ {
+  "id": "icofont-dumbbell",
+  "name": "dumbbell"
+ },
+ {
+  "id": "icofont-dumbbell-alt",
+  "name": "dumbbell-alt"
+ },
+ {
+  "id": "icofont-field",
+  "name": "field"
+ },
+ {
+  "id": "icofont-field-alt",
+  "name": "field-alt"
+ },
+ {
+  "id": "icofont-football-alt",
+  "name": "football-alt"
+ },
+ {
+  "id": "icofont-foul",
+  "name": "foul"
+ },
+ {
+  "id": "icofont-goal",
+  "name": "goal"
+ },
+ {
+  "id": "icofont-goal-keeper",
+  "name": "goal-keeper"
+ },
+ {
+  "id": "icofont-golf",
+  "name": "golf"
+ },
+ {
+  "id": "icofont-golf-alt",
+  "name": "golf-alt"
+ },
+ {
+  "id": "icofont-golf-bag",
+  "name": "golf-bag"
+ },
+ {
+  "id": "icofont-golf-field",
+  "name": "golf-field"
+ },
+ {
+  "id": "icofont-golfer",
+  "name": "golfer"
+ },
+ {
+  "id": "icofont-gym",
+  "name": "gym"
+ },
+ {
+  "id": "icofont-gym-alt-1",
+  "name": "gym-alt-1"
+ },
+ {
+  "id": "icofont-gym-alt-2",
+  "name": "gym-alt-2"
+ },
+ {
+  "id": "icofont-gym-alt-3",
+  "name": "gym-alt-3"
+ },
+ {
+  "id": "icofont-hand-grippers",
+  "name": "hand-grippers"
+ },
+ {
+  "id": "icofont-heart-beat-alt",
+  "name": "heart-beat-alt"
+ },
+ {
+  "id": "icofont-helmet",
+  "name": "helmet"
+ },
+ {
+  "id": "icofont-hockey",
+  "name": "hockey"
+ },
+ {
+  "id": "icofont-hockey-alt",
+  "name": "hockey-alt"
+ },
+ {
+  "id": "icofont-ice-skate",
+  "name": "ice-skate"
+ },
+ {
+  "id": "icofont-jersey",
+  "name": "jersey"
+ },
+ {
+  "id": "icofont-jersey-alt",
+  "name": "jersey-alt"
+ },
+ {
+  "id": "icofont-jumping",
+  "name": "jumping"
+ },
+ {
+  "id": "icofont-kick",
+  "name": "kick"
+ },
+ {
+  "id": "icofont-leg",
+  "name": "leg"
+ },
+ {
+  "id": "icofont-match-review",
+  "name": "match-review"
+ },
+ {
+  "id": "icofont-medal-alt",
+  "name": "medal-alt"
+ },
+ {
+  "id": "icofont-muscle",
+  "name": "muscle"
+ },
+ {
+  "id": "icofont-muscle-alt",
+  "name": "muscle-alt"
+ },
+ {
+  "id": "icofont-offside",
+  "name": "offside"
+ },
+ {
+  "id": "icofont-olympic",
+  "name": "olympic"
+ },
+ {
+  "id": "icofont-olympic-logo",
+  "name": "olympic-logo"
+ },
+ {
+  "id": "icofont-padding",
+  "name": "padding"
+ },
+ {
+  "id": "icofont-penalty-card",
+  "name": "penalty-card"
+ },
+ {
+  "id": "icofont-racer",
+  "name": "racer"
+ },
+ {
+  "id": "icofont-racing-car",
+  "name": "racing-car"
+ },
+ {
+  "id": "icofont-racing-flag",
+  "name": "racing-flag"
+ },
+ {
+  "id": "icofont-racing-flag-alt",
+  "name": "racing-flag-alt"
+ },
+ {
+  "id": "icofont-racings-wheel",
+  "name": "racings-wheel"
+ },
+ {
+  "id": "icofont-referee",
+  "name": "referee"
+ },
+ {
+  "id": "icofont-refree-jersey",
+  "name": "refree-jersey"
+ },
+ {
+  "id": "icofont-result",
+  "name": "result"
+ },
+ {
+  "id": "icofont-rugby",
+  "name": "rugby"
+ },
+ {
+  "id": "icofont-rugby-ball",
+  "name": "rugby-ball"
+ },
+ {
+  "id": "icofont-rugby-player",
+  "name": "rugby-player"
+ },
+ {
+  "id": "icofont-runner",
+  "name": "runner"
+ },
+ {
+  "id": "icofont-runner-alt-1",
+  "name": "runner-alt-1"
+ },
+ {
+  "id": "icofont-runner-alt-2",
+  "name": "runner-alt-2"
+ },
+ {
+  "id": "icofont-score-board",
+  "name": "score-board"
+ },
+ {
+  "id": "icofont-skiing-man",
+  "name": "skiing-man"
+ },
+ {
+  "id": "icofont-skydiving-goggles",
+  "name": "skydiving-goggles"
+ },
+ {
+  "id": "icofont-snow-mobile",
+  "name": "snow-mobile"
+ },
+ {
+  "id": "icofont-steering",
+  "name": "steering"
+ },
+ {
+  "id": "icofont-substitute",
+  "name": "substitute"
+ },
+ {
+  "id": "icofont-swimmer",
+  "name": "swimmer"
+ },
+ {
+  "id": "icofont-table-tennis",
+  "name": "table-tennis"
+ },
+ {
+  "id": "icofont-team",
+  "name": "team"
+ },
+ {
+  "id": "icofont-team-alt",
+  "name": "team-alt"
+ },
+ {
+  "id": "icofont-tennis",
+  "name": "tennis"
+ },
+ {
+  "id": "icofont-tennis-player",
+  "name": "tennis-player"
+ },
+ {
+  "id": "icofont-time",
+  "name": "time"
+ },
+ {
+  "id": "icofont-track",
+  "name": "track"
+ },
+ {
+  "id": "icofont-tracking",
+  "name": "tracking"
+ },
+ {
+  "id": "icofont-trophy",
+  "name": "trophy"
+ },
+ {
+  "id": "icofont-trophy-alt",
+  "name": "trophy-alt"
+ },
+ {
+  "id": "icofont-volleyball",
+  "name": "volleyball"
+ },
+ {
+  "id": "icofont-volleyball-alt",
+  "name": "volleyball-alt"
+ },
+ {
+  "id": "icofont-volleyball-fire",
+  "name": "volleyball-fire"
+ },
+ {
+  "id": "icofont-water-bottle",
+  "name": "water-bottle"
+ },
+ {
+  "id": "icofont-whisle",
+  "name": "whisle"
+ },
+ {
+  "id": "icofont-win-trophy",
+  "name": "win-trophy"
+ },
+ {
+  "id": "icofont-align-center",
+  "name": "align-center"
+ },
+ {
+  "id": "icofont-align-left",
+  "name": "align-left"
+ },
+ {
+  "id": "icofont-align-right",
+  "name": "align-right"
+ },
+ {
+  "id": "icofont-all-caps",
+  "name": "all-caps"
+ },
+ {
+  "id": "icofont-bold",
+  "name": "bold"
+ },
+ {
+  "id": "icofont-brush",
+  "name": "brush"
+ },
+ {
+  "id": "icofont-clip-board",
+  "name": "clip-board"
+ },
+ {
+  "id": "icofont-code-alt",
+  "name": "code-alt"
+ },
+ {
+  "id": "icofont-color-bucket",
+  "name": "color-bucket"
+ },
+ {
+  "id": "icofont-color-picker",
+  "name": "color-picker"
+ },
+ {
+  "id": "icofont-copy-alt",
+  "name": "copy-alt"
+ },
+ {
+  "id": "icofont-copy-black",
+  "name": "copy-black"
+ },
+ {
+  "id": "icofont-cut",
+  "name": "cut"
+ },
+ {
+  "id": "icofont-delete-alt",
+  "name": "delete-alt"
+ },
+ {
+  "id": "icofont-edit-alt",
+  "name": "edit-alt"
+ },
+ {
+  "id": "icofont-eraser-alt",
+  "name": "eraser-alt"
+ },
+ {
+  "id": "icofont-file-alt",
+  "name": "file-alt"
+ },
+ {
+  "id": "icofont-font",
+  "name": "font"
+ },
+ {
+  "id": "icofont-header",
+  "name": "header"
+ },
+ {
+  "id": "icofont-indent",
+  "name": "indent"
+ },
+ {
+  "id": "icofont-italic-alt",
+  "name": "italic-alt"
+ },
+ {
+  "id": "icofont-justify-all",
+  "name": "justify-all"
+ },
+ {
+  "id": "icofont-justify-center",
+  "name": "justify-center"
+ },
+ {
+  "id": "icofont-justify-left",
+  "name": "justify-left"
+ },
+ {
+  "id": "icofont-justify-right",
+  "name": "justify-right"
+ },
+ {
+  "id": "icofont-line-height",
+  "name": "line-height"
+ },
+ {
+  "id": "icofont-link-alt",
+  "name": "link-alt"
+ },
+ {
+  "id": "icofont-listine-dots",
+  "name": "listine-dots"
+ },
+ {
+  "id": "icofont-listing-box",
+  "name": "listing-box"
+ },
+ {
+  "id": "icofont-listing-number",
+  "name": "listing-number"
+ },
+ {
+  "id": "icofont-marker",
+  "name": "marker"
+ },
+ {
+  "id": "icofont-outdent",
+  "name": "outdent"
+ },
+ {
+  "id": "icofont-paper-clip",
+  "name": "paper-clip"
+ },
+ {
+  "id": "icofont-paragraph",
+  "name": "paragraph"
+ },
+ {
+  "id": "icofont-pin",
+  "name": "pin"
+ },
+ {
+  "id": "icofont-printer",
+  "name": "printer"
+ },
+ {
+  "id": "icofont-redo",
+  "name": "redo"
+ },
+ {
+  "id": "icofont-rotation",
+  "name": "rotation"
+ },
+ {
+  "id": "icofont-save",
+  "name": "save"
+ },
+ {
+  "id": "icofont-small-cap",
+  "name": "small-cap"
+ },
+ {
+  "id": "icofont-strike-through",
+  "name": "strike-through"
+ },
+ {
+  "id": "icofont-sub-listing",
+  "name": "sub-listing"
+ },
+ {
+  "id": "icofont-subscript",
+  "name": "subscript"
+ },
+ {
+  "id": "icofont-superscript",
+  "name": "superscript"
+ },
+ {
+  "id": "icofont-table",
+  "name": "table"
+ },
+ {
+  "id": "icofont-text-height",
+  "name": "text-height"
+ },
+ {
+  "id": "icofont-text-width",
+  "name": "text-width"
+ },
+ {
+  "id": "icofont-trash",
+  "name": "trash"
+ },
+ {
+  "id": "icofont-underline",
+  "name": "underline"
+ },
+ {
+  "id": "icofont-undo",
+  "name": "undo"
+ },
+ {
+  "id": "icofont-unlink",
+  "name": "unlink"
+ },
+ {
+  "id": "icofont-air-balloon",
+  "name": "air-balloon"
+ },
+ {
+  "id": "icofont-airplane",
+  "name": "airplane"
+ },
+ {
+  "id": "icofont-airplane-alt",
+  "name": "airplane-alt"
+ },
+ {
+  "id": "icofont-ambulance-crescent",
+  "name": "ambulance-crescent"
+ },
+ {
+  "id": "icofont-ambulance-cross",
+  "name": "ambulance-cross"
+ },
+ {
+  "id": "icofont-articulated-truck",
+  "name": "articulated-truck"
+ },
+ {
+  "id": "icofont-auto-rickshaw",
+  "name": "auto-rickshaw"
+ },
+ {
+  "id": "icofont-bicycle-alt-1",
+  "name": "bicycle-alt-1"
+ },
+ {
+  "id": "icofont-bicycle-alt-2",
+  "name": "bicycle-alt-2"
+ },
+ {
+  "id": "icofont-bull-dozer",
+  "name": "bull-dozer"
+ },
+ {
+  "id": "icofont-bus-alt-1",
+  "name": "bus-alt-1"
+ },
+ {
+  "id": "icofont-bus-alt-2",
+  "name": "bus-alt-2"
+ },
+ {
+  "id": "icofont-bus-alt-3",
+  "name": "bus-alt-3"
+ },
+ {
+  "id": "icofont-cable-car",
+  "name": "cable-car"
+ },
+ {
+  "id": "icofont-car-alt-1",
+  "name": "car-alt-1"
+ },
+ {
+  "id": "icofont-car-alt-2",
+  "name": "car-alt-2"
+ },
+ {
+  "id": "icofont-car-alt-3",
+  "name": "car-alt-3"
+ },
+ {
+  "id": "icofont-car-alt-4",
+  "name": "car-alt-4"
+ },
+ {
+  "id": "icofont-concrete-mixer",
+  "name": "concrete-mixer"
+ },
+ {
+  "id": "icofont-delivery-time",
+  "name": "delivery-time"
+ },
+ {
+  "id": "icofont-excavator",
+  "name": "excavator"
+ },
+ {
+  "id": "icofont-fast-delivery",
+  "name": "fast-delivery"
+ },
+ {
+  "id": "icofont-fire-truck",
+  "name": "fire-truck"
+ },
+ {
+  "id": "icofont-fire-truck-alt",
+  "name": "fire-truck-alt"
+ },
+ {
+  "id": "icofont-fork-lift",
+  "name": "fork-lift"
+ },
+ {
+  "id": "icofont-free-delivery",
+  "name": "free-delivery"
+ },
+ {
+  "id": "icofont-golf-cart",
+  "name": "golf-cart"
+ },
+ {
+  "id": "icofont-helicopter",
+  "name": "helicopter"
+ },
+ {
+  "id": "icofont-motor-bike",
+  "name": "motor-bike"
+ },
+ {
+  "id": "icofont-motor-bike-alt",
+  "name": "motor-bike-alt"
+ },
+ {
+  "id": "icofont-motor-biker",
+  "name": "motor-biker"
+ },
+ {
+  "id": "icofont-oil-truck",
+  "name": "oil-truck"
+ },
+ {
+  "id": "icofont-police-car",
+  "name": "police-car"
+ },
+ {
+  "id": "icofont-rickshaw",
+  "name": "rickshaw"
+ },
+ {
+  "id": "icofont-rocket-alt-1",
+  "name": "rocket-alt-1"
+ },
+ {
+  "id": "icofont-rocket-alt-2",
+  "name": "rocket-alt-2"
+ },
+ {
+  "id": "icofont-sail-boat",
+  "name": "sail-boat"
+ },
+ {
+  "id": "icofont-scooter",
+  "name": "scooter"
+ },
+ {
+  "id": "icofont-sea-plane",
+  "name": "sea-plane"
+ },
+ {
+  "id": "icofont-ship-alt",
+  "name": "ship-alt"
+ },
+ {
+  "id": "icofont-speed-boat",
+  "name": "speed-boat"
+ },
+ {
+  "id": "icofont-taxi",
+  "name": "taxi"
+ },
+ {
+  "id": "icofont-tow-truck",
+  "name": "tow-truck"
+ },
+ {
+  "id": "icofont-tractor",
+  "name": "tractor"
+ },
+ {
+  "id": "icofont-traffic-light",
+  "name": "traffic-light"
+ },
+ {
+  "id": "icofont-train-line",
+  "name": "train-line"
+ },
+ {
+  "id": "icofont-train-steam",
+  "name": "train-steam"
+ },
+ {
+  "id": "icofont-tram",
+  "name": "tram"
+ },
+ {
+  "id": "icofont-truck",
+  "name": "truck"
+ },
+ {
+  "id": "icofont-truck-alt",
+  "name": "truck-alt"
+ },
+ {
+  "id": "icofont-truck-loaded",
+  "name": "truck-loaded"
+ },
+ {
+  "id": "icofont-van",
+  "name": "van"
+ },
+ {
+  "id": "icofont-van-alt",
+  "name": "van-alt"
+ },
+ {
+  "id": "icofont-yacht",
+  "name": "yacht"
+ },
+ {
+  "id": "icofont-5-star-hotel",
+  "name": "5-star-hotel"
+ },
+ {
+  "id": "icofont-anchor-alt",
+  "name": "anchor-alt"
+ },
+ {
+  "id": "icofont-beach-bed",
+  "name": "beach-bed"
+ },
+ {
+  "id": "icofont-camping-vest",
+  "name": "camping-vest"
+ },
+ {
+  "id": "icofont-coconut-alt",
+  "name": "coconut-alt"
+ },
+ {
+  "id": "icofont-direction-sign",
+  "name": "direction-sign"
+ },
+ {
+  "id": "icofont-hill-side",
+  "name": "hill-side"
+ },
+ {
+  "id": "icofont-island-alt",
+  "name": "island-alt"
+ },
+ {
+  "id": "icofont-long-drive",
+  "name": "long-drive"
+ },
+ {
+  "id": "icofont-map-pins",
+  "name": "map-pins"
+ },
+ {
+  "id": "icofont-plane-ticket",
+  "name": "plane-ticket"
+ },
+ {
+  "id": "icofont-sail-boat-alt-1",
+  "name": "sail-boat-alt-1"
+ },
+ {
+  "id": "icofont-sail-boat-alt-2",
+  "name": "sail-boat-alt-2"
+ },
+ {
+  "id": "icofont-sandals-female",
+  "name": "sandals-female"
+ },
+ {
+  "id": "icofont-sandals-male",
+  "name": "sandals-male"
+ },
+ {
+  "id": "icofont-travelling",
+  "name": "travelling"
+ },
+ {
+  "id": "icofont-breakdown",
+  "name": "breakdown"
+ },
+ {
+  "id": "icofont-celsius",
+  "name": "celsius"
+ },
+ {
+  "id": "icofont-clouds",
+  "name": "clouds"
+ },
+ {
+  "id": "icofont-cloudy",
+  "name": "cloudy"
+ },
+ {
+  "id": "icofont-compass-alt",
+  "name": "compass-alt"
+ },
+ {
+  "id": "icofont-dust",
+  "name": "dust"
+ },
+ {
+  "id": "icofont-eclipse",
+  "name": "eclipse"
+ },
+ {
+  "id": "icofont-fahrenheit",
+  "name": "fahrenheit"
+ },
+ {
+  "id": "icofont-forest-fire",
+  "name": "forest-fire"
+ },
+ {
+  "id": "icofont-full-night",
+  "name": "full-night"
+ },
+ {
+  "id": "icofont-full-sunny",
+  "name": "full-sunny"
+ },
+ {
+  "id": "icofont-hail",
+  "name": "hail"
+ },
+ {
+  "id": "icofont-hail-night",
+  "name": "hail-night"
+ },
+ {
+  "id": "icofont-hail-rainy",
+  "name": "hail-rainy"
+ },
+ {
+  "id": "icofont-hail-rainy-night",
+  "name": "hail-rainy-night"
+ },
+ {
+  "id": "icofont-hail-rainy-sunny",
+  "name": "hail-rainy-sunny"
+ },
+ {
+  "id": "icofont-hail-sunny",
+  "name": "hail-sunny"
+ },
+ {
+  "id": "icofont-hail-thunder",
+  "name": "hail-thunder"
+ },
+ {
+  "id": "icofont-hail-thunder-night",
+  "name": "hail-thunder-night"
+ },
+ {
+  "id": "icofont-hail-thunder-sunny",
+  "name": "hail-thunder-sunny"
+ },
+ {
+  "id": "icofont-hill",
+  "name": "hill"
+ },
+ {
+  "id": "icofont-hill-night",
+  "name": "hill-night"
+ },
+ {
+  "id": "icofont-hill-sunny",
+  "name": "hill-sunny"
+ },
+ {
+  "id": "icofont-hurricane",
+  "name": "hurricane"
+ },
+ {
+  "id": "icofont-island",
+  "name": "island"
+ },
+ {
+  "id": "icofont-meteor",
+  "name": "meteor"
+ },
+ {
+  "id": "icofont-night",
+  "name": "night"
+ },
+ {
+  "id": "icofont-rainy",
+  "name": "rainy"
+ },
+ {
+  "id": "icofont-rainy-night",
+  "name": "rainy-night"
+ },
+ {
+  "id": "icofont-rainy-sunny",
+  "name": "rainy-sunny"
+ },
+ {
+  "id": "icofont-rainy-thunder",
+  "name": "rainy-thunder"
+ },
+ {
+  "id": "icofont-showy-night-hail",
+  "name": "showy-night-hail"
+ },
+ {
+  "id": "icofont-snow",
+  "name": "snow"
+ },
+ {
+  "id": "icofont-snow-temp",
+  "name": "snow-temp"
+ },
+ {
+  "id": "icofont-snowy",
+  "name": "snowy"
+ },
+ {
+  "id": "icofont-snowy-hail",
+  "name": "snowy-hail"
+ },
+ {
+  "id": "icofont-snowy-night",
+  "name": "snowy-night"
+ },
+ {
+  "id": "icofont-snowy-night-rainy",
+  "name": "snowy-night-rainy"
+ },
+ {
+  "id": "icofont-snowy-rainy",
+  "name": "snowy-rainy"
+ },
+ {
+  "id": "icofont-snowy-sunny",
+  "name": "snowy-sunny"
+ },
+ {
+  "id": "icofont-snowy-sunny-hail",
+  "name": "snowy-sunny-hail"
+ },
+ {
+  "id": "icofont-snowy-sunny-rainy",
+  "name": "snowy-sunny-rainy"
+ },
+ {
+  "id": "icofont-snowy-thunder",
+  "name": "snowy-thunder"
+ },
+ {
+  "id": "icofont-snowy-thunder-night",
+  "name": "snowy-thunder-night"
+ },
+ {
+  "id": "icofont-snowy-thunder-sunny",
+  "name": "snowy-thunder-sunny"
+ },
+ {
+  "id": "icofont-snowy-windy",
+  "name": "snowy-windy"
+ },
+ {
+  "id": "icofont-snowy-windy-night",
+  "name": "snowy-windy-night"
+ },
+ {
+  "id": "icofont-snowy-windy-sunny",
+  "name": "snowy-windy-sunny"
+ },
+ {
+  "id": "icofont-sun-alt",
+  "name": "sun-alt"
+ },
+ {
+  "id": "icofont-sun-rise",
+  "name": "sun-rise"
+ },
+ {
+  "id": "icofont-sun-set",
+  "name": "sun-set"
+ },
+ {
+  "id": "icofont-sunny",
+  "name": "sunny"
+ },
+ {
+  "id": "icofont-sunny-day-temp",
+  "name": "sunny-day-temp"
+ },
+ {
+  "id": "icofont-thermometer",
+  "name": "thermometer"
+ },
+ {
+  "id": "icofont-thinder-light",
+  "name": "thinder-light"
+ },
+ {
+  "id": "icofont-tornado",
+  "name": "tornado"
+ },
+ {
+  "id": "icofont-umbrella-alt",
+  "name": "umbrella-alt"
+ },
+ {
+  "id": "icofont-volcano",
+  "name": "volcano"
+ },
+ {
+  "id": "icofont-wave",
+  "name": "wave"
+ },
+ {
+  "id": "icofont-wind",
+  "name": "wind"
+ },
+ {
+  "id": "icofont-wind-scale-0",
+  "name": "wind-scale-0"
+ },
+ {
+  "id": "icofont-wind-scale-1",
+  "name": "wind-scale-1"
+ },
+ {
+  "id": "icofont-wind-scale-10",
+  "name": "wind-scale-10"
+ },
+ {
+  "id": "icofont-wind-scale-11",
+  "name": "wind-scale-11"
+ },
+ {
+  "id": "icofont-wind-scale-12",
+  "name": "wind-scale-12"
+ },
+ {
+  "id": "icofont-wind-scale-2",
+  "name": "wind-scale-2"
+ },
+ {
+  "id": "icofont-wind-scale-3",
+  "name": "wind-scale-3"
+ },
+ {
+  "id": "icofont-wind-scale-4",
+  "name": "wind-scale-4"
+ },
+ {
+  "id": "icofont-wind-scale-5",
+  "name": "wind-scale-5"
+ },
+ {
+  "id": "icofont-wind-scale-6",
+  "name": "wind-scale-6"
+ },
+ {
+  "id": "icofont-wind-scale-7",
+  "name": "wind-scale-7"
+ },
+ {
+  "id": "icofont-wind-scale-8",
+  "name": "wind-scale-8"
+ },
+ {
+  "id": "icofont-wind-scale-9",
+  "name": "wind-scale-9"
+ },
+ {
+  "id": "icofont-wind-waves",
+  "name": "wind-waves"
+ },
+ {
+  "id": "icofont-windy",
+  "name": "windy"
+ },
+ {
+  "id": "icofont-windy-hail",
+  "name": "windy-hail"
+ },
+ {
+  "id": "icofont-windy-night",
+  "name": "windy-night"
+ },
+ {
+  "id": "icofont-windy-raining",
+  "name": "windy-raining"
+ },
+ {
+  "id": "icofont-windy-sunny",
+  "name": "windy-sunny"
+ },
+ {
+  "id": "icofont-windy-thunder",
+  "name": "windy-thunder"
+ },
+ {
+  "id": "icofont-windy-thunder-raining",
+  "name": "windy-thunder-raining"
+ },
+ {
+  "id": "icofont-addons",
+  "name": "addons"
+ },
+ {
+  "id": "icofont-address-book",
+  "name": "address-book"
+ },
+ {
+  "id": "icofont-adjust",
+  "name": "adjust"
+ },
+ {
+  "id": "icofont-alarm",
+  "name": "alarm"
+ },
+ {
+  "id": "icofont-anchor",
+  "name": "anchor"
+ },
+ {
+  "id": "icofont-archive",
+  "name": "archive"
+ },
+ {
+  "id": "icofont-at",
+  "name": "at"
+ },
+ {
+  "id": "icofont-attachment",
+  "name": "attachment"
+ },
+ {
+  "id": "icofont-audio",
+  "name": "audio"
+ },
+ {
+  "id": "icofont-auto-mobile",
+  "name": "auto-mobile"
+ },
+ {
+  "id": "icofont-automation",
+  "name": "automation"
+ },
+ {
+  "id": "icofont-baby",
+  "name": "baby"
+ },
+ {
+  "id": "icofont-badge",
+  "name": "badge"
+ },
+ {
+  "id": "icofont-bag",
+  "name": "bag"
+ },
+ {
+  "id": "icofont-ban",
+  "name": "ban"
+ },
+ {
+  "id": "icofont-bank",
+  "name": "bank"
+ },
+ {
+  "id": "icofont-bar-code",
+  "name": "bar-code"
+ },
+ {
+  "id": "icofont-bars",
+  "name": "bars"
+ },
+ {
+  "id": "icofont-battery-empty",
+  "name": "battery-empty"
+ },
+ {
+  "id": "icofont-battery-full",
+  "name": "battery-full"
+ },
+ {
+  "id": "icofont-battery-half",
+  "name": "battery-half"
+ },
+ {
+  "id": "icofont-battery-low",
+  "name": "battery-low"
+ },
+ {
+  "id": "icofont-beach",
+  "name": "beach"
+ },
+ {
+  "id": "icofont-beaker",
+  "name": "beaker"
+ },
+ {
+  "id": "icofont-bear",
+  "name": "bear"
+ },
+ {
+  "id": "icofont-beard",
+  "name": "beard"
+ },
+ {
+  "id": "icofont-bed",
+  "name": "bed"
+ },
+ {
+  "id": "icofont-bell",
+  "name": "bell"
+ },
+ {
+  "id": "icofont-beverage",
+  "name": "beverage"
+ },
+ {
+  "id": "icofont-bicycle",
+  "name": "bicycle"
+ },
+ {
+  "id": "icofont-bill",
+  "name": "bill"
+ },
+ {
+  "id": "icofont-bin",
+  "name": "bin"
+ },
+ {
+  "id": "icofont-binary",
+  "name": "binary"
+ },
+ {
+  "id": "icofont-binoculars",
+  "name": "binoculars"
+ },
+ {
+  "id": "icofont-bird",
+  "name": "bird"
+ },
+ {
+  "id": "icofont-birds",
+  "name": "birds"
+ },
+ {
+  "id": "icofont-black-board",
+  "name": "black-board"
+ },
+ {
+  "id": "icofont-bluetooth",
+  "name": "bluetooth"
+ },
+ {
+  "id": "icofont-bolt",
+  "name": "bolt"
+ },
+ {
+  "id": "icofont-bomb",
+  "name": "bomb"
+ },
+ {
+  "id": "icofont-book",
+  "name": "book"
+ },
+ {
+  "id": "icofont-book-mark",
+  "name": "book-mark"
+ },
+ {
+  "id": "icofont-boot",
+  "name": "boot"
+ },
+ {
+  "id": "icofont-box",
+  "name": "box"
+ },
+ {
+  "id": "icofont-brain",
+  "name": "brain"
+ },
+ {
+  "id": "icofont-briefcase",
+  "name": "briefcase"
+ },
+ {
+  "id": "icofont-broken",
+  "name": "broken"
+ },
+ {
+  "id": "icofont-bucket",
+  "name": "bucket"
+ },
+ {
+  "id": "icofont-bucket1",
+  "name": "bucket1"
+ },
+ {
+  "id": "icofont-bucket2",
+  "name": "bucket2"
+ },
+ {
+  "id": "icofont-bug",
+  "name": "bug"
+ },
+ {
+  "id": "icofont-building",
+  "name": "building"
+ },
+ {
+  "id": "icofont-bullet",
+  "name": "bullet"
+ },
+ {
+  "id": "icofont-bullhorn",
+  "name": "bullhorn"
+ },
+ {
+  "id": "icofont-bullseye",
+  "name": "bullseye"
+ },
+ {
+  "id": "icofont-bus",
+  "name": "bus"
+ },
+ {
+  "id": "icofont-butterfly",
+  "name": "butterfly"
+ },
+ {
+  "id": "icofont-cab",
+  "name": "cab"
+ },
+ {
+  "id": "icofont-calculator",
+  "name": "calculator"
+ },
+ {
+  "id": "icofont-calendar",
+  "name": "calendar"
+ },
+ {
+  "id": "icofont-camera",
+  "name": "camera"
+ },
+ {
+  "id": "icofont-camera-alt",
+  "name": "camera-alt"
+ },
+ {
+  "id": "icofont-car",
+  "name": "car"
+ },
+ {
+  "id": "icofont-card",
+  "name": "card"
+ },
+ {
+  "id": "icofont-cart",
+  "name": "cart"
+ },
+ {
+  "id": "icofont-cc",
+  "name": "cc"
+ },
+ {
+  "id": "icofont-certificate",
+  "name": "certificate"
+ },
+ {
+  "id": "icofont-charging",
+  "name": "charging"
+ },
+ {
+  "id": "icofont-chat",
+  "name": "chat"
+ },
+ {
+  "id": "icofont-check",
+  "name": "check"
+ },
+ {
+  "id": "icofont-check-alt",
+  "name": "check-alt"
+ },
+ {
+  "id": "icofont-check-circled",
+  "name": "check-circled"
+ },
+ {
+  "id": "icofont-checked",
+  "name": "checked"
+ },
+ {
+  "id": "icofont-children-care",
+  "name": "children-care"
+ },
+ {
+  "id": "icofont-clock-time",
+  "name": "clock-time"
+ },
+ {
+  "id": "icofont-close",
+  "name": "close"
+ },
+ {
+  "id": "icofont-close-circled",
+  "name": "close-circled"
+ },
+ {
+  "id": "icofont-close-line",
+  "name": "close-line"
+ },
+ {
+  "id": "icofont-close-line-circled",
+  "name": "close-line-circled"
+ },
+ {
+  "id": "icofont-close-line-squared",
+  "name": "close-line-squared"
+ },
+ {
+  "id": "icofont-close-line-squared-alt",
+  "name": "close-line-squared-alt"
+ },
+ {
+  "id": "icofont-close-squared",
+  "name": "close-squared"
+ },
+ {
+  "id": "icofont-close-squared-alt",
+  "name": "close-squared-alt"
+ },
+ {
+  "id": "icofont-cloud",
+  "name": "cloud"
+ },
+ {
+  "id": "icofont-cloud-download",
+  "name": "cloud-download"
+ },
+ {
+  "id": "icofont-cloud-refresh",
+  "name": "cloud-refresh"
+ },
+ {
+  "id": "icofont-cloud-upload",
+  "name": "cloud-upload"
+ },
+ {
+  "id": "icofont-code",
+  "name": "code"
+ },
+ {
+  "id": "icofont-code-not-allowed",
+  "name": "code-not-allowed"
+ },
+ {
+  "id": "icofont-coffee-cup",
+  "name": "coffee-cup"
+ },
+ {
+  "id": "icofont-comment",
+  "name": "comment"
+ },
+ {
+  "id": "icofont-compass",
+  "name": "compass"
+ },
+ {
+  "id": "icofont-computer",
+  "name": "computer"
+ },
+ {
+  "id": "icofont-connection",
+  "name": "connection"
+ },
+ {
+  "id": "icofont-console",
+  "name": "console"
+ },
+ {
+  "id": "icofont-contacts",
+  "name": "contacts"
+ },
+ {
+  "id": "icofont-contrast",
+  "name": "contrast"
+ },
+ {
+  "id": "icofont-copy",
+  "name": "copy"
+ },
+ {
+  "id": "icofont-copyright",
+  "name": "copyright"
+ },
+ {
+  "id": "icofont-credit-card",
+  "name": "credit-card"
+ },
+ {
+  "id": "icofont-crop",
+  "name": "crop"
+ },
+ {
+  "id": "icofont-crown",
+  "name": "crown"
+ },
+ {
+  "id": "icofont-cube",
+  "name": "cube"
+ },
+ {
+  "id": "icofont-cubes",
+  "name": "cubes"
+ },
+ {
+  "id": "icofont-culinary",
+  "name": "culinary"
+ },
+ {
+  "id": "icofont-dashboard",
+  "name": "dashboard"
+ },
+ {
+  "id": "icofont-dashboard-web",
+  "name": "dashboard-web"
+ },
+ {
+  "id": "icofont-data",
+  "name": "data"
+ },
+ {
+  "id": "icofont-database",
+  "name": "database"
+ },
+ {
+  "id": "icofont-database-add",
+  "name": "database-add"
+ },
+ {
+  "id": "icofont-database-locked",
+  "name": "database-locked"
+ },
+ {
+  "id": "icofont-database-remove",
+  "name": "database-remove"
+ },
+ {
+  "id": "icofont-delete",
+  "name": "delete"
+ },
+ {
+  "id": "icofont-diamond",
+  "name": "diamond"
+ },
+ {
+  "id": "icofont-dice",
+  "name": "dice"
+ },
+ {
+  "id": "icofont-disabled",
+  "name": "disabled"
+ },
+ {
+  "id": "icofont-disc",
+  "name": "disc"
+ },
+ {
+  "id": "icofont-diskette",
+  "name": "diskette"
+ },
+ {
+  "id": "icofont-document-folder",
+  "name": "document-folder"
+ },
+ {
+  "id": "icofont-download",
+  "name": "download"
+ },
+ {
+  "id": "icofont-download-alt",
+  "name": "download-alt"
+ },
+ {
+  "id": "icofont-downloaded",
+  "name": "downloaded"
+ },
+ {
+  "id": "icofont-earth",
+  "name": "earth"
+ },
+ {
+  "id": "icofont-ebook",
+  "name": "ebook"
+ },
+ {
+  "id": "icofont-edit",
+  "name": "edit"
+ },
+ {
+  "id": "icofont-eject",
+  "name": "eject"
+ },
+ {
+  "id": "icofont-email",
+  "name": "email"
+ },
+ {
+  "id": "icofont-envelope",
+  "name": "envelope"
+ },
+ {
+  "id": "icofont-envelope-open",
+  "name": "envelope-open"
+ },
+ {
+  "id": "icofont-eraser",
+  "name": "eraser"
+ },
+ {
+  "id": "icofont-error",
+  "name": "error"
+ },
+ {
+  "id": "icofont-exchange",
+  "name": "exchange"
+ },
+ {
+  "id": "icofont-exclamation",
+  "name": "exclamation"
+ },
+ {
+  "id": "icofont-exclamation-circle",
+  "name": "exclamation-circle"
+ },
+ {
+  "id": "icofont-exclamation-square",
+  "name": "exclamation-square"
+ },
+ {
+  "id": "icofont-exclamation-tringle",
+  "name": "exclamation-tringle"
+ },
+ {
+  "id": "icofont-exit",
+  "name": "exit"
+ },
+ {
+  "id": "icofont-expand",
+  "name": "expand"
+ },
+ {
+  "id": "icofont-external",
+  "name": "external"
+ },
+ {
+  "id": "icofont-external-link",
+  "name": "external-link"
+ },
+ {
+  "id": "icofont-eye",
+  "name": "eye"
+ },
+ {
+  "id": "icofont-eye-blocked",
+  "name": "eye-blocked"
+ },
+ {
+  "id": "icofont-eye-dropper",
+  "name": "eye-dropper"
+ },
+ {
+  "id": "icofont-favourite",
+  "name": "favourite"
+ },
+ {
+  "id": "icofont-fax",
+  "name": "fax"
+ },
+ {
+  "id": "icofont-female",
+  "name": "female"
+ },
+ {
+  "id": "icofont-file",
+  "name": "file"
+ },
+ {
+  "id": "icofont-film",
+  "name": "film"
+ },
+ {
+  "id": "icofont-filter",
+  "name": "filter"
+ },
+ {
+  "id": "icofont-fire",
+  "name": "fire"
+ },
+ {
+  "id": "icofont-fire-burn",
+  "name": "fire-burn"
+ },
+ {
+  "id": "icofont-fire-extinguisher",
+  "name": "fire-extinguisher"
+ },
+ {
+  "id": "icofont-first-aid",
+  "name": "first-aid"
+ },
+ {
+  "id": "icofont-flag",
+  "name": "flag"
+ },
+ {
+  "id": "icofont-flag-alt-1",
+  "name": "flag-alt-1"
+ },
+ {
+  "id": "icofont-flag-alt-2",
+  "name": "flag-alt-2"
+ },
+ {
+  "id": "icofont-flash",
+  "name": "flash"
+ },
+ {
+  "id": "icofont-flash-light",
+  "name": "flash-light"
+ },
+ {
+  "id": "icofont-flask",
+  "name": "flask"
+ },
+ {
+  "id": "icofont-focus",
+  "name": "focus"
+ },
+ {
+  "id": "icofont-folder",
+  "name": "folder"
+ },
+ {
+  "id": "icofont-folder-open",
+  "name": "folder-open"
+ },
+ {
+  "id": "icofont-foot-print",
+  "name": "foot-print"
+ },
+ {
+  "id": "icofont-football",
+  "name": "football"
+ },
+ {
+  "id": "icofont-football-american",
+  "name": "football-american"
+ },
+ {
+  "id": "icofont-game-console",
+  "name": "game-console"
+ },
+ {
+  "id": "icofont-game-pad",
+  "name": "game-pad"
+ },
+ {
+  "id": "icofont-gavel",
+  "name": "gavel"
+ },
+ {
+  "id": "icofont-gear",
+  "name": "gear"
+ },
+ {
+  "id": "icofont-gears",
+  "name": "gears"
+ },
+ {
+  "id": "icofont-gift",
+  "name": "gift"
+ },
+ {
+  "id": "icofont-glass",
+  "name": "glass"
+ },
+ {
+  "id": "icofont-globe",
+  "name": "globe"
+ },
+ {
+  "id": "icofont-graduate",
+  "name": "graduate"
+ },
+ {
+  "id": "icofont-graffiti",
+  "name": "graffiti"
+ },
+ {
+  "id": "icofont-grocery",
+  "name": "grocery"
+ },
+ {
+  "id": "icofont-group",
+  "name": "group"
+ },
+ {
+  "id": "icofont-hammer",
+  "name": "hammer"
+ },
+ {
+  "id": "icofont-hand",
+  "name": "hand"
+ },
+ {
+  "id": "icofont-hanger",
+  "name": "hanger"
+ },
+ {
+  "id": "icofont-hard-disk",
+  "name": "hard-disk"
+ },
+ {
+  "id": "icofont-headphone",
+  "name": "headphone"
+ },
+ {
+  "id": "icofont-heart",
+  "name": "heart"
+ },
+ {
+  "id": "icofont-heart-beat",
+  "name": "heart-beat"
+ },
+ {
+  "id": "icofont-history",
+  "name": "history"
+ },
+ {
+  "id": "icofont-home",
+  "name": "home"
+ },
+ {
+  "id": "icofont-horn",
+  "name": "horn"
+ },
+ {
+  "id": "icofont-hotel",
+  "name": "hotel"
+ },
+ {
+  "id": "icofont-hour-glass",
+  "name": "hour-glass"
+ },
+ {
+  "id": "icofont-id",
+  "name": "id"
+ },
+ {
+  "id": "icofont-image",
+  "name": "image"
+ },
+ {
+  "id": "icofont-inbox",
+  "name": "inbox"
+ },
+ {
+  "id": "icofont-infinite",
+  "name": "infinite"
+ },
+ {
+  "id": "icofont-info",
+  "name": "info"
+ },
+ {
+  "id": "icofont-info-circle",
+  "name": "info-circle"
+ },
+ {
+  "id": "icofont-info-square",
+  "name": "info-square"
+ },
+ {
+  "id": "icofont-institution",
+  "name": "institution"
+ },
+ {
+  "id": "icofont-interface",
+  "name": "interface"
+ },
+ {
+  "id": "icofont-invisible",
+  "name": "invisible"
+ },
+ {
+  "id": "icofont-italic",
+  "name": "italic"
+ },
+ {
+  "id": "icofont-jacket",
+  "name": "jacket"
+ },
+ {
+  "id": "icofont-jar",
+  "name": "jar"
+ },
+ {
+  "id": "icofont-jewlery",
+  "name": "jewlery"
+ },
+ {
+  "id": "icofont-karate",
+  "name": "karate"
+ },
+ {
+  "id": "icofont-key",
+  "name": "key"
+ },
+ {
+  "id": "icofont-key-hole",
+  "name": "key-hole"
+ },
+ {
+  "id": "icofont-keyboard",
+  "name": "keyboard"
+ },
+ {
+  "id": "icofont-kid",
+  "name": "kid"
+ },
+ {
+  "id": "icofont-label",
+  "name": "label"
+ },
+ {
+  "id": "icofont-lamp",
+  "name": "lamp"
+ },
+ {
+  "id": "icofont-laptop",
+  "name": "laptop"
+ },
+ {
+  "id": "icofont-layers",
+  "name": "layers"
+ },
+ {
+  "id": "icofont-layout",
+  "name": "layout"
+ },
+ {
+  "id": "icofont-leaf",
+  "name": "leaf"
+ },
+ {
+  "id": "icofont-leaflet",
+  "name": "leaflet"
+ },
+ {
+  "id": "icofont-learn",
+  "name": "learn"
+ },
+ {
+  "id": "icofont-legal",
+  "name": "legal"
+ },
+ {
+  "id": "icofont-lego",
+  "name": "lego"
+ },
+ {
+  "id": "icofont-lemon",
+  "name": "lemon"
+ },
+ {
+  "id": "icofont-lens",
+  "name": "lens"
+ },
+ {
+  "id": "icofont-letter",
+  "name": "letter"
+ },
+ {
+  "id": "icofont-letterbox",
+  "name": "letterbox"
+ },
+ {
+  "id": "icofont-library",
+  "name": "library"
+ },
+ {
+  "id": "icofont-license",
+  "name": "license"
+ },
+ {
+  "id": "icofont-life-bouy",
+  "name": "life-bouy"
+ },
+ {
+  "id": "icofont-life-buoy",
+  "name": "life-buoy"
+ },
+ {
+  "id": "icofont-life-jacket",
+  "name": "life-jacket"
+ },
+ {
+  "id": "icofont-life-ring",
+  "name": "life-ring"
+ },
+ {
+  "id": "icofont-light-bulb",
+  "name": "light-bulb"
+ },
+ {
+  "id": "icofont-lighter",
+  "name": "lighter"
+ },
+ {
+  "id": "icofont-lightning-ray",
+  "name": "lightning-ray"
+ },
+ {
+  "id": "icofont-like",
+  "name": "like"
+ },
+ {
+  "id": "icofont-link",
+  "name": "link"
+ },
+ {
+  "id": "icofont-live-support",
+  "name": "live-support"
+ },
+ {
+  "id": "icofont-location-arrow",
+  "name": "location-arrow"
+ },
+ {
+  "id": "icofont-location-pin",
+  "name": "location-pin"
+ },
+ {
+  "id": "icofont-lock",
+  "name": "lock"
+ },
+ {
+  "id": "icofont-login",
+  "name": "login"
+ },
+ {
+  "id": "icofont-logout",
+  "name": "logout"
+ },
+ {
+  "id": "icofont-lollipop",
+  "name": "lollipop"
+ },
+ {
+  "id": "icofont-look",
+  "name": "look"
+ },
+ {
+  "id": "icofont-loop",
+  "name": "loop"
+ },
+ {
+  "id": "icofont-luggage",
+  "name": "luggage"
+ },
+ {
+  "id": "icofont-lunch",
+  "name": "lunch"
+ },
+ {
+  "id": "icofont-lungs",
+  "name": "lungs"
+ },
+ {
+  "id": "icofont-magic",
+  "name": "magic"
+ },
+ {
+  "id": "icofont-magic-alt",
+  "name": "magic-alt"
+ },
+ {
+  "id": "icofont-magnet",
+  "name": "magnet"
+ },
+ {
+  "id": "icofont-mail",
+  "name": "mail"
+ },
+ {
+  "id": "icofont-mail-box",
+  "name": "mail-box"
+ },
+ {
+  "id": "icofont-male",
+  "name": "male"
+ },
+ {
+  "id": "icofont-map",
+  "name": "map"
+ },
+ {
+  "id": "icofont-math",
+  "name": "math"
+ },
+ {
+  "id": "icofont-maximize",
+  "name": "maximize"
+ },
+ {
+  "id": "icofont-measure",
+  "name": "measure"
+ },
+ {
+  "id": "icofont-medal",
+  "name": "medal"
+ },
+ {
+  "id": "icofont-medical",
+  "name": "medical"
+ },
+ {
+  "id": "icofont-medicine",
+  "name": "medicine"
+ },
+ {
+  "id": "icofont-mega-phone",
+  "name": "mega-phone"
+ },
+ {
+  "id": "icofont-memorial",
+  "name": "memorial"
+ },
+ {
+  "id": "icofont-memory-card",
+  "name": "memory-card"
+ },
+ {
+  "id": "icofont-mic",
+  "name": "mic"
+ },
+ {
+  "id": "icofont-mic-mute",
+  "name": "mic-mute"
+ },
+ {
+  "id": "icofont-micro-chip",
+  "name": "micro-chip"
+ },
+ {
+  "id": "icofont-microphone",
+  "name": "microphone"
+ },
+ {
+  "id": "icofont-microscope",
+  "name": "microscope"
+ },
+ {
+  "id": "icofont-military",
+  "name": "military"
+ },
+ {
+  "id": "icofont-mill",
+  "name": "mill"
+ },
+ {
+  "id": "icofont-minus",
+  "name": "minus"
+ },
+ {
+  "id": "icofont-minus-circle",
+  "name": "minus-circle"
+ },
+ {
+  "id": "icofont-minus-square",
+  "name": "minus-square"
+ },
+ {
+  "id": "icofont-mobile-phone",
+  "name": "mobile-phone"
+ },
+ {
+  "id": "icofont-molecule",
+  "name": "molecule"
+ },
+ {
+  "id": "icofont-money",
+  "name": "money"
+ },
+ {
+  "id": "icofont-moon",
+  "name": "moon"
+ },
+ {
+  "id": "icofont-mop",
+  "name": "mop"
+ },
+ {
+  "id": "icofont-muffin",
+  "name": "muffin"
+ },
+ {
+  "id": "icofont-music",
+  "name": "music"
+ },
+ {
+  "id": "icofont-music-alt",
+  "name": "music-alt"
+ },
+ {
+  "id": "icofont-music-notes",
+  "name": "music-notes"
+ },
+ {
+  "id": "icofont-mustache",
+  "name": "mustache"
+ },
+ {
+  "id": "icofont-mute-volume",
+  "name": "mute-volume"
+ },
+ {
+  "id": "icofont-navigation",
+  "name": "navigation"
+ },
+ {
+  "id": "icofont-navigation-menu",
+  "name": "navigation-menu"
+ },
+ {
+  "id": "icofont-Refferal",
+  "name": "Refferal"
+ },
+ {
+  "id": "icofont-Refferal-tower",
+  "name": "Refferal-tower"
+ },
+ {
+  "id": "icofont-news",
+  "name": "news"
+ },
+ {
+  "id": "icofont-newspaper",
+  "name": "newspaper"
+ },
+ {
+  "id": "icofont-no-smoking",
+  "name": "no-smoking"
+ },
+ {
+  "id": "icofont-not-allowed",
+  "name": "not-allowed"
+ },
+ {
+  "id": "icofont-notebook",
+  "name": "notebook"
+ },
+ {
+  "id": "icofont-notepad",
+  "name": "notepad"
+ },
+ {
+  "id": "icofont-notification",
+  "name": "notification"
+ },
+ {
+  "id": "icofont-numbered",
+  "name": "numbered"
+ },
+ {
+  "id": "icofont-opposite",
+  "name": "opposite"
+ },
+ {
+  "id": "icofont-optic",
+  "name": "optic"
+ },
+ {
+  "id": "icofont-options",
+  "name": "options"
+ },
+ {
+  "id": "icofont-package",
+  "name": "package"
+ },
+ {
+  "id": "icofont-page",
+  "name": "page"
+ },
+ {
+  "id": "icofont-paint",
+  "name": "paint"
+ },
+ {
+  "id": "icofont-paper-plane",
+  "name": "paper-plane"
+ },
+ {
+  "id": "icofont-paperclip",
+  "name": "paperclip"
+ },
+ {
+  "id": "icofont-papers",
+  "name": "papers"
+ },
+ {
+  "id": "icofont-paw",
+  "name": "paw"
+ },
+ {
+  "id": "icofont-pay",
+  "name": "pay"
+ },
+ {
+  "id": "icofont-pen",
+  "name": "pen"
+ },
+ {
+  "id": "icofont-pencil",
+  "name": "pencil"
+ },
+ {
+  "id": "icofont-penguin-linux",
+  "name": "penguin-linux"
+ },
+ {
+  "id": "icofont-pestle",
+  "name": "pestle"
+ },
+ {
+  "id": "icofont-phone",
+  "name": "phone"
+ },
+ {
+  "id": "icofont-phone-circle",
+  "name": "phone-circle"
+ },
+ {
+  "id": "icofont-picture",
+  "name": "picture"
+ },
+ {
+  "id": "icofont-pie",
+  "name": "pie"
+ },
+ {
+  "id": "icofont-pine",
+  "name": "pine"
+ },
+ {
+  "id": "icofont-pixels",
+  "name": "pixels"
+ },
+ {
+  "id": "icofont-play",
+  "name": "play"
+ },
+ {
+  "id": "icofont-plugin",
+  "name": "plugin"
+ },
+ {
+  "id": "icofont-plus",
+  "name": "plus"
+ },
+ {
+  "id": "icofont-plus-circle",
+  "name": "plus-circle"
+ },
+ {
+  "id": "icofont-plus-square",
+  "name": "plus-square"
+ },
+ {
+  "id": "icofont-polygonal",
+  "name": "polygonal"
+ },
+ {
+  "id": "icofont-power",
+  "name": "power"
+ },
+ {
+  "id": "icofont-presentation",
+  "name": "presentation"
+ },
+ {
+  "id": "icofont-price",
+  "name": "price"
+ },
+ {
+  "id": "icofont-print",
+  "name": "print"
+ },
+ {
+  "id": "icofont-puzzle",
+  "name": "puzzle"
+ },
+ {
+  "id": "icofont-qr-code",
+  "name": "qr-code"
+ },
+ {
+  "id": "icofont-queen",
+  "name": "queen"
+ },
+ {
+  "id": "icofont-question",
+  "name": "question"
+ },
+ {
+  "id": "icofont-question-circle",
+  "name": "question-circle"
+ },
+ {
+  "id": "icofont-question-square",
+  "name": "question-square"
+ },
+ {
+  "id": "icofont-quote-left",
+  "name": "quote-left"
+ },
+ {
+  "id": "icofont-quote-right",
+  "name": "quote-right"
+ },
+ {
+  "id": "icofont-radio",
+  "name": "radio"
+ },
+ {
+  "id": "icofont-random",
+  "name": "random"
+ },
+ {
+  "id": "icofont-recycle",
+  "name": "recycle"
+ },
+ {
+  "id": "icofont-refresh",
+  "name": "refresh"
+ },
+ {
+  "id": "icofont-repair",
+  "name": "repair"
+ },
+ {
+  "id": "icofont-reply",
+  "name": "reply"
+ },
+ {
+  "id": "icofont-reply-all",
+  "name": "reply-all"
+ },
+ {
+  "id": "icofont-resize",
+  "name": "resize"
+ },
+ {
+  "id": "icofont-responsive",
+  "name": "responsive"
+ },
+ {
+  "id": "icofont-retweet",
+  "name": "retweet"
+ },
+ {
+  "id": "icofont-road",
+  "name": "road"
+ },
+ {
+  "id": "icofont-robot",
+  "name": "robot"
+ },
+ {
+  "id": "icofont-rocket",
+  "name": "rocket"
+ },
+ {
+  "id": "icofont-royal",
+  "name": "royal"
+ },
+ {
+  "id": "icofont-rss-feed",
+  "name": "rss-feed"
+ },
+ {
+  "id": "icofont-safety",
+  "name": "safety"
+ },
+ {
+  "id": "icofont-sale-discount",
+  "name": "sale-discount"
+ },
+ {
+  "id": "icofont-satellite",
+  "name": "satellite"
+ },
+ {
+  "id": "icofont-send-mail",
+  "name": "send-mail"
+ },
+ {
+  "id": "icofont-server",
+  "name": "server"
+ },
+ {
+  "id": "icofont-settings",
+  "name": "settings"
+ },
+ {
+  "id": "icofont-share",
+  "name": "share"
+ },
+ {
+  "id": "icofont-share-alt",
+  "name": "share-alt"
+ },
+ {
+  "id": "icofont-share-boxed",
+  "name": "share-boxed"
+ },
+ {
+  "id": "icofont-shield",
+  "name": "shield"
+ },
+ {
+  "id": "icofont-ship",
+  "name": "ship"
+ },
+ {
+  "id": "icofont-shopping-cart",
+  "name": "shopping-cart"
+ },
+ {
+  "id": "icofont-sign-in",
+  "name": "sign-in"
+ },
+ {
+  "id": "icofont-sign-out",
+  "name": "sign-out"
+ },
+ {
+  "id": "icofont-signal",
+  "name": "signal"
+ },
+ {
+  "id": "icofont-site-map",
+  "name": "site-map"
+ },
+ {
+  "id": "icofont-smart-phone",
+  "name": "smart-phone"
+ },
+ {
+  "id": "icofont-soccer",
+  "name": "soccer"
+ },
+ {
+  "id": "icofont-sort",
+  "name": "sort"
+ },
+ {
+  "id": "icofont-sort-alt",
+  "name": "sort-alt"
+ },
+ {
+  "id": "icofont-space",
+  "name": "space"
+ },
+ {
+  "id": "icofont-spanner",
+  "name": "spanner"
+ },
+ {
+  "id": "icofont-speech-comments",
+  "name": "speech-comments"
+ },
+ {
+  "id": "icofont-speed-meter",
+  "name": "speed-meter"
+ },
+ {
+  "id": "icofont-spinner",
+  "name": "spinner"
+ },
+ {
+  "id": "icofont-spinner-alt-1",
+  "name": "spinner-alt-1"
+ },
+ {
+  "id": "icofont-spinner-alt-2",
+  "name": "spinner-alt-2"
+ },
+ {
+  "id": "icofont-spinner-alt-3",
+  "name": "spinner-alt-3"
+ },
+ {
+  "id": "icofont-spinner-alt-4",
+  "name": "spinner-alt-4"
+ },
+ {
+  "id": "icofont-spinner-alt-5",
+  "name": "spinner-alt-5"
+ },
+ {
+  "id": "icofont-spinner-alt-6",
+  "name": "spinner-alt-6"
+ },
+ {
+  "id": "icofont-spreadsheet",
+  "name": "spreadsheet"
+ },
+ {
+  "id": "icofont-square",
+  "name": "square"
+ },
+ {
+  "id": "icofont-ssl-security",
+  "name": "ssl-security"
+ },
+ {
+  "id": "icofont-star",
+  "name": "star"
+ },
+ {
+  "id": "icofont-star-alt-1",
+  "name": "star-alt-1"
+ },
+ {
+  "id": "icofont-star-alt-2",
+  "name": "star-alt-2"
+ },
+ {
+  "id": "icofont-street-view",
+  "name": "street-view"
+ },
+ {
+  "id": "icofont-sun",
+  "name": "sun"
+ },
+ {
+  "id": "icofont-support-faq",
+  "name": "support-faq"
+ },
+ {
+  "id": "icofont-tack-pin",
+  "name": "tack-pin"
+ },
+ {
+  "id": "icofont-tag",
+  "name": "tag"
+ },
+ {
+  "id": "icofont-tags",
+  "name": "tags"
+ },
+ {
+  "id": "icofont-tasks",
+  "name": "tasks"
+ },
+ {
+  "id": "icofont-telephone",
+  "name": "telephone"
+ },
+ {
+  "id": "icofont-telescope",
+  "name": "telescope"
+ },
+ {
+  "id": "icofont-terminal",
+  "name": "terminal"
+ },
+ {
+  "id": "icofont-thumbs-down",
+  "name": "thumbs-down"
+ },
+ {
+  "id": "icofont-thumbs-up",
+  "name": "thumbs-up"
+ },
+ {
+  "id": "icofont-tick-boxed",
+  "name": "tick-boxed"
+ },
+ {
+  "id": "icofont-tick-mark",
+  "name": "tick-mark"
+ },
+ {
+  "id": "icofont-ticket",
+  "name": "ticket"
+ },
+ {
+  "id": "icofont-tie",
+  "name": "tie"
+ },
+ {
+  "id": "icofont-toggle-off",
+  "name": "toggle-off"
+ },
+ {
+  "id": "icofont-toggle-on",
+  "name": "toggle-on"
+ },
+ {
+  "id": "icofont-tools",
+  "name": "tools"
+ },
+ {
+  "id": "icofont-transparent",
+  "name": "transparent"
+ },
+ {
+  "id": "icofont-tree",
+  "name": "tree"
+ },
+ {
+  "id": "icofont-umbrella",
+  "name": "umbrella"
+ },
+ {
+  "id": "icofont-unlock",
+  "name": "unlock"
+ },
+ {
+  "id": "icofont-unlocked",
+  "name": "unlocked"
+ },
+ {
+  "id": "icofont-upload",
+  "name": "upload"
+ },
+ {
+  "id": "icofont-upload-alt",
+  "name": "upload-alt"
+ },
+ {
+  "id": "icofont-usb",
+  "name": "usb"
+ },
+ {
+  "id": "icofont-usb-drive",
+  "name": "usb-drive"
+ },
+ {
+  "id": "icofont-vector-path",
+  "name": "vector-path"
+ },
+ {
+  "id": "icofont-verification-check",
+  "name": "verification-check"
+ },
+ {
+  "id": "icofont-video",
+  "name": "video"
+ },
+ {
+  "id": "icofont-video-clapper",
+  "name": "video-clapper"
+ },
+ {
+  "id": "icofont-volume-down",
+  "name": "volume-down"
+ },
+ {
+  "id": "icofont-volume-off",
+  "name": "volume-off"
+ },
+ {
+  "id": "icofont-volume-up",
+  "name": "volume-up"
+ },
+ {
+  "id": "icofont-wall",
+  "name": "wall"
+ },
+ {
+  "id": "icofont-wall-clock",
+  "name": "wall-clock"
+ },
+ {
+  "id": "icofont-wallet",
+  "name": "wallet"
+ },
+ {
+  "id": "icofont-warning",
+  "name": "warning"
+ },
+ {
+  "id": "icofont-warning-alt",
+  "name": "warning-alt"
+ },
+ {
+  "id": "icofont-water-drop",
+  "name": "water-drop"
+ },
+ {
+  "id": "icofont-web",
+  "name": "web"
+ },
+ {
+  "id": "icofont-wheelchair",
+  "name": "wheelchair"
+ },
+ {
+  "id": "icofont-wifi",
+  "name": "wifi"
+ },
+ {
+  "id": "icofont-wifi-alt",
+  "name": "wifi-alt"
+ },
+ {
+  "id": "icofont-world",
+  "name": "world"
+ },
+ {
+  "id": "icofont-zigzag",
+  "name": "zigzag"
+ },
+ {
+  "id": "icofont-zipped",
+  "name": "zipped"
+ }
+]

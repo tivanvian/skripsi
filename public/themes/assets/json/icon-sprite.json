@@ -1,0 +1,606 @@
+[
+ {
+  "id": "search",
+  "name": "search"
+ },
+ {
+  "id": "moon",
+  "name": "moon"
+ },
+ {
+  "id": "notification",
+  "name": "<svg class='stroke-icon'><use href='/themes/assets/svg/icon-sprite.svg#notification'></use></svg> Notification"
+ },
+ {
+  "id": "star",
+  "name": "star"
+ },
+ {
+  "id": "cart",
+  "name": "cart"
+ },
+ {
+  "id": "halfcircle",
+  "name": "halfcircle"
+ },
+ {
+  "id": "tag",
+  "name": "tag"
+ },
+ {
+  "id": "return-box",
+  "name": "return-box"
+ },
+ {
+  "id": "rate",
+  "name": "rate"
+ },
+ {
+  "id": "income",
+  "name": "income"
+ },
+ {
+  "id": "expense",
+  "name": "expense"
+ },
+ {
+  "id": "doller-return",
+  "name": "doller-return"
+ },
+ {
+  "id": "new-order",
+  "name": "new-order"
+ },
+ {
+  "id": "customers",
+  "name": "customers"
+ },
+ {
+  "id": "sale",
+  "name": "sale"
+ },
+ {
+  "id": "profit",
+  "name": "profit"
+ },
+ {
+  "id": "orders",
+  "name": "orders"
+ },
+ {
+  "id": "user-visitor",
+  "name": "user-visitor"
+ },
+ {
+  "id": "24-hour",
+  "name": "24-hour"
+ },
+ {
+  "id": "course-1",
+  "name": "course-1"
+ },
+ {
+  "id": "arrowright",
+  "name": "arrowright"
+ },
+ {
+  "id": "course-2",
+  "name": "course-2"
+ },
+ {
+  "id": "bag",
+  "name": "bag"
+ },
+ {
+  "id": "clock",
+  "name": "clock"
+ },
+ {
+  "id": "beta",
+  "name": "beta"
+ },
+ {
+  "id": "eth",
+  "name": "eth"
+ },
+ {
+  "id": "ltc",
+  "name": "ltc"
+ },
+ {
+  "id": "bin",
+  "name": "bin"
+ },
+ {
+  "id": "te",
+  "name": "te"
+ },
+ {
+  "id": "dash",
+  "name": "dash"
+ },
+ {
+  "id": "pencil",
+  "name": "pencil"
+ },
+ {
+  "id": "profile-check",
+  "name": "profile-check"
+ },
+ {
+  "id": "breadcrumb-home",
+  "name": "breadcrumb-home"
+ },
+ {
+  "id": "stroke-home",
+  "name": "stroke-home"
+ },
+ {
+  "id": "fill-home",
+  "name": "fill-home"
+ },
+ {
+  "id": "stroke-widget",
+  "name": "stroke-widget"
+ },
+ {
+  "id": "fill-widget",
+  "name": "fill-widget"
+ },
+ {
+  "id": "stroke-layout",
+  "name": "stroke-layout"
+ },
+ {
+  "id": "fill-layout",
+  "name": "fill-layout"
+ },
+ {
+  "id": "stroke-project",
+  "name": "stroke-project"
+ },
+ {
+  "id": "fill-project",
+  "name": "fill-project"
+ },
+ {
+  "id": "stroke-file",
+  "name": "stroke-file"
+ },
+ {
+  "id": "fill-file",
+  "name": "fill-file"
+ },
+ {
+  "id": "stroke-board",
+  "name": "stroke-board"
+ },
+ {
+  "id": "fill-board",
+  "name": "fill-board"
+ },
+ {
+  "id": "stroke-ecommerce",
+  "name": "stroke-ecommerce"
+ },
+ {
+  "id": "fill-ecommerce",
+  "name": "fill-ecommerce"
+ },
+ {
+  "id": "stroke-email",
+  "name": "stroke-email"
+ },
+ {
+  "id": "fill-email",
+  "name": "fill-email"
+ },
+ {
+  "id": "stroke-chat",
+  "name": "<svg class='stroke-icon'><use href='/themes/assets/svg/icon-sprite.svg#stroke-chat'></use></svg> stroke-chat"
+ },
+ {
+  "id": "fill-chat",
+  "name": "<svg class='stroke-icon'><use href='/themes/assets/svg/icon-sprite.svg#fill-chat'></use></svg> fill-chat"
+ },
+ {
+  "id": "stroke-user",
+  "name": "stroke-user"
+ },
+ {
+  "id": "fill-user",
+  "name": "fill-user"
+ },
+ {
+  "id": "stroke-bookmark",
+  "name": "stroke-bookmark"
+ },
+ {
+  "id": "fill-bookmark",
+  "name": "fill-bookmark"
+ },
+ {
+  "id": "stroke-contact",
+  "name": "stroke-contact"
+ },
+ {
+  "id": "fill-contact",
+  "name": "fill-contact"
+ },
+ {
+  "id": "stroke-task",
+  "name": "stroke-task"
+ },
+ {
+  "id": "fill-task",
+  "name": "fill-task"
+ },
+ {
+  "id": "stroke-calendar",
+  "name": "stroke-calendar"
+ },
+ {
+  "id": "fill-calender",
+  "name": "fill-calender"
+ },
+ {
+  "id": "stroke-social",
+  "name": "stroke-social"
+ },
+ {
+  "id": "fill-social",
+  "name": "fill-social"
+ },
+ {
+  "id": "stroke-to-do",
+  "name": "stroke-to-do"
+ },
+ {
+  "id": "fill-to-do",
+  "name": "fill-to-do"
+ },
+ {
+  "id": "stroke-search",
+  "name": "stroke-search"
+ },
+ {
+  "id": "fill-",
+  "name": "fill-"
+ },
+ {
+  "id": "stroke-form",
+  "name": "stroke-form"
+ },
+ {
+  "id": "fill-form",
+  "name": "fill-form"
+ },
+ {
+  "id": "stroke-table",
+  "name": "stroke-table"
+ },
+ {
+  "id": "fill-table",
+  "name": "fill-table"
+ },
+ {
+  "id": "stroke-ui-kits",
+  "name": "stroke-ui-kits"
+ },
+ {
+  "id": "fill-ui-kits",
+  "name": "fill-ui-kits"
+ },
+ {
+  "id": "stroke-bonus-kit",
+  "name": "stroke-bonus-kit"
+ },
+ {
+  "id": "fill-bonus-kit",
+  "name": "fill-bonus-kit"
+ },
+ {
+  "id": "stroke-builders",
+  "name": "stroke-builders"
+ },
+ {
+  "id": "fill-builders",
+  "name": "fill-builders"
+ },
+ {
+  "id": "stroke-animation",
+  "name": "stroke-animation"
+ },
+ {
+  "id": "fill-animation",
+  "name": "fill-animation"
+ },
+ {
+  "id": "stroke-icons",
+  "name": "stroke-icons"
+ },
+ {
+  "id": "fill-icons",
+  "name": "fill-icons"
+ },
+ {
+  "id": "stroke-button",
+  "name": "stroke-button"
+ },
+ {
+  "id": "fill-botton",
+  "name": "fill-botton"
+ },
+ {
+  "id": "stroke-charts",
+  "name": "stroke-charts"
+ },
+ {
+  "id": "fill-charts",
+  "name": "fill-charts"
+ },
+ {
+  "id": "stroke-landing-page",
+  "name": "stroke-landing-page"
+ },
+ {
+  "id": "fill-landing-page",
+  "name": "fill-landing-page"
+ },
+ {
+  "id": "stroke-sample-page",
+  "name": "stroke-sample-page"
+ },
+ {
+  "id": "fill-sample-page",
+  "name": "fill-sample-page"
+ },
+ {
+  "id": "stroke-internationalization",
+  "name": "stroke-internationalization"
+ },
+ {
+  "id": "fill-internationalization",
+  "name": "fill-internationalization"
+ },
+ {
+  "id": "stroke-starter-kit",
+  "name": "stroke-starter-kit"
+ },
+ {
+  "id": "fill-starter-kit",
+  "name": "fill-starter-kit"
+ },
+ {
+  "id": "stroke-others",
+  "name": "stroke-others"
+ },
+ {
+  "id": "fill-others",
+  "name": "fill-others"
+ },
+ {
+  "id": "stroke-gallery",
+  "name": "stroke-gallery"
+ },
+ {
+  "id": "fill-gallery",
+  "name": "fill-gallery"
+ },
+ {
+  "id": "stroke-blog",
+  "name": "stroke-blog"
+ },
+ {
+  "id": "fill-blog",
+  "name": "fill-blog"
+ },
+ {
+  "id": "stroke-faq",
+  "name": "stroke-faq"
+ },
+ {
+  "id": "fill-faq",
+  "name": "fill-faq"
+ },
+ {
+  "id": "stroke-job-search",
+  "name": "stroke-job-search"
+ },
+ {
+  "id": "fill-job-search",
+  "name": "fill-job-search"
+ },
+ {
+  "id": "stroke-learning",
+  "name": "stroke-learning"
+ },
+ {
+  "id": "fill-learning",
+  "name": "fill-learning"
+ },
+ {
+  "id": "stroke-maps",
+  "name": "stroke-maps"
+ },
+ {
+  "id": "fill-maps",
+  "name": "fill-maps"
+ },
+ {
+  "id": "stroke-editors",
+  "name": "stroke-editors"
+ },
+ {
+  "id": "fill-editors",
+  "name": "fill-editors"
+ },
+ {
+  "id": "stroke-knowledgebase",
+  "name": "stroke-knowledgebase"
+ },
+ {
+  "id": "fill-knowledgebase",
+  "name": "fill-knowledgebase"
+ },
+ {
+  "id": "stroke-support-tickets",
+  "name": "stroke-support-tickets"
+ },
+ {
+  "id": "fill-support-tickets",
+  "name": "fill-support-tickets"
+ },
+ {
+  "id": "call",
+  "name": "call"
+ },
+ {
+  "id": "web",
+  "name": "web"
+ },
+ {
+  "id": "treading",
+  "name": "treading"
+ },
+ {
+  "id": "person-group",
+  "name": "person-group"
+ },
+ {
+  "id": "delivery-box",
+  "name": "delivery-box"
+ },
+ {
+  "id": "marketing",
+  "name": "marketing"
+ },
+ {
+  "id": "inbox",
+  "name": "inbox"
+ },
+ {
+  "id": "sent",
+  "name": "sent"
+ },
+ {
+  "id": "draft",
+  "name": "draft"
+ },
+ {
+  "id": "pintag",
+  "name": "pintag"
+ },
+ {
+  "id": "mail",
+  "name": "mail"
+ },
+ {
+  "id": "goal",
+  "name": "goal"
+ },
+ {
+  "id": "tread",
+  "name": "tread"
+ },
+ {
+  "id": "fill-star",
+  "name": "fill-star"
+ },
+ {
+  "id": "bookmark",
+  "name": "bookmark"
+ },
+ {
+  "id": "back-arrow",
+  "name": "back-arrow"
+ },
+ {
+  "id": "front-arrow",
+  "name": "front-arrow"
+ },
+ {
+  "id": "sms",
+  "name": "sms"
+ },
+ {
+  "id": "spam",
+  "name": "spam"
+ },
+ {
+  "id": "mail-trash",
+  "name": "mail-trash"
+ },
+ {
+  "id": "setting",
+  "name": "setting"
+ },
+ {
+  "id": "print",
+  "name": "print"
+ },
+ {
+  "id": "menubar",
+  "name": "menubar"
+ },
+ {
+  "id": "mail-star",
+  "name": "mail-star"
+ },
+ {
+  "id": "attchment",
+  "name": "attchment"
+ },
+ {
+  "id": "product-detail",
+  "name": "product-detail"
+ },
+ {
+  "id": "product-gallery",
+  "name": "product-gallery"
+ },
+ {
+  "id": "product-category",
+  "name": "product-category"
+ },
+ {
+  "id": "pricing",
+  "name": "pricing"
+ },
+ {
+  "id": "advance",
+  "name": "advance"
+ },
+ {
+  "id": "file-upload",
+  "name": "file-upload"
+ },
+ {
+  "id": "file-upload1",
+  "name": "file-upload1"
+ },
+ {
+  "id": "edit-content",
+  "name": "edit-content"
+ },
+ {
+  "id": "trash1",
+  "name": "trash1"
+ },
+ {
+  "id": "starbox-icon",
+  "name": "starbox-icon"
+ },
+ {
+  "id": "camera",
+  "name": "camera"
+ },
+ {
+  "id": "email-box",
+  "name": "email-box"
+ },
+ {
+  "id": "pintag",
+  "name": "pintag"
+ }
+]
