@@ -17,14 +17,22 @@ class CreateMenuGroupSeeder extends Seeder
     {
         $menugroups = [
             [
+                'slug'          => 'main',
+                'name'          => 'Main Menu',
+                'description'   => 'Main Menu for Admin',
+                'order'         => '1'
+            ],
+            [
                 'slug'          => 'config',
                 'name'          => 'Config',
                 'description'   => 'Config for Admin',
+                'order'         => '2'
             ],
             [
                 'slug'          => 'management-web',
                 'name'          => 'Management Web',
                 'description'   => 'Website Management',
+                'order'         => '3'
             ],
         ];
 

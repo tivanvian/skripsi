@@ -21,7 +21,7 @@ class MenuServices
 
     public function main()
     {
-        return $this->mainClass->whereIsActive('t')->get();
+        return $this->mainClass->whereIsActive(1)->get();
     }
 
     public function findBy($field, $id)
@@ -51,6 +51,11 @@ class MenuServices
         ];
     }
 
+    public function listMenu($group)
+    {
+        return Menu::whereGroup($group)->get();
+    }
+
     public function paramsIcon()
     {
         $jsonFilePath = public_path('themes/assets/json/icofont-v2.json');
@@ -60,9 +65,9 @@ class MenuServices
 
     public function paramsMenu($multiple = true){
         if($multiple){
-            return Menu::select(['group as id', 'title as name'])->whereRaw("route ilike '%.index'")->get()->toArray();
+            return Menu::select(['group as id', 'title as name'])->whereRaw("route like '%.index'")->get()->toArray();
         } else {
-            return Menu::select(['route as id', 'title as name'])->whereRaw("route ilike '%.index'")->get()->toArray();
+            return Menu::select(['route as id', 'title as name'])->whereRaw("route like '%.index'")->get()->toArray();
         }
     }
 

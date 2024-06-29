@@ -13,9 +13,11 @@ use Storage;
 
 class UserController extends Controller
 {
+    private $userData;
+    
     public function __construct(UserServices $data)
     {
-        $this->user = $data;
+        $this->userData = $data;
     }
 
     public static function pages($model = null) {
@@ -27,7 +29,7 @@ class UserController extends Controller
         return [
             'title-bar'         => $title,
             'page'              => [
-                'home'          => $group.'.aindex',
+                'home'          => $group.'.home.index',
                 'breadcrumb'    => [
                     'parent'    => 'Dashboard',
                     'child'     => ['title' => $title, 'url' => route($routeGroup.'.index')],
@@ -273,7 +275,7 @@ class UserController extends Controller
                 'title'     => $pages['page']['create']['title'],
             ],
             'formGenerator' => $this->formGenerateCreate([
-                'roles'     => $this->user->paramsRole(),
+                'roles'     => $this->userData->paramsRole(),
             ]),
         ]);
     }
@@ -286,7 +288,7 @@ class UserController extends Controller
      */
     public function store(UserRequest $request)
     {
-        $this->user->doStore($request);
+        $this->userData->doStore($request);
 
         session()->flash('success', 'Data berhasil disimpan !');
 
@@ -336,16 +338,16 @@ class UserController extends Controller
         //     'pages'         => $this->pages(),
         //     'data'          => $user,
         //     // 'profile'       => $user->UserProfileData()->first(),
-        //     'dataRole'      => $this->user->dataUserRoles($user),
-        //     'multipleRole'  => $this->user->paramsRole(),
-        //     'roles'         => $this->user->paramsRole(false),
-        //     'genders'       => $this->user->paramsGender(),
-        //     // 'regions'       => $this->user->paramsRegion(),
+        //     'dataRole'      => $this->userData->dataUserRoles($user),
+        //     'multipleRole'  => $this->userData->paramsRole(),
+        //     'roles'         => $this->userData->paramsRole(false),
+        //     'genders'       => $this->userData->paramsGender(),
+        //     // 'regions'       => $this->userData->paramsRegion(),
         // ]);
 
         $pages = $this->pages($user);
 
-        $user->dataRole = $this->user->dataUserRoles($user);
+        $user->dataRole = $this->userData->dataUserRoles($user);
 
         return view($pages['page']['edit']['view'], [
             'pages'         => $pages,
@@ -354,11 +356,11 @@ class UserController extends Controller
                 'title'     => $pages['page']['edit']['title'],
             ],
             'formGenerator' => $this->formGenerateEdit([
-                'roles'         => $this->user->paramsRole(),
-                'multipleRole'  => $this->user->paramsRole(false),
-                'genders'       => $this->user->paramsGender(),
+                'roles'         => $this->userData->paramsRole(),
+                'multipleRole'  => $this->userData->paramsRole(false),
+                'genders'       => $this->userData->paramsGender(),
             ], $user),
-            'optionSelect'  => TextToArray($this->user->dataUserRoles($user)),
+            'optionSelect'  => TextToArray($this->userData->dataUserRoles($user)),
             'data'          => $user,
             'id'            => $user->id,
         ]);
@@ -373,7 +375,7 @@ class UserController extends Controller
      */
     public function update(Request $request, User $user)
     {
-        $data = $this->user->doUpdate($request, $user);
+        $data = $this->userData->doUpdate($request, $user);
 
         if($data == true){
             session()->flash('success', 'Data berhasil diubah !');
@@ -399,7 +401,7 @@ class UserController extends Controller
 
     public function delete($id)
     {
-        $data = $this->user->doDelete($id);
+        $data = $this->userData->doDelete($id);
 
         if($data){
             response()->json(['success'=>true]);

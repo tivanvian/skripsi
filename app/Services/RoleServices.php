@@ -19,7 +19,7 @@ class RoleServices
 
     public function main()
     {
-        return $this->mainClass->whereIsActive('t')->get();
+        return $this->mainClass->whereIsActive(1)->get();
     }
 
     public function findBy($field, $id)
@@ -29,9 +29,9 @@ class RoleServices
 
     public function paramsMenu($multiple = true){
         if($multiple){
-            return Menu::select(['group as id', 'title as name'])->whereRaw("route ilike '%index%'")->get()->toArray();
+            return Menu::select(['group as id', 'title as name'])->whereRaw("route like '%index%'")->get()->toArray();
         } else {
-            return Menu::select(['route as id', 'title as name'])->whereRaw("route ilike '%index%'")->get()->toArray();
+            return Menu::select(['route as id', 'title as name'])->whereRaw("route like '%index%'")->get()->toArray();
         }
     }
 

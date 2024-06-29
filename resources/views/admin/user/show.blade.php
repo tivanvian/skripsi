@@ -63,7 +63,7 @@
             <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://rss.app/" target="_blank"><i class="fa fa-rss"></i></a></li>
           </ul>
-          <ul class="social-follow">
+          {{-- <ul class="social-follow">
             <li>
               <h5 class="mb-0">1,908</h5><span class="f-light">Posts</span>
             </li>
@@ -73,7 +73,7 @@
             <li>
               <h5 class="mb-0">897</h5><span class="f-light">Following</span>
             </li>
-          </ul>
+          </ul> --}}
         </div>
       </div>
     </div>

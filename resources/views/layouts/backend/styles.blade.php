@@ -1,5 +1,5 @@
 <!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend/assets/imgs/theme/favicon_152x152.png') }}" />
+<link rel="shortcut icon" type="image/x-icon" href="{{asset('image/zivar-ico.ico') }}" />
 <!-- Template CSS -->
 <link href="{{asset('backend/assets/css/main.css?v=1.1') }}" rel="stylesheet" type="text/css" />
 

@@ -24,26 +24,8 @@ use App\Http\Controllers\ParameterController as Parameter;
 
 //Auth only login
 Route::middleware(['auth', 'user-access', 'user-permessions'])->group(function () {
-    Route::get('/optimize', function () {
-        return \Artisan::call('optimize');
-    })->name('artisan.optimize');
 
-    Route::get('/optimize/clear', function () {
-        return \Artisan::call('optimize:clear');
-    })->name('artisan.optimizeclear');
-
-    Route::get('/cache', function () {
-        return \Artisan::call('cache:clear');
-    })->name('artisan.cache');
-
-    //Storage link
-    Route::get('/storage', function () {
-        return \Artisan::call('storage:link');
-    })->name('artisan.storage');
-
-    // Route::view('/home', 'admin.home')->name('aindex');
-    Route::get('home', [HomeController::class, 'adminHome'])->name('aindex');
-    // Route::get('home/v2', [HomeController::class, 'admin_home_v2'])->name('aindex');
+    Route::get('home', [HomeController::class, 'adminHome'])->name('home.index');
 
     Route::post('user/default_role', [User::class, 'ChangeSessionRole'])->name('user.change_session_role');
     Route::get('user/{id}/delete', [User::class, 'delete'])->name('user.delete');
@@ -55,6 +37,7 @@ Route::middleware(['auth', 'user-access', 'user-permessions'])->group(function (
     Route::get('menu-group/{id}/delete', [MenuGroup::class, 'delete'])->name('menu-group.delete');
     Route::resource('menu-group', MenuGroup::class);
 
+    Route::get('menu/show/{menu}', [Menu::class, 'showList'])->name('menu.show.list');
     Route::get('menu/{id}/delete', [Menu::class, 'delete'])->name('menu.delete');
     Route::resource('menu', Menu::class);
 

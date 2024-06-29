@@ -44,7 +44,17 @@ class Handler extends ExceptionHandler
     public function register()
     {
         $this->reportable(function (Throwable $e) {
-            //
-        });
+            // if ($e instanceof \Yajra\DataTables\Exception) {
+            //     return response([
+            //         'draw'            => 0,
+            //         'recordsTotal'    => 0,
+            //         'recordsFiltered' => 0,
+            //         'data'            => [],
+            //         'error'           => 'Laravel Error Handler',
+            //     ]);
+            // }
+         
+            // return parent::render($request, $e);
+        });  
     }
 }

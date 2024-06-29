@@ -56,11 +56,11 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'url_primary' => env('APP_URL_PRIMARY', 'https://sikab.innovated.co.id'),
+    'url_primary' => env('APP_URL_PRIMARY', 'http://localhost'),
 
-    'url_secondary' => env('APP_URL_SECONDARY', 'https://siskae.innovated.co.id'),
+    'url_secondary' => env('APP_URL_SECONDARY', 'http://localhost'),
 
-    'url_fixed' => (env('APP_URL_TYPE', 'primary') == 'primary') ? env('APP_URL_PRIMARY', 'https://sikab.innovated.co.id') : env('APP_URL_SECONDARY', 'https://siskae.innovated.co.id'),
+    'url_fixed' => (env('APP_URL_TYPE', 'primary') == 'primary') ? env('APP_URL_PRIMARY', 'http://localhost') : env('APP_URL_SECONDARY', 'http://localhost'),
 
     'asset_url' => env('ASSET_URL'),
 
@@ -75,7 +75,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Jakarta',
 
     /*
     |--------------------------------------------------------------------------
@@ -88,7 +88,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'id-ID',
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'id-ID',
 
     'available_locales' => [
         'English'   => 'en',

@@ -20,12 +20,12 @@ class CreateRoleSeeder extends Seeder
             [
                 'slug'              => 'superadmin',
                 'name'              => 'Superadmin',
-                'default_route'     => 'admin.aindex',
+                'default_route'     => 'admin.home.index',
                 'is_active'         => 't',
                 'role_slug'         => 'superadmin',
                 'list_menu'         => [
                     [
-                        'menu_group'    => 'aindex',
+                        'menu_group'    => 'home.index',
                         'access'        => ["create","read","update","delete"]
                     ],
                     [
@@ -43,18 +43,22 @@ class CreateRoleSeeder extends Seeder
                     [
                         'menu_group'    => 'user',
                         'access'        => ["create","read","update","delete"]
+                    ],
+                    [
+                        'menu_group'    => 'parameter',
+                        'access'        => ["create","read","update","delete"]
                     ]
                 ],
             ],
             [
                 'slug'              => 'admin',
                 'name'              => 'Admin',
-                'default_route'     => 'admin.aindex',
+                'default_route'     => 'admin.home.index',
                 'is_active'         => 't',
                 'role_slug'         => 'admin',
                 'list_menu'         => [
                     [
-                        'menu_group'    => 'aindex',
+                        'menu_group'    => 'home.index',
                         'access'        => ["create","read","update","delete"]
                     ],
                     [

@@ -25,7 +25,7 @@ class MenuController extends Controller
         return [
             'title-bar'         => $title,
             'page'              => [
-                'home'          => $group.'.aindex',
+                'home'          => $group.'.home.index',
                 'breadcrumb'    => [
                     'parent'    => 'Dashboard',
                     'child'     => ['title' => $title, 'url' => route($routeGroup.'.index')],
@@ -46,6 +46,11 @@ class MenuController extends Controller
                     'title'     => 'Detail '.$title,
                     'url'       => isset($model->id) ? route($routeGroup.'.show', $model->id) : '#',
                     'view'      => $routeGroup.'.show',
+                    'list'      => [
+                        'title' => 'Detail '.$title,
+                        'url'   => isset($model->id) ? route($routeGroup.'.show.list', $model->id) : '#',
+                        'view'  => $routeGroup.'.show_list',
+                    ],
                 ],
                 'edit'          => [
                     'title'     => 'Edit '.$title,
@@ -214,7 +219,7 @@ class MenuController extends Controller
     public function index(Request $request)
     {
         if ($request->ajax()) {
-            $data = Menu::whereIsActive(true)->latest()->get();
+            $data = Menu::whereIsActive(true)->whereRaw("route LIKE '%.index'")->latest()->get();
             return DataTables::of($data)
                 ->addIndexColumn()
                 ->addColumn('icon', function($row){
@@ -241,7 +246,7 @@ class MenuController extends Controller
                             'label' => "Delete",
                         ],
                     ];
-                    return ButtonAction(['update', 'delete', 'show'], $dataLink);
+                    return MenuButtonAction(['show'], $dataLink);
                 })
                 ->rawColumns(['icon','status', 'action'])
                 ->make(true);
@@ -306,6 +311,7 @@ class MenuController extends Controller
     public function edit(Menu $menu)
     {
         $pages = $this->pages($menu);
+        $mainMenu = Menu::whereGroup($menu->group)->whereIsActive(true)->whereRaw("route LIKE '%.index'")->first();
 
         return view($this->pages()['page']['edit']['view'], [
             'pages'         => $pages,
@@ -320,6 +326,8 @@ class MenuController extends Controller
             ], $menu),
             'optionSelect'  => TextToArray($menu->menus),
             'id'            => $menu->id,
+            'listMenu'     => $this->menu->listMenu($menu->group),
+            'routeBack'     => route('admin.menu.show', $mainMenu->id),
         ]);
     }
 
@@ -391,6 +399,29 @@ class MenuController extends Controller
             ], $menu, true),
             'optionSelect'  => TextToArray($menu->menus),
             'id'            => $menu->id,
+            'listMenu'     => $this->menu->listMenu($menu->group),
+        ]);
+    }
+
+    public function showList(Menu $menu)
+    {
+        $pages = $this->pages($menu);
+        $mainMenu = Menu::whereGroup($menu->group)->whereIsActive(true)->whereRaw("route LIKE '%.index'")->first();
+        
+        return view($pages['page']['show']['list']['view'], [
+            'pages'         => $pages,
+            'pagesSubChild' => [
+                'active'    => true,
+                'title'     => $pages['page']['show']['list']['title'],
+            ],
+            'formGenerator' => $this->formGenerateEdit([
+                'menu_group'    => $this->menu->paramsGroup(false),
+                'permission'    => $this->menu->paramsPermission(),
+                'icon'          => $this->menu->paramsIcon(),
+            ], $menu, true),
+            'optionSelect'  => TextToArray($menu->menus),
+            'id'            => $menu->id,
+            'routeBack'     => route('admin.menu.show', $mainMenu->id),
         ]);
     }
 }

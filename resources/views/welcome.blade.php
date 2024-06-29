@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta name="csrf-token" content="{{ csrf_token() }}" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="@yield('page_description', $page['description'] ?? 'Zivar Core')">
-        <meta name="keywords" content="Inventory Aplikasi">
-        <meta name="author" content="ZIVAR">
+        @include('meta')
 
         <title>{{ config('app.name') }} | @yield('title', $page['title'] ?? '')</title>
 
@@ -28,9 +22,9 @@
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                <div class="hidden fixed top-0 px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ route('admin.aindex') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
+                        <a href="{{ route('admin.home.index') }}" class="btn btn-primary text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
 
@@ -48,7 +42,7 @@
 
                 <div class="text-center mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1">
-                        <img src="{{ asset('image/zivar_core.png') }}">
+                        <img src="{{ asset('image/zc-v2.png') }}">
                     </div>
                 </div>
             </div>

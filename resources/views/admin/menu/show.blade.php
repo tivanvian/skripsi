@@ -33,13 +33,13 @@
 @section('page-content')
 <div class="row mb-4">
     <div class="col-sm-12 d-flex justify-content-end align-items-center">
-        {!! ButtonAction(['edit_show'], $pages, $pagesSubChild['active']) !!}
+        {!! ButtonAction(['create'], $pages, $pagesSubChild['active']) !!}
     </div>
 </div>
 @endsection
 
 @section('page-content__body')
-<div class="col-md-8 col-sm-12">
+{{-- <div class="col-md-6 col-sm-12">
     <div class="card">
         <div class="card-body row g-3">
             @foreach ($formGenerator as $form)
@@ -59,6 +59,62 @@
                     </div>
                 @endif
             @endforeach
+        </div>
+    </div>
+</div> --}}
+
+<div class="col-md-12 col-sm-12">
+    <div class="card">
+        <div class="card-body">
+            Menu Group List
+            <br><br>
+            <div class="row">
+
+              @foreach ($listMenu as $menu)
+              
+                
+              <div class="col-xxl-12 col-md-12">
+                <div class="d-flex justify-content-between" style="border: 1px solid #efefef; border-radius: 5px; padding: 15px;">
+                  <h6>
+                    <div class="d-flex">
+                      <i class="icofont {{$menu->icon}}" style="height: 1cap; margin-top:3px;"></i>
+                      &nbsp;
+                      {{$menu->title}}
+                    </div>
+                    <small style="color: darkgrey; font-size:0.7em;">{{$menu->route}}</small>
+                  </h6>
+
+                  <div>
+                    @php
+
+                    $dataLink = [
+                        'show' => [
+                            'url'     => route("admin.menu.show.list", $menu->id),
+                            'label'   => "View",
+                        ],
+                        'edit' => [
+                            'url'     => route("admin.menu.edit", $menu->id),
+                            'label'   => "Edit",
+                        ],
+                        'delete' => [
+                            'url'     => route("admin.menu.delete", $menu->id),
+                            'id'      => $menu->id,
+                            'label'   => "Delete",
+                        ],
+                    ];
+
+                    @endphp
+
+                    {!! ButtonAction(['update', 'delete', 'show'], $dataLink) !!}
+                  </div>
+
+                </div>
+              </div>
+
+              @endforeach
+
+
+            </div>
         </div>
     </div>
 </div>

@@ -94,8 +94,8 @@ class User extends Authenticatable implements MustVerifyEmail
         $role = RoleMenu::where('role_slug', session('default_role'))->orderBy("menu_group")->get()->pluck('menu_group');
         $menuGroup = MenuGroup::where('is_active', true)->get();
 
-        $menuDashboard = Menu::whereRoute('admin.aindex')->whereIn('group', $role)->first();
-        $menuDashboardV2 = Menu::whereRoute('admin.aindex')->whereIn('group', $role)->first();
+        $menuDashboard = Menu::whereRoute('admin.home.index')->whereIn('group', $role)->first();
+        $menuDashboardV2 = Menu::whereRoute('admin.home.index')->whereIn('group', $role)->first();
 
         if($menuDashboard){
             $class .= '<li class="menu-item '.self::ActiveMenuGroup($menuDashboard->group).'">';
@@ -116,7 +116,7 @@ class User extends Authenticatable implements MustVerifyEmail
         }
 
         foreach ($menuGroup as $item) {
-            $query = Menu::whereRaw("route ilike '%index%'")->whereMenuGroupSlug($item->slug)->where('menu_group_slug', '!=', 'dashboard')->whereIn('group', $role);
+            $query = Menu::whereRaw("route like '%index%'")->whereMenuGroupSlug($item->slug)->where('menu_group_slug', '!=', 'dashboard')->whereIn('group', $role);
 
             //Get Menu
             $menu = $query->get();

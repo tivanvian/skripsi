@@ -32,6 +32,7 @@ return [
         'rounds' => env('BCRYPT_ROUNDS', 10),
     ],
 
+    'rehash_on_login' => true,
     /*
     |--------------------------------------------------------------------------
     | Argon Options

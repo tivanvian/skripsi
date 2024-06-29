@@ -29,13 +29,13 @@ class RoleMenu extends Model
     //to Role where group
     public function getMenuName()
     {
-        return $this->belongsTo(Menu::class, 'menu_group', 'group')->whereRaw("route ILIKE '%index%'")->first();
+        return $this->belongsTo(Menu::class, 'menu_group', 'group')->whereRaw("route like '%index%'")->first();
     }
 
     // //getGroupName
     // public function getMenuName()
     // {
     //     dd($this->Model);
-    //     return $this->Model->whereRaw('route ILIKE "%index%"')->first();
+    //     return $this->Model->whereRaw('route like "%index%"')->first();
     // }
 }

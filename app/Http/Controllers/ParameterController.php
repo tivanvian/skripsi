@@ -26,7 +26,7 @@ class ParameterController extends Controller
         return [
             'title-bar'         => $title,
             'page'              => [
-                'home'          => $group.'.aindex',
+                'home'          => $group.'.home.index',
                 'breadcrumb'    => [
                     'parent'    => 'Dashboard',
                     'child'     => ['title' => $title, 'url' => route($routeGroup.'.index')],

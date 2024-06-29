@@ -36,7 +36,7 @@
         @include('admin.__partials.datatable')
     </div>
     <div class="col-sm-4 d-flex justify-content-end align-items-center">
-        {!! ButtonAction(['create'], $pages) !!}
+        {!! ButtonAction([], $pages) !!}
     </div>
 </div>
 @endsection

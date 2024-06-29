@@ -92,10 +92,10 @@ class CreateMenuSeeder extends Seeder
         $menus = [
             [
                 'type'              => 'main', //Main Or SubMenu
-                'icon'              => 'home',
+                'icon'              => 'icofont-ui-home',
                 'title'             => 'Dashboard',
-                'route'             => 'admin.aindex',
-                'group'             => 'aindex',
+                'route'             => 'admin.home.index',
+                'group'             => 'home.index',
                 'is_active'         => 't',
                 'permessions'       => 'read',
                 'menu_group_slug'   => 'dashboard',
@@ -109,26 +109,33 @@ class CreateMenuSeeder extends Seeder
 
         //Data Resources
         $DataResources = [
+            //Parameter
             [
-                'icon'              => 'others',
+                'icon'              => 'icofont-settings',
+                'title'             => 'Parameters',
+                'group'             => 'parameter',
+                'menu_group_slug'   => 'config',
+            ],
+            [
+                'icon'              => 'icofont-navigation-menu',
                 'title'             => 'Menus',
                 'group'             => 'menu',
                 'menu_group_slug'   => 'config',
             ],
             [
-                'icon'              => 'others',
+                'icon'              => 'icofont-navigation-menu',
                 'title'             => 'Menu Groups',
                 'group'             => 'menu-group',
                 'menu_group_slug'   => 'config',
             ],
             [
-                'icon'              => 'md-assignment_ind',
+                'icon'              => 'icofont-ui-user-group',
                 'title'             => 'Roles',
                 'group'             => 'role',
                 'menu_group_slug'   => 'management-web',
             ],
             [
-                'icon'              => 'md-person',
+                'icon'              => 'icofont-user-suited',
                 'title'             => 'Users',
                 'group'             => 'user',
                 'menu_group_slug'   => 'management-web',
@@ -143,5 +150,17 @@ class CreateMenuSeeder extends Seeder
                 Menu::create($value);
             }
         }
+
+        //Add Menu Show List
+        Menu::create([
+            'type'              => 'main',
+            'icon'              => 'icofont-navigation-menu',
+            'title'             => 'Menu Show List',
+            'route'             => 'admin.menu.show.list',
+            'group'             => 'menu',
+            'is_active'         => 't',
+            'permessions'       => 'read',
+            'menu_group_slug'   => 'config'
+        ]);
     }
 }

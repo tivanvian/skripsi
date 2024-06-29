@@ -33,7 +33,7 @@
 @section('page-content')
 <div class="row mb-4">
     <div class="col-sm-12 d-flex justify-content-end align-items-center">
-        {!! ButtonAction(['edit'], $pages, $pagesSubChild['active']) !!}
+        {!! ButtonAction(['edit'], $pages, false, $routeBack) !!}
     </div>
 </div>
 @endsection

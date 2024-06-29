@@ -19,14 +19,14 @@ class HomeController extends Controller
 
     public static function pages() {
         $group      = 'admin';
-        $main       = 'aindex';
+        $main       = 'home.index';
         $title      = 'Dashboard';
         $routeGroup = $group.'.'.$main;
 
         return [
             'title-bar'         => $title,
             'page'              => [
-                'home'          => $group.'.aindex',
+                'home'          => $group.'.home.index',
                 'breadcrumb'    => [
                     'parent'    => 'Dashboard',
                     'child'     => ['title' => $title, 'url' => $routeGroup],

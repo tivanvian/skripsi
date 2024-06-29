@@ -2,19 +2,12 @@
 <html class="no-js" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
   <head>
-    <meta charset="utf-8" />
-    <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zivar Core V1">
-    <meta name="keywords" content="zivar, core, zivar core, zivar-core, zivar_core">
-    <meta name="author" content="Zivar">
+    @include('meta')
 
     <title>{{ config('app.name') }} | Login</title>
 
-    <link rel="icon" href="{{ asset('themes/assets/images/favicon.png') }}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{ asset('themes/assets/images/favicon.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('image/zivar-ico.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('image/zivar-ico.ico') }}" type="image/x-icon">
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap" rel="stylesheet">
@@ -32,35 +25,37 @@
 
     <link id="color" rel="stylesheet" href="{{ asset('themes/assets/css/color-1.css') }}" media="screen">
 
-    <!-- Include script -->
-    <script type="text/javascript">
-        function callbackThen(response) {
+    @if((env('RECAPTCHA_ACTIVE') === 'true' || env('RECAPTCHA_ACTIVE') === true) && env('RECAPTCHA_TYPE') === 'google')
+      <!-- Include script -->
+      <script type="text/javascript">
+          function callbackThen(response) {
 
-            // read Promise object
-            response.json().then(function(data) {
+              // read Promise object
+              response.json().then(function(data) {
 
-            if(data.success && data.score >= 0.6) {
+              if(data.success && data.score >= 0.6) {
 
-            } else {
-                document.getElementById('FormData').addEventListener('submit', function(event) {
-                    event.preventDefault();
-                });
+              } else {
+                  document.getElementById('FormData').addEventListener('submit', function(event) {
+                      event.preventDefault();
+                  });
 
-                showToast('red', 'Error', "Recaptcha invalid, Please try to Reload Your Browser!.");
-                $('#submitForm').attr('disabled', true);
-            }
-            });
-        }
+                  showToast('red', 'Error', "Recaptcha invalid, Please try to Reload Your Browser!.");
+                  $('#submitForm').attr('disabled', true);
+              }
+              });
+          }
 
-        function callbackCatch(error){
-            console.error('Error:', error)
-        }
-    </script>
+          function callbackCatch(error){
+              console.error('Error:', error)
+          }
+      </script>
 
-    {!! htmlScriptTagJsApi([
-        'callback_then' => 'callbackThen',
-        'callback_catch' => 'callbackCatch',
-    ]) !!}
+      {!! htmlScriptTagJsApi([
+          'callback_then' => 'callbackThen',
+          'callback_catch' => 'callbackCatch',
+      ]) !!}
+    @endif
 
   </head>
   <body>
@@ -71,23 +66,31 @@
         <div class="col-xl-5 p-0">
           <div class="login-card login-dark">
             <div>
-              <div><a class="logo text-start" href="{{url('/')}}"><img class="img-fluid for-light" src="{{ asset('themes/assets/images/logo/logo.png') }}" alt="looginpage"><img class="img-fluid for-dark" src="{{ asset('themes/assets/images/logo/logo_dark.png') }}" alt="looginpage"></a></div>
+              <div>
+                <a class="logo text-center" href="{{url('/')}}">
+                  <img class="img-fluid for-light" src="{{ asset('image/zc-v2.png') }}" alt="looginpage" width="20%">
+                  <img class="img-fluid for-dark" src="{{ asset('image/zc-v2.png') }}" alt="looginpage" width="20%">
+                </a>
+              </div>
               <div class="login-main">
                 <form class="theme-form" id="FormData" method="POST" action="{{ route('login') }}">
                   @csrf
                   <h4>Sign in to account</h4>
                   <p>Enter your email & password to login</p>
-
-                  {{-- <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
-                    <div class="col-md-6">
-                        {!! RecaptchaV3::field('register') !!}
-                        @if ($errors->has('g-recaptcha-response'))
-                            <span class="help-block">
-                                <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
-                            </span>
-                        @endif
+                    
+                  
+                  @if((env('RECAPTCHA_ACTIVE') === 'true' || env('RECAPTCHA_ACTIVE') === true) && env('RECAPTCHA_TYPE') === 'google')
+                    <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
+                        <div class="col-md-6">
+                            {!! RecaptchaV3::field('register') !!}
+                            @if ($errors->has('g-recaptcha-response'))
+                                <span class="help-block">
+                                    <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                                </span>
+                            @endif
+                        </div>
                     </div>
-                  </div> --}}
+                  @endif
 
                   <div class="form-group">
                     <label class="col-form-label">Email Address</label>
@@ -102,20 +105,22 @@
                     </div>
                   </div>
 
-                  <div class="form-group mb-0">
+                  <div class="form-group mb-0 mt-4">
                     @if (Route::has('password.request'))
-                    <div class="mb-3 d-flex justify-content-end">
+                      <div class="mb-3 d-flex justify-content-end">
                         <a style="font-size:9pt;" href="{{ route('password.request') }}">
                             {{ __('Forgot Your Password?') }}
                         </a>
-                    </div>
+                      </div>
                     @endif
                     <button class="btn btn-primary btn-block w-100" id="submitForm" type="submit">Sign in</button>
                   </div>
+                  @if(env('SOCIALITE_ACTIVE') === 'true' || env('SOCIALITE_ACTIVE') === true)
                   <h6 class="text-muted mt-4 or">Or Sign in with</h6>
                   <div class="social mt-4">
                     <div class="btn-showcase"><a class="btn btn-light" href="https://www.linkedin.com/login" target="_blank"><i class="txt-linkedin" data-feather="linkedin"></i> LinkedIn </a><a class="btn btn-light" href="https://twitter.com/login?lang=en" target="_blank"><i class="txt-twitter" data-feather="twitter"></i>twitter</a><a class="btn btn-light" href="https://www.facebook.com/" target="_blank"><i class="txt-fb" data-feather="facebook"></i>facebook</a></div>
                   </div>
+                  @endif
                   @if (Route::has('register'))
                   <p class="mt-4 mb-0 text-center">Don't have account?<a class="ms-2" href="{{ route('register') }}">Create Account</a></p>
                   @endif

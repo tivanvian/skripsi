@@ -4,8 +4,27 @@ use App\Models\Role;
 use App\Models\RoleMenu;
 use App\Models\Menu;
 
+
+if (!function_exists('MenuButtonAction')) {
+    function MenuButtonAction($type = [], $pages = []){
+        $btn = '';
+        $btn .= '<ul class="action text-center">';
+        if(in_array('read', CheckAccess()) && in_array('show', $type)){
+            $btn .= '<li class="view"><a href="'.$pages['show']['url'].'" class="hover-up" ><i class="icon-eye"></i></a>&nbsp;&nbsp;</li>';
+        }
+        if(in_array('update', CheckAccess()) && in_array('edit', $type)){
+            $btn .= '<li class="edit"><a href="'.$pages['edit']['url'].'" class="hover-up"><i class="icon-pencil-alt"></i></a></li>';
+        }
+        if(in_array('delete', CheckAccess()) && in_array('delete', $type)){
+            $btn .= '<li class="delete"><a href="#" class="hover-up remove" data-action="'.$pages['delete']['url'].'" data-id="'.$pages['delete']['id'].'"><i class="icon-trash"></i></a></li>';
+        }
+        $btn .= '</ul>';
+        return $btn;
+    }
+}
+
 if (!function_exists('ButtonAction')) {
-    function ButtonAction($type = [], $pages = [], $isBack = false){
+    function ButtonAction($type = [], $pages = [], $isBack = false, $isBackUrl = null){
         $btn = '';
 
         if(in_array('create', $type)){
@@ -13,6 +32,7 @@ if (!function_exists('ButtonAction')) {
                 $btn .= '<a class="btn btn-primary hover-up" href="'.$pages['page']['create']['url'].'">Create</a>';
             }
         }
+        
 
         if(in_array('update', $type) || in_array('delete', $type) || in_array('show', $type)){
             $btn .= '<ul class="action text-center">';
@@ -55,6 +75,10 @@ if (!function_exists('ButtonAction')) {
             $btn .= '&nbsp;&nbsp;&nbsp; <a class="btn btn-outline-light" href="'.$pages['page']['index']['url'].'">Back</a>';
         }
 
+        if($isBackUrl != null){
+            $btn .= '&nbsp;&nbsp;&nbsp; <a class="btn btn-outline-light" href="'.$isBackUrl.'">Back</a>';
+        }
+
         return $btn;
     }
 }
@@ -68,7 +92,7 @@ if (!function_exists('CheckAccess')) {
         || session('check_access_'.session('default_role').'_'.str_replace(".","_",\Route::currentRouteName())) == ''){
 
             //If empty create a first destination
-            $menu = Menu::select('group')->whereIsActive('t')->whereRoute(\Route::currentRouteName())->first();
+            $menu = Menu::select('group')->whereIsActive(1)->whereRoute(\Route::currentRouteName())->first();
             $role = RoleMenu::select('access')->where('role_slug', session('default_role'))->where('menu_group', $menu->group)->first();
 
             session([

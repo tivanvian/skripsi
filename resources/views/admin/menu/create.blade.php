@@ -122,27 +122,27 @@
                             </div>
 
                             <div class="col-xl-8 col-sm-8">
-                                {!! FormText("Name Controller", "controller", "Name for Controller", true) !!}
+                                {!! FormText("Name Controller", "controller", "Name for Controller", false) !!}
                             </div>
 
                             <div class="col-xl-4 col-sm-4">
-                                {!! FormText("Alias Controller", "alias_controller", "Alias of Controller", true) !!}
+                                {!! FormText("Alias Controller", "alias_controller", "Alias of Controller", false) !!}
                             </div>
 
                             <div class="col-xl-6 col-sm-6">
-                                {!! FormText("Name Model", "model", "Name for Model", true) !!}
+                                {!! FormText("Name Model", "model", "Name for Model", false) !!}
                             </div>
 
                             <div class="col-xl-6 col-sm-6">
-                                {!! FormText("Name Services", "service", "Name for Services", true) !!}
+                                {!! FormText("Name Services", "service", "Name for Services", false) !!}
                             </div>
 
                             <div class="col-xl-6 col-sm-6">
-                                {!! FormText("Name Request", "request", "Name for Request", true) !!}
+                                {!! FormText("Name Request", "request", "Name for Request", false) !!}
                             </div>
 
                             <div class="col-xl-6 col-sm-6">
-                                {!! FormText("Name Table", "table", "Name for Table", true) !!}
+                                {!! FormText("Name Table", "table", "Name for Table", false) !!}
                             </div>
 
                         </div>

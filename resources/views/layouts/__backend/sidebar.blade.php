@@ -3,9 +3,11 @@
 
       {{-- Logo --}}
       <div class="logo-wrapper">
-        <a href="{{url('/')}}">
-          <img class="img-fluid for-light" src="{{ asset('themes/assets/images/logo/logo.png') }}" alt="">
-          <img class="img-fluid for-dark" src="{{ asset('themes/assets/images/logo/logo_dark.png') }}" alt="">
+        <a href="{{url('/')}}" class="d-flex align-items-center">
+          <img class="img-fluid for-light" src="{{ asset('image/zivar-icon.png') }}" alt="">
+          <img class="img-fluid for-dark" src="{{ asset('image/zivar-icon.png') }}" alt=""> 
+          &nbsp;&nbsp;&nbsp;
+          <span style="font-size: 18pt;" class="text-primary"> {{ env('APP_NICKNAME') }} </span>
         </a>
         <div class="back-btn">
           <i class="fa fa-angle-left"></i>
@@ -19,7 +21,7 @@
       {{-- Logo Icon Mobile --}}
       <div class="logo-icon-wrapper">
         <a href="{{url('/')}}">
-          <img class="img-fluid" src="{{ asset('themes/assets/images/logo/logo-icon.png') }}" alt="">
+          <img class="img-fluid" src="{{ asset('image/zivar-icon.png') }}" alt="">
         </a>
       </div>
       {{-- End Logo Icon Mobile --}}
@@ -35,7 +37,7 @@
 
             <li class="back-btn">
               <a href="{{url('/')}}">
-                <img class="img-fluid" src="{{ asset('themes/assets/images/logo/logo-icon.png') }}" alt="">
+                <img class="img-fluid" src="{{ asset('image/zivar-icon.png') }}" alt="">
               </a>
               <div class="mobile-back text-end">
                 <span>Back</span>

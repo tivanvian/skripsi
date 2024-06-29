@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\Role;
 use App\Models\RoleMenu;
-use App\Models\Menu;
+use App\Models\Menu as MenuUser;
 use Auth;
 
 class UserPermessions
@@ -48,8 +48,10 @@ class UserPermessions
             return $next($request);
         }
 
-        $menu = Menu::whereIsActive('t')->whereRoute(Route::currentRouteName())->first();
+        $menu = MenuUser::whereIsActive(1)->whereRoute(Route::currentRouteName())->first();
+        
         $role = RoleMenu::where('role_slug', session('default_role'))->where('menu_group', $menu->group)->first();
+
 
         if(!empty($role)){
             if(!empty($menu) && $menu->group == $role->menu_group){
