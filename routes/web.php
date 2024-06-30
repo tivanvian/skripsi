@@ -30,7 +30,7 @@ Auth::routes([
 
 Route::middleware(['verified-user'])->group(function () {
     Route::get('/', [HomeController::class, 'index'])->name('index');
-    Route::get('/home', [HomeController::class, 'backend'])->name('home.index');
+    // Route::get('/home', [HomeController::class, 'backend'])->name('home.index');
 });
 
 Route::get('change/lang', [HomeController::class, 'changeLang'])->name('change.lang');

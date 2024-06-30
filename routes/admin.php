@@ -8,6 +8,7 @@ use App\Http\Controllers\RoleController as Role;
 use App\Http\Controllers\MenuController as Menu;
 use App\Http\Controllers\MenuGroupController as MenuGroup;
 use App\Http\Controllers\ParameterController as Parameter;
+use App\Http\Controllers\WilayahController as Wilayah;
 //++FOR NEW CONTROLLER++//
 
 /*
@@ -43,6 +44,9 @@ Route::middleware(['auth', 'user-access', 'user-permessions'])->group(function (
 
     Route::get('parameter/{id}/delete', [Parameter::class, 'delete'])->name('parameter.delete');
     Route::resource('parameter', Parameter::class);
+
+    Route::get('wilayah/{id}/delete', [Wilayah::class, 'delete'])->name('wilayah.delete');
+    Route::resource('wilayah', Wilayah::class);
 
     //++FOR NEW ROUTER++//
 });

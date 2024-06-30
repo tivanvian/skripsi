@@ -82,7 +82,6 @@
 			serverSide: true,
 			ajax: "{{ $pages['page']['index']['url'] }}",
 			columns: [
-                    // {data: 'DT_RowIndex', name: 'DT_RowIndex'},
                     @foreach ($tableProperties['columns'] as $table)
                         @if($table["slug"] != 'action')
                             {data: '{{$table["slug"]}}', name: '{{$table["slug"]}}'},
@@ -99,7 +98,6 @@
 			rowReorder: {
 				selector: 'td:nth-child(1)'
 			},
-            // pagingType : "simple",
 		});
 
 		var tablee = $('#table_data').DataTable();

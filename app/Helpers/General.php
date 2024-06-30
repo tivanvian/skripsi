@@ -4,6 +4,20 @@ use App\Models\Role;
 use App\Models\RoleMenu;
 use App\Models\Menu;
 
+if (!function_exists('RenderJson')) {
+    function RenderJson($dataJson, $object, $value = null){
+        if(gettype($dataJson) == 'array'){
+            $dataJson = json_encode($dataJson);
+        }
+        
+        if(!empty(json_decode($dataJson, true)[$object])){
+            $class = json_decode($dataJson, true)[$object];
+        } else {
+            $class = $value;
+        }
+        return $class;
+    }
+}
 
 if (!function_exists('MenuButtonAction')) {
     function MenuButtonAction($type = [], $pages = []){

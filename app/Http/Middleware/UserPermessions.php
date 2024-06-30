@@ -23,9 +23,9 @@ class UserPermessions
     {
         if(session('default_role') == null || session('default_role') == ''){
             if(\Auth::check()){
-                if (Auth::user()->getTypeRole() == 'admin') {
+                if (Auth::user()->getTypeRole() == 'admin' || Auth::user()->getTypeRole() == 'superadmin'){
                     session(['default_role' => Auth::user()->getDefaultRole()]);
-                    return redirect()->route(defaultRoute());
+                    return $next($request);
                 } else {
                     return redirect()->route('index');
                 }
