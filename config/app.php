@@ -88,7 +88,7 @@ return [
     |
     */
 
-    'locale' => 'id-ID',
+    'locale' => 'id',
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'id-ID',
+    'fallback_locale' => 'id',
 
     'available_locales' => [
         'English'   => 'en',
