@@ -69,9 +69,14 @@ class WilayahController extends Controller
             ],
             'columns'      =>[
                 [
-                    'width' => "20%",
+                    'width' => "10%",
                     'label' => __('Kode Wilayah'),
                     'slug'  => 'code'
+                ],
+                [
+                    'width' => "10%",
+                    'label' => __('Kode Pos'),
+                    'slug'  => 'kode_pos'
                 ],
                 [
                     'width' => "33%",
@@ -117,7 +122,7 @@ class WilayahController extends Controller
             ],
             [
                 "class"         => "col-md-12 col-sm-12",
-                "form"          => FormText("Kode Pos", "detail[postal_code]", "Postal Code", true),
+                "form"          => FormText("Kode Pos", "kode_pos", "Postal Code", true),
             ],
             [
                 "class"         => "col-md-12 col-sm-12",
@@ -184,7 +189,7 @@ class WilayahController extends Controller
                         ],
                         [
                             "class"         => "col-md-12 col-sm-12",
-                            "form"          => FormText("Kode Pos", "detail[postal_code]", "Postal Code", true, RenderJson($data->detail, "postal_code"), $readonly),
+                            "form"          => FormText("Kode Pos", "kode_pos", "Postal Code", true, $data->kode_pos, $readonly),
                         ],
                         [
                             "class"         => "col-md-12 col-sm-12",

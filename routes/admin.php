@@ -9,6 +9,8 @@ use App\Http\Controllers\MenuController as Menu;
 use App\Http\Controllers\MenuGroupController as MenuGroup;
 use App\Http\Controllers\ParameterController as Parameter;
 use App\Http\Controllers\WilayahController as Wilayah;
+use App\Http\Controllers\QueueController as Queue;
+use App\Http\Controllers\QueueConfigController as QueueConfig;
 //++FOR NEW CONTROLLER++//
 
 /*
@@ -47,6 +49,13 @@ Route::middleware(['auth', 'user-access', 'user-permessions'])->group(function (
 
     Route::get('wilayah/{id}/delete', [Wilayah::class, 'delete'])->name('wilayah.delete');
     Route::resource('wilayah', Wilayah::class);
+
+    Route::get('queue/{id}/finish', [Queue::class, 'finish'])->name('queue.finish');
+    Route::get('queue/{id}/delete', [Queue::class, 'delete'])->name('queue.delete');
+    Route::resource('queue', Queue::class);
+
+    Route::get('queue-config/{id}/delete', [QueueConfig::class, 'delete'])->name('queue-config.delete');
+    Route::resource('queue-config', QueueConfig::class);
 
     //++FOR NEW ROUTER++//
 });

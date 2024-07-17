@@ -19,7 +19,8 @@ class Wilayah extends Model
         'latitude',
         'longitude',
         'detail',
-        'is_active'
+        'kode_pos',
+        'is_active',
     ];
 
     protected $casts = [

@@ -4,7 +4,7 @@
             <script>
                 document.write(new Date().getFullYear());
             </script>
-            &copy; <a href='https://innovated.co.id' target="_blank"><strong class="text-brand">InnovateD Indonesia</strong></a> - Sistem Informasi Katalog BNI
+            &copy; <a href='https://innovated.co.id' target="_blank"><strong class="text-brand">InnovateD Indonesia</strong></a> - Sistem Informasi Katalog ZIVAR
         </div>
         <div class="col-sm-6">
             <div class="text-sm-end">All rights reserved</div>

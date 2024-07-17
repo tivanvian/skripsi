@@ -6,7 +6,7 @@ use App\Models\User;
 use App\Models\UserRole;
 use App\Models\UserProfile;
 use App\Models\Role;
-// use App\Models\Region;
+use App\Models\Wilayah;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -43,6 +43,11 @@ class UserServices
             ["id" => "1", "name" => "Man"],
             ["id" => "2", "name" => "Woman"],
         ];
+    }
+
+    public function paramsWilayah()
+    {
+        return Wilayah::selectRaw("kode_pos as id, name")->get()->toArray();
     }
 
     // public function paramsRegion(){

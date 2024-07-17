@@ -71,6 +71,15 @@ class HomeController extends Controller
             session()->put('locale', 'id');
             session()->put('applocale', 'id');
         }
+        
+        if(\Auth::check()){
+            if (\Auth::user()->getTypeRole() == 'admin') {
+                session(['default_role' => \Auth::user()->getDefaultRole()]);
+                return redirect()->route(defaultRoute());
+            } else {
+                return redirect()->route('antrian.home');
+            }
+        }
 
         return view('welcome');
     }

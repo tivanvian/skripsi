@@ -82,14 +82,19 @@ class UserController extends Controller
                     'slug'  => 'name'
                 ],
                 [
-                    'width' => "15%",
+                    'width' => "10%",
                     'label' => __('Role'),
                     'slug'  => 'role'
                 ],
                 [
-                    'width' => "25%",
+                    'width' => "15%",
                     'label' => __('Email'),
                     'slug'  => 'email'
+                ],
+                [
+                    'width' => "15%",
+                    'label' => __('Wilayah'),
+                    'slug'  => 'wilayah'
                 ],
                 [
                     'width' => "10%",
@@ -135,6 +140,10 @@ class UserController extends Controller
                 "class"         => "col-md-12 col-sm-12",
                 "form"          => FormSelect("Role", 'default_role', "-- Chose Role --", $params['roles']),
             ],
+            [
+                "class"         => "col-md-8 col-sm-8",
+                "form"          => FormSelect2("Nama Wilayah", 'wilayah', "Choose Wilayah", $params['wilayah'], false, true),
+            ],
         ];
     }
 
@@ -175,6 +184,10 @@ class UserController extends Controller
                 "form"          => FormText("Password Confirmation", "password_confirmation", "*****", false, '', $readonly),
             ],
             [
+                "class"         => "col-md-10 col-sm-10",
+                "form"          => FormSelect2("Nama Wilayah", 'wilayah', "Choose Wilayah", $params['wilayah'], false, true, $data->wilayah, $readonly),
+            ],
+            [
                 "class"         => "col-md-12 col-sm-12",
                 "column"        => [
                     "active"    => true,
@@ -195,7 +208,7 @@ class UserController extends Controller
                         ]
                     ]
                 ],
-            ],
+            ]
         ];
     }
     /**
@@ -276,7 +289,11 @@ class UserController extends Controller
             ],
             'formGenerator' => $this->formGenerateCreate([
                 'roles'     => $this->userData->paramsRole(),
+                'wilayah'   => $this->userData->paramsWilayah(),
             ]),
+            'params'        => [
+                'wilayah'   => $this->userData->paramsWilayah(),
+            ],
         ]);
     }
 
@@ -359,6 +376,7 @@ class UserController extends Controller
                 'roles'         => $this->userData->paramsRole(),
                 'multipleRole'  => $this->userData->paramsRole(false),
                 'genders'       => $this->userData->paramsGender(),
+                'wilayah'       => $this->userData->paramsWilayah(),
             ], $user),
             'optionSelect'  => TextToArray($this->userData->dataUserRoles($user)),
             'data'          => $user,

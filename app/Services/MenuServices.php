@@ -368,6 +368,9 @@ class MenuServices
             file_put_contents($file, $content);
         }
 
+        //Optimize Clear
+        Artisan::call('optimize:clear');
+
         return true;
     }
 }

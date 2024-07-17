@@ -50,7 +50,7 @@ class LoginController extends Controller
             session(['default_role' => Auth::user()->getDefaultRole()]);
             return defaultRoute();
         } else {
-            return 'home';
+            return 'index';
         }
     }
 

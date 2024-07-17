@@ -134,7 +134,10 @@
 <script text="text/javascript">
     $(document).ready(function() {
         value = {!! $optionSelect !!};
-        $(".select2Form").val(value).trigger('change');
+        $("#user_role").val(value).trigger('change');
+
+        // valueWilayah = {!! $data->wilayah !!};
+        // $("#wilayah").val(valueWilayah).trigger('change');
 
         //if profile_pictures changes to image_profile_pictures
         $("#profile_pictures").change(function() {

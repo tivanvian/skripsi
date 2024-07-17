@@ -4,6 +4,14 @@ use App\Models\Role;
 use App\Models\RoleMenu;
 use App\Models\Menu;
 
+// use BaconQrCode\Renderer\Image\Png;
+// use BaconQrCode\Writer;
+
+use BaconQrCode\Renderer\ImageRenderer;
+use BaconQrCode\Renderer\Image\ImagickImageBackEnd;
+use BaconQrCode\Renderer\RendererStyle\RendererStyle;
+use BaconQrCode\Writer;
+
 if (!function_exists('RenderJson')) {
     function RenderJson($dataJson, $object, $value = null){
         if(gettype($dataJson) == 'array'){
@@ -317,10 +325,12 @@ if (!function_exists('FormSelect2')) {
         if($multiple == true){
             $multiple = 'multiple = "multiple"';
             $optionNull = '';
+            $idAttr = $name;
             $name = $name.'[]';
         } else {
             $multiple = '';
             $optionNull = '<option></option>';
+            $idAttr = $name;
         }
 
         if(count($data) >= 1){
@@ -361,7 +371,7 @@ if (!function_exists('FormSelect2')) {
         $class = '<div class="'.$m.'">
                     '.$labelAttr.'
                     <div class="custom_select">
-                    <select class="form-select form-select-sm select-nice select2Form" '.$disabledAttr.' name="'.$name.'" id="'.$name.'" '.$req.' '.$multiple.'>
+                    <select class="form-select form-select-sm select-nice select2Form" '.$disabledAttr.' name="'.$name.'" id="'.$idAttr.'" '.$req.' '.$multiple.'>
                         '.$option.'
                     </select>
                     </div>';
@@ -610,5 +620,18 @@ if (!function_exists('defaultRoute')) {
 if (!function_exists('getSlugRole')) {
     function getSlugRole($id){
         return \App\Models\Role::where('id', $id)->first()->slug;
+    }
+}
+
+if (!function_exists('generateQRCode')) {
+    function generateQRCode($url, $w = 300, $h = 300)
+    {
+        $renderer = new \BaconQrCode\Renderer\Image\Png();
+        $renderer->setHeight($h);
+        $renderer->setWidth($w);
+        $writer = new \BaconQrCode\Writer($renderer);
+        $qrcode = $writer->writeString($url);
+
+        return '<img src="data:image/png;base64,'.$qrcode.'" alt="QR Code">';
     }
 }

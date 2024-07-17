@@ -42,6 +42,8 @@ class UserPermessions
             'admin.artisan.optimize',
             'admin.artisan.optimizeclear',
             'admin.artisan.storage',
+            
+            'admin.queue.finish',
         ];
 
         if(in_array(Route::currentRouteName(), $RouteNotIn)){

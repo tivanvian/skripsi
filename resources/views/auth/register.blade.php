@@ -25,7 +25,7 @@
             <header class="main-header style-2 navbar">
                 <div class="col-brand">
                     <a href="{{ route('index') }}" class="brand-wrap text-center">
-                        <img src="{{ asset('frontend/assets/imgs/theme/BNI_logo.svg') }}" class="logo" alt="BNI" />
+                        <img src="{{ asset('frontend/assets/imgs/theme/BNI_logo.svg') }}" class="logo" alt="ZIVAR" />
                     </a>
                 </div>
             </header>
@@ -101,7 +101,7 @@
                 </div>
             </section>
             <footer class="text-center">
-                <p class="font-sm mb-0">&copy; {{ date('Y') }} <a href='https://innovated.co.id' target="_blank"><strong class="text-brand">InnovateD Indonesia</strong></a> - Sistem Informasi Katalog BNI <br />All rights reserved</p>
+                <p class="font-sm mb-0">&copy; {{ date('Y') }} <a href='https://innovated.co.id' target="_blank"><strong class="text-brand">InnovateD Indonesia</strong></a> - Sistem Informasi Katalog ZIVAR <br />All rights reserved</p>
             </footer>
         </main>
         <script src="{{ asset('backend/assets/js/vendors/jquery-3.6.0.min.js') }}"></script>
