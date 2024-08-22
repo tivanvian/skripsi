@@ -52,3 +52,10 @@ Route::post('/antrian/login/post', [Queue::class, 'antrianLoginPost'])->name('an
 
 Route::get('change/lang', [HomeController::class, 'changeLang'])->name('change.lang');
 Route::get('captcha/reload', [HomeController::class, 'reloadCaptcha'])->name('captcha.reload');
+
+Route::get('test-event',
+    function () {
+        event(new \App\Events\testingEvent('test message'));
+        return 'Event has been sent!';
+    }
+);

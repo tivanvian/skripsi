@@ -11,6 +11,7 @@ use App\Http\Controllers\ParameterController as Parameter;
 use App\Http\Controllers\WilayahController as Wilayah;
 use App\Http\Controllers\QueueController as Queue;
 use App\Http\Controllers\QueueConfigController as QueueConfig;
+use App\Http\Controllers\SliderController as Slider;
 //++FOR NEW CONTROLLER++//
 
 /*
@@ -56,6 +57,9 @@ Route::middleware(['auth', 'user-access', 'user-permessions'])->group(function (
 
     Route::get('queue-config/{id}/delete', [QueueConfig::class, 'delete'])->name('queue-config.delete');
     Route::resource('queue-config', QueueConfig::class);
+
+    Route::get('slider/{id}/delete', [Slider::class, 'delete'])->name('slider.delete');
+    Route::resource('slider', Slider::class);
 
     //++FOR NEW ROUTER++//
 });

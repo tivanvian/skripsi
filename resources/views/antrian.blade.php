@@ -376,6 +376,15 @@
       {{-- <script src="{{asset('themes/assets/js/bootstrap/popper.min.js')}}"></script> --}}
       {{-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> --}}
       <script src="{{asset('example/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
+      {{-- //resource echo js --}}
+      {{-- <script src="{{ asset('js/app.js') }}"></script>
+      <script src="{{ asset('js/echo.js') }}"></script> --}}
+
+      {{-- <script>
+        window.Echo.channel("delivery").listen("PackageSent", (event) => {
+            console.log(event);
+        });
+      </script> --}}
 
       <script>
         function toggleDropdown() {

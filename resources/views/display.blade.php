@@ -138,9 +138,11 @@
             100% { transform: rotate(360deg); }
         }
       </style>
+      
     </head>
 
     <body>
+
       <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="check2" viewBox="0 0 16 16">
           <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -267,9 +269,12 @@
         </div>
       </main>
 
+      @vite('resources/js/app.js')
+
       {{-- Jquery --}}
       <script src="{{ asset('themes/assets/js/jquery.min.js') }}"></script>
       <script src="{{asset('example/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
+      <script src="https://code.responsivevoice.org/responsivevoice.js?key=CO1qFP9H"></script>
 
       <script>
           const loadingSpinner = document.getElementById('loading-spinner');
@@ -300,103 +305,65 @@
         updateDateTime(); // initial call to display date and time immediately
       </script>
 
-      <script src="https://code.responsivevoice.org/responsivevoice.js?key=CO1qFP9H"></script>
+
+
+      <script>
+        // setTimeout(() => {
+        //     window.Echo.channel('testChannel')
+        //       .listen('testingEvent', (e) => {
+        //         console.log(e);
+        //         console.log('ada antrian baru');
+        //     });
+        // }, 200);
+
+
+        // setTimeout(() => {
+        //     window.Echo.channel('callAntrianChannel.user.{{\Auth::user()->wilayah}}')
+        //       .listen('CallAntrianEvent', (data) => {
+        //         console.log(data);
+        //         console.log('ada antrian baru');
+        //         getCallAntrian(data["dataCall"]);
+        //         getAntrianQueueNow(data["dataQueue"]);
+        //     });
+        // }, 200);
+      </script>
 
       <script type="text/javascript">
 
         $(function () {
-          
-          //function to ajax get antrian.get-call
-          function getAntrian() {
+          //get Antrian
+          async function getCallAntrian(data) {
             let wilayah = "{{\Auth::user()->wilayah}}";
             var nomorAntrian = document.getElementById('nomorAntrian');
             var loket = document.getElementById('loket');
 
-            $.ajax({
-              type: "GET",
-              url: "{{ url('/antrian/get-call/') }}/" + wilayah,
-              success: async function (data) {
-                if(data["success"] == true) {
+            nomorAntrian.innerHTML  = '';
+            loket.innerHTML  = '';
 
-                  //showVideo hide showAntrian show
-                  // document.getElementById('showVideo').style.display = 'none';
-                  // document.getElementById('showAntrian').style.display = 'block';
+            nomorAntrian.innerHTML = data['number'];
+            loket.innerHTML  = "LOKET " + (data['loket']).toUpperCase();
 
-                  nomorAntrian.innerHTML  = '';
-                  loket.innerHTML  = '';
+            await responsiveVoice.speak(data['sound_call'], "Indonesian Female", {rate: 0.86});
 
-                  nomorAntrian.innerHTML = data['data']['number'];
-                  loket.innerHTML  = "LOKET " + (data['data']['loket']).toUpperCase();
+            document.getElementById('showVideo').style.display = 'none';
+            document.getElementById('showAntrian').style.display = 'block';
 
-                  await responsiveVoice.speak(data['data']['sound_call'], "Indonesian Female", {rate: 0.86});
-
-                  document.getElementById('showVideo').style.display = 'none';
-                  document.getElementById('showAntrian').style.display = 'block';
-
-                  // if(responsiveVoice.isPlaying()) {
-                  //   //showVideo hide showAntrian show
-                  //   document.getElementById('showVideo').style.display = 'none';
-                  //   document.getElementById('showAntrian').style.display = 'block';
-                  // } else {
-                  //   //showVideo hide showAntrian show
-                  //   document.getElementById('showAntrian').style.display = 'none';
-                  //   document.getElementById('showVideo').style.display = 'block';
-                  // }
-
-                  await stopAntrian();
-                  console.log(data);
-                }
-              }
-            });
+            await stopAntrian();
           }
 
 
-          function getAntrianNow() {
+          async function getAntrianQueueNow(data) {
             let wilayahNow = "{{\Auth::user()->wilayah}}";
-            // var nomorAntrian = document.getElementById('nomorAntrian');
-            // var loket = document.getElementById('loket');
 
-            $.ajax({
-              type: "GET",
-              url: "{{ url('/antrian/get-now/') }}/" + wilayahNow,
-              success: async function (data) {
-                if(data["success"] == true) {
-                  //data["data"] foreach
-                  $.each(data["data"], function(key, value) {
+            $.each(data, function(key, value) {
 
-                    console.log(key + " : " + value.loket + " : " + value.number);
-                    // nomorAntrian_{{$pelayanan}} = document.getElementById('nomorAntrian_'+key);
-                    // loket_{{$pelayanan}} = document.getElementById('loket_'+key);
+              console.log(key + " : " + value.loket + " : " + value.number);
 
-                    document.getElementById('nomorAntrian_'+value.loket).innerHTML  = '';
-                    document.getElementById('loket_'+value.loket).innerHTML  = '';
+              document.getElementById('nomorAntrian_'+value.loket).innerHTML  = '';
+              document.getElementById('loket_'+value.loket).innerHTML  = '';
 
-                    document.getElementById('nomorAntrian_'+value.loket).innerHTML = value.number;
-                    document.getElementById('loket_'+value.loket).innerHTML  = "LOKET " + (value.loket).toUpperCase();
-                    // var nomorAntrian = document.getElementById('nomorAntrian_'+key);
-                    // var loket = document.getElementById('loket_'+key);
-
-                    // nomorAntrian.innerHTML  = '';
-                    // loket.innerHTML  = '';
-
-                    // nomorAntrian.innerHTML = value['number'];
-                    // loket.innerHTML  = "LOKET " + (value['loket']).toUpperCase();
-                  });
-
-
-
-                  // nomorAntrian.innerHTML  = '';
-                  // loket.innerHTML  = '';
-
-                  // nomorAntrian.innerHTML = data['data']['number'];
-                  // loket.innerHTML  = "LOKET " + (data['data']['loket']).toUpperCase();
-
-                  // await responsiveVoice.speak(data['data']['sound_call'], "Indonesian Female", {rate: 0.86});
-
-                  // await stopAntrian();
-                  // console.log(data);
-                }
-              }
+              document.getElementById('nomorAntrian_'+value.loket).innerHTML = value.number;
+              document.getElementById('loket_'+value.loket).innerHTML  = "LOKET " + (value.loket).toUpperCase();
             });
           }
 
@@ -415,18 +382,22 @@
 
             //settimout
             setTimeout(() => {
-              //showVideo hide showAntrian show
               document.getElementById('showAntrian').style.display = 'none';
               document.getElementById('showVideo').style.display = 'block';
             }, 15000);
           }
 
-          
 
-          setInterval(() => {
-            getAntrian();
-            getAntrianNow();
-          }, 500);
+
+          setTimeout(() => {
+              window.Echo.channel('callAntrianChannel.user.{{\Auth::user()->wilayah}}')
+                .listen('CallAntrianEvent', (data) => {
+                  console.log(data);
+                  console.log('ada antrian baru');
+                  getCallAntrian(data["dataCall"]);
+                  getAntrianQueueNow(data["dataQueue"]);
+              });
+          }, 200);
 
         });
         

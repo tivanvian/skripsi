@@ -9,6 +9,7 @@ use App\Models\QueueConfig;
 use App\Models\QueueCall;
 use App\Models\QueueNow;
 use App\Models\Wilayah;
+use App\Models\User;
 use App\Services\QueueServices;
 use App\Http\Requests\QueueRequest;
 
@@ -238,8 +239,14 @@ class QueueController extends Controller
             $data = Queue::selectRaw('*, CASE WHEN status = "waiting" THEN 1 ELSE 2 END as status_order')
                 ->where('tanggal', date('Y-m-d'))
                 ->orderBy('status_order', 'ASC')
-                ->orderBy('number', 'ASC')
-                ->get();
+                ->orderBy('number', 'ASC');
+            
+            if(\Auth::user()->wilayah){
+                $data->where('wilayah', \Auth::user()->wilayah)->get();
+            } else {
+                $data->get();
+            }
+            
             return DataTables::of($data)
                 ->addIndexColumn()
                 ->addColumn('status', function($row){
@@ -593,10 +600,32 @@ class QueueController extends Controller
                 ]);
             }
 
+            $this->callBroadcastAntrian($wilayah);
+
             return response()->json([
                 'success'   => true, 
                 'data'      => $data, 
+
             ]);
         }
+    }
+
+    public function callBroadcastAntrian($wilayah)
+    {
+        // $getClientUser = User::with('UserRoles')->whereWilayah($wilayah)->whereHas('UserRoles', function ($query) {
+        //     $query->where('default_role', 'user'); // Adjust 'role' to the actual column name in your userRole table
+        // })->first();
+
+        $dataCall = QueueCall::where('wilayah', $wilayah)->where('status', 1)->orderBy('number', 'DESC')->first();
+        $dataQueue = QueueNow::where('wilayah', $wilayah)->where('tanggal', date('Y-m-d'))->get();
+
+        // $data = [
+        //     'wilayah'       => $wilayah,
+        //     'dataCall'      => $dataCall,
+        //     'dataQueue'     => $dataQueue,
+        // ];
+
+        //event
+        event(new \App\Events\CallAntrianEvent($dataCall, $dataQueue, $wilayah));
     }
 }
