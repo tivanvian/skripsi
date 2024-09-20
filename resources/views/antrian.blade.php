@@ -27,6 +27,34 @@
 
         <link href="{{asset('vendor/fontawesome/css/all.css') }}" rel="stylesheet">
 
+        <link
+              rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+              />
+        <link
+              rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css"
+              />
+        <style>
+          #myCarousel {
+            --f-carousel-spacing: 10px;
+            --f-carousel-slide-width: 100%;
+            --f-progress-color: #ff3520;
+          }
+
+          #myCarousel .f-carousel__slide {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            /* margin-bottom:20px; */
+            background: #eee;
+          }
+
+          #myCarousel .f-carousel__dots {
+            /* margin-top: -0px !important; */
+            display: none;
+          }
+        </style>
+
         <style>
           .bd-placeholder-img {
             font-size: 1.125rem;
@@ -342,15 +370,14 @@
             </form> --}}
           </header>
       
-          <div class="mb-3 bg-body-tertiary rounded-3" style="height: 500px;">
-            <div class="container-fluid">
-              @foreach($sliders as $slider)
-                  @if(in_array($slider->extension, ['jpg', 'jpeg', 'png', 'gif']))
-                  <img src="{{ url($slider->url) }}" alt="Image 2">
-                  @endif
-                @endforeach
-            </div>
-            
+          <div class="f-carousel" id="myCarousel">
+            @foreach($sliders as $slider)
+              @if(in_array($slider->extension, ['jpg', 'jpeg', 'png', 'gif']))
+                <div class="f-carousel__slide">
+                  <img src="{{ url($slider->url) }}" alt="Image 2" style="max-height:500px;">
+                </div>
+              @endif
+            @endforeach
           </div>
       
           <div class="row align-items-md-stretch">
@@ -442,6 +469,17 @@
             console.log(event);
         });
       </script> --}}
+      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+      <script>
+        new Carousel(document.getElementById("myCarousel"), {
+          Autoplay : {
+            timeout : 10000
+          }
+        }, {
+          Autoplay
+        });
+      </script>
 
       
 

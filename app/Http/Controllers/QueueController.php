@@ -443,6 +443,7 @@ class QueueController extends Controller
 
         $config = QueueConfig::where('wilayah', $authWilayah)->first();
         $wilayah = Wilayah::where('kode_pos', $authWilayah)->first();
+        $slider = Slider::where('wilayah', \Auth::user()->wilayah)->latest()->get();
         // dd($config);
 
         return view('display',
@@ -451,6 +452,7 @@ class QueueController extends Controller
                 'config'            => $config,
                 'wilayah'           => $wilayah,
                 'pelayananLoket'    => json_decode($config->pelayanan_loket, true),
+                'sliders'           => $slider,
             ]
         );
     }

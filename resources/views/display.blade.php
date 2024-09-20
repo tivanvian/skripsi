@@ -138,6 +138,34 @@
             100% { transform: rotate(360deg); }
         }
       </style>
+
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+      />
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css"
+      />
+      <style>
+      #myCarousel {
+      --f-carousel-spacing: 10px;
+      --f-carousel-slide-width: 100%;
+      --f-progress-color: #ff3520;
+      }
+
+      #myCarousel .f-carousel__slide {
+      /* padding-top: 20px; */
+      /* padding-bottom: 20px; */
+      /* margin-bottom:20px; */
+      background: #eee;
+      }
+
+      #myCarousel .f-carousel__dots {
+      /* margin-top: -0px !important; */
+      display: none;
+      }
+      </style>
       
     </head>
 
@@ -232,7 +260,7 @@
             </div>
 
             <div class="col-md-8" style="display: none;" id="showAntrian">
-                <div class="mb-3 bg-body-tertiary rounded-3 d-flex align-items-center justify-content-center" style="height: 730px;">
+                <div class="mb-3 bg-body-tertiary rounded-3 d-flex align-items-center justify-content-center" style="height: 800px;">
                     <div class="container-fluid">
                       <p class="" style="font-size:30pt;">
                         Antrian Sekarang
@@ -250,10 +278,20 @@
             </div>
 
             <div class="col-md-8" id="showVideo">
-              <div class="mb-3 bg-body-tertiary rounded-3 d-flex align-items-center justify-content-center" style="height: 730px;">
+              {{-- <div class="mb-3 bg-body-tertiary rounded-3 d-flex align-items-center justify-content-center">
                   <div class="container-fluid">
                     INI BUAT SLIDE SHOW VIDEO
                   </div>
+                  
+              </div> --}}
+              <div class="f-carousel bg-body-tertiary rounded-3 d-flex align-items-center justify-content-center" id="myCarousel">
+                @foreach($sliders as $slider)
+                  @if(in_array($slider->extension, ['jpg', 'jpeg', 'png', 'gif']))
+                    <div class="f-carousel__slide">
+                      <img src="{{ url($slider->url) }}" alt="Image 2" style="max-height:730px;">
+                    </div>
+                  @endif
+                @endforeach
               </div>
           </div>
 
@@ -275,6 +313,18 @@
       <script src="{{ asset('themes/assets/js/jquery.min.js') }}"></script>
       <script src="{{asset('example/assets/dist/js/bootstrap.bundle.min.js')}}"></script>
       <script src="https://code.responsivevoice.org/responsivevoice.js?key=CO1qFP9H"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+      <script>
+        new Carousel(document.getElementById("myCarousel"), {
+          Autoplay : {
+            timeout : 10000
+          }
+        }, {
+          Autoplay
+        });
+      </script>
 
       <script>
           const loadingSpinner = document.getElementById('loading-spinner');
