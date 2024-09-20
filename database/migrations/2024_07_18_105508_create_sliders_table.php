@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('wilayah', 13);
             $table->string('name');
             $table->string('file');
+            $table->string('extension');
+            $table->string('url')->nullable();
             $table->boolean('is_active')->default(true);
             $table->timestamps();
         });

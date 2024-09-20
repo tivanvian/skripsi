@@ -215,13 +215,13 @@
                                 Antrian Sekarang
                               </p>
                               <h1 class="fw-bold" style="font-size:40pt;">
-                                <span id="nomorAntrian_{{$pelayanan}}" class="text-danger">
+                                <span id="nomorAntrian_{{$pelayanan['nama']}}" class="text-danger">
                                   0
                                 </span>
                               </h1>
                               <p class="text-black" style="font-size:15pt;">
-                                <span id="loket_{{$pelayanan}}">
-                                  LOKET {{ strtoupper($pelayanan) }}
+                                <span id="loket_{{$pelayanan['nama']}}">
+                                  LOKET {{ strtoupper($pelayanan['nama']) }}
                                 </span>
                             </p>
                             </div>
@@ -340,7 +340,7 @@
             nomorAntrian.innerHTML  = '';
             loket.innerHTML  = '';
 
-            nomorAntrian.innerHTML = data['number'];
+            nomorAntrian.innerHTML = data['alias'] + '-' + data['number'];
             loket.innerHTML  = "LOKET " + (data['loket']).toUpperCase();
 
             await responsiveVoice.speak(data['sound_call'], "Indonesian Female", {rate: 0.86});
@@ -357,12 +357,12 @@
 
             $.each(data, function(key, value) {
 
-              console.log(key + " : " + value.loket + " : " + value.number);
+              console.log(key + " : " + value.loket + " : " + value.alias + '-' + value.number);
 
               document.getElementById('nomorAntrian_'+value.loket).innerHTML  = '';
               document.getElementById('loket_'+value.loket).innerHTML  = '';
 
-              document.getElementById('nomorAntrian_'+value.loket).innerHTML = value.number;
+              document.getElementById('nomorAntrian_'+value.loket).innerHTML = value.alias + '-' + value.number;
               document.getElementById('loket_'+value.loket).innerHTML  = "LOKET " + (value.loket).toUpperCase();
             });
           }

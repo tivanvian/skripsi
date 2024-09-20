@@ -14,6 +14,7 @@ class QueueCall extends Model
     protected $fillable = [
         'wilayah',
         'loket',
+        'alias',
         'number',
         'sound_call',
         'status',

@@ -15,6 +15,7 @@ class Queue extends Model
         'wilayah',
         'tipe_loket',
         'number',
+        'alias',
         'status',
         'tanggal',
     ];

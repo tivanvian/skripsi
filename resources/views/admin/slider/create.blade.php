@@ -39,29 +39,29 @@
 @endsection
 
 @section('page-content__body')
-<form method="POST" action="{{ $pages['page']['create']['store'] }}" autocomplete="off" id="dataStore" class="row g-3">
+<form method="POST" action="{{ $pages['page']['create']['store'] }}" autocomplete="off" id="dataStore" class="row g-3" enctype="multipart/form-data">
     @csrf
 
     <div class="col-md-12 col-sm-12">
         <div class="card">
             <div class="card-body">
-                    @foreach ($formGenerator as $form)
-                        @if(isset($form['column']['active']) && $form['column']['active'])
-                            <div class="{{ $form['class']}}">
-                                <div class="row">
-                                    @foreach ($form['column']['columns'] as $formChild)
-                                        <div class="{{$formChild['class']}}">
-                                            {!! $formChild['form'] !!}
-                                        </div>
-                                    @endforeach
-                                </div>
+                @foreach ($formGenerator as $form)
+                    @if(isset($form['column']['active']) && $form['column']['active'])
+                        <div class="{{ $form['class']}}">
+                            <div class="row">
+                                @foreach ($form['column']['columns'] as $formChild)
+                                    <div class="{{$formChild['class']}}">
+                                        {!! $formChild['form'] !!}
+                                    </div>
+                                @endforeach
                             </div>
-                        @else
-                            <div class="{{$form['class']}}">
-                                {!! $form['form'] !!}
-                            </div>
-                        @endif
-                    @endforeach
+                        </div>
+                    @else
+                        <div class="{{$form['class']}}">
+                            {!! $form['form'] !!}
+                        </div>
+                    @endif
+                @endforeach
             </div>
         </div>
     </div>

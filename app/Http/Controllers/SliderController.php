@@ -64,24 +64,24 @@ class SliderController extends Controller
         return [
             'columnDefs'   => [
                 [
-                    'className' => 'text-center', 'targets' => '2, 3'
+                    'className' => 'text-center', 'targets' => '1,2'
                 ]
             ],
             'columns'      =>[
                 [
-                    'width' => "30%",
-                    'label' => __('Slug'),
-                    'slug'  => 'slug'
+                    'width' => "15%",
+                    'label' => __('Wilayah'),
+                    'slug'  => 'wilayah'
                 ],
                 [
-                    'width' => "53%",
+                    'width' => "68%",
                     'label' => __('Nama'),
-                    'slug'  => 'nama'
+                    'slug'  => 'name'
                 ],
                 [
                     'width' => "10%",
                     'label' => __('Active'),
-                    'slug'  => 'status'
+                    'slug'  => 'is_active'
                 ],
                 [
                     'width' => "7%",
@@ -96,12 +96,21 @@ class SliderController extends Controller
         return [
             [
                 "class"         => "col-md-12 col-sm-12",
-                "form"          => FormText("Slug", "slug", "slug", true),
+                "form"          => FormSelect2("Nama Wilayah", 'wilayah', "Choose Wilayah", $params['wilayah'], false, true),
             ],
             [
                 "class"         => "col-md-12 col-sm-12",
-                "form"          => FormText("Nama", "nama", "nama", true),
-            ]
+                "form"          => FormText("Nama Slider", "name", "name", true),
+            ],
+            [
+                "class"         => "col-md-12 col-sm-12",
+                "form"          => "
+                                    <div class=\"mb-1\">
+                                        <label class=\"form-label\" for=\"name\">Foto/VIdeo Slider<span class=\"text-danger\">*</span></label>
+                                        <input name=\"slider_file\" id=\"slider_file\" type=\"file\" class=\"form-control form-control-sm\" required=\"\">
+                                    </div>
+                                    "
+            ],
         ];
     }
 
@@ -120,8 +129,8 @@ class SliderController extends Controller
                     "active"    => true,
                     "columns"   => [
                         [
-                            "class" => "col-md-9 col-sm-8",
-                            "form"  => FormText("Slug", "slug", "slug", true, $data->slug, $readonly) ,
+                            "class"         => "col-md-9 col-sm-8",
+                            "form"          => FormSelect2("Nama Wilayah", 'wilayah', "Pilih Wilayah", $params['wilayah'], false, true, $data->wilayah, $readonly),
                         ],
                         [
                             "class" => "col-md-3 col-sm-4",
@@ -135,8 +144,17 @@ class SliderController extends Controller
             ],
             [
                 "class"         => "col-md-12 col-sm-12",
-                "form"          => FormText("Nama", "nama", "nama", true, $data->nama, $readonly),
-            ]
+                "form"          => FormText("Nama Slider", "name", "name", true, $data->name, $readonly),
+            ],
+            [
+                "class"         => "col-md-12 col-sm-12",
+                "form"          => "
+                                    <div class=\"mb-4\">
+                                        <label class=\"form-label\" for=\"name\">Foto/VIdeo Slider</label>
+                                        <input name=\"slider_file\" id=\"slider_file\" type=\"file\" class=\"form-control form-control-sm\">
+                                    </div>
+                                    "
+            ],
         ];
     }
     /**
@@ -148,11 +166,11 @@ class SliderController extends Controller
     {
         if ($request->ajax()) {
             $data = Slider::all();
+            if(\Auth::user()->getDefaultRole() == 'admin'){
+                $data = Slider::where('wilayah', \Auth::user()->wilayah)->latest()->get();
+            }
             return DataTables::of($data)
                 ->addIndexColumn()
-                ->addColumn('status', function($row){
-                    return Status($row->is_active);
-                })
                 ->addColumn('action', function($row){
                     $pages = $this->pages($row);
 
@@ -173,7 +191,7 @@ class SliderController extends Controller
                     ];
                     return ButtonAction(['update', 'delete', 'show'], $dataLink);
                 })
-                ->rawColumns(['status', 'action'])
+                ->rawColumns(['action'])
                 ->make(true);
         }
 
@@ -199,7 +217,12 @@ class SliderController extends Controller
                 'active'    => true,
                 'title'     => $pages['page']['create']['title'],
             ],
-            'formGenerator' => $this->formGenerateCreate([]),
+            'formGenerator' => $this->formGenerateCreate([
+                'wilayah'   => $this->Slider->paramsWilayah(),
+            ]),
+            'params'        => [
+                'wilayah'   => $this->Slider->paramsWilayah(),
+            ],
         ]);
     }
 
@@ -209,11 +232,14 @@ class SliderController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(SliderRequest $request)
+    public function store(Request $request)
     {
-        $this->Params->doStore($request);
-
-        session()->flash('success', 'Data berhasil disimpan !');
+        $data = $this->Slider->doStore($request);
+        if($data) {
+            session()->flash('success', 'Data berhasil disimpan!');
+        } else {
+            session()->flash('error', 'Data gagal disimpan!');
+        }
 
         return redirect()->to($this->pages()['page']['index']['url']);
     }
@@ -234,7 +260,9 @@ class SliderController extends Controller
                 'active'    => true,
                 'title'     => $pages['page']['edit']['title'],
             ],
-            'formGenerator' => $this->formGenerateEdit([], $Slider, true),
+            'formGenerator' => $this->formGenerateEdit([
+                'wilayah'   => $this->Slider->paramsWilayah(),
+            ], $Slider, true),
             'id'            => $Slider->id,
         ]);
     }
@@ -247,9 +275,9 @@ class SliderController extends Controller
      */
     public function edit($id)
     {
-        $Params = $this->Params->findBy('id', $id);
+        $Data = $this->Slider->findBy('id', $id);
 
-        $pages = $this->pages($Params);
+        $pages = $this->pages($Data);
 
         return view($this->pages()['page']['edit']['view'], [
             'pages'         => $pages,
@@ -257,9 +285,11 @@ class SliderController extends Controller
                 'active'    => true,
                 'title'     => $pages['page']['edit']['title'],
             ],
-            'formGenerator' => $this->formGenerateEdit([], $Params),
-            'id'            => $Params->id,
-            'data'          => $Params,
+            'formGenerator' => $this->formGenerateEdit([
+                'wilayah'   => $this->Slider->paramsWilayah(),
+            ], $Data),
+            'id'            => $Data->id,
+            'data'          => $Data,
         ]);
     }
 
@@ -272,9 +302,9 @@ class SliderController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $Params = $this->Params->findBy('id', $id);
+        $Data = $this->Slider->findBy('id', $id);
 
-        $data = $this->Params->doUpdate($request, $Params);
+        $data = $this->Slider->doUpdate($request, $Data);
 
         if($data == true){
             session()->flash('success', 'Data berhasil diubah !');
@@ -298,7 +328,7 @@ class SliderController extends Controller
 
     public function delete($id)
     {
-        $data = $this->Params->doDelete($id);
+        $data = $this->Slider->doDelete($id);
 
         if($data){
             response()->json(['success'=>true]);

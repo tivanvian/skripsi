@@ -17,6 +17,8 @@ class Slider extends Model
         'wilayah',
         'name',
         'file',
+        'extension',
+        'url',
         'is_active',
     ];
 

@@ -39,7 +39,7 @@
 @endsection
 
 @section('page-content__body')
-<form method="POST" action="{{ $pages['page']['edit']['update'] }}" autocomplete="off" id="dataUpdate" class="row g-3">
+<form method="POST" action="{{ $pages['page']['edit']['update'] }}" autocomplete="off" id="dataUpdate" class="row g-3" enctype="multipart/form-data">
     @method('PUT')
     @csrf
 
@@ -66,6 +66,22 @@
                     @endforeach
 
 
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 col-sm-12">
+        <div class="card">
+            <div class="card-body">
+                @if($data->extension == 'jpg' || $data->extension == 'png' || $data->extension == 'jpeg')
+                    <img src="{{ url($data->url) }}" class="img-fluid mb-3" alt="Image" width="30%">
+                @endif
+
+                @if($data->extension == 'mp4' || $data->extension == 'avi' || $data->extension == 'webm')
+                    <video width="1280" height="720" controls>
+                        <source src="{{ url($data->url) }}" type="video/{{ $data->extension }}">
+                    </video>
+                @endif
             </div>
         </div>
     </div>

@@ -35,7 +35,21 @@ class QueueConfigServices
     }
 
     public function doUpdate($request, $region) {
-        $request['pelayanan_loket']   = json_encode($request['pelayanan_loket'], true);
+        // Result structure like: [{"alias":"A", "nama":"AA"}, {"alias":"B","nama":"BB"}, {"alias":"C","nama":"CC"}]
+        $formattedPelayanan = [];
+
+        foreach ($request['pelayanan_loket'] as $person) {
+            // dd($person);
+            $formattedPelayanan[] = [
+                'alias' => htmlspecialchars($person['alias']),
+                'nama' => htmlspecialchars($person['nama'])
+            ];
+        }
+
+        // Output the result as JSON
+        // echo json_encode($formattedPeople);
+        $request['pelayanan_loket']   = json_encode($formattedPelayanan);
+
         if($request['is_active']) {
             $request['is_active'] = true;
         } else {

@@ -334,6 +334,8 @@ class QueueConfigController extends Controller
     {
         $pages = $this->pages($queueConfig);
 
+        // dd(json_decode($queueConfig->pelayanan_loket, true));
+
         return view($this->pages()['page']['edit']['view'], [
             'pages'         => $pages,
             'pagesSubChild' => [
@@ -358,7 +360,7 @@ class QueueConfigController extends Controller
     public function update(Request $request, QueueConfig $queueConfig)
     {
         $data = $this->QueueConfig->doUpdate($request, $queueConfig);
-
+        // dd($request->all());
         if($data == true){
             session()->flash('success', __('Data berhasil diubah !'));
             return redirect()->back();

@@ -14,6 +14,7 @@ class QueueNow extends Model
     protected $fillable = [
         'wilayah',
         'loket',
+        'alias',
         'number',
         'tanggal',
     ];
