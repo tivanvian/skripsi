@@ -21,7 +21,11 @@ class QueueServices
         $userRole = null;
 
         try {
-            $user = User::where('wilayah', '=', $kodeWilayah)->first();
+            // $user = User::where('wilayah', '=', $kodeWilayah)->first();
+            $user = User::with('UserRoles')->whereWilayah($kodeWilayah)->whereHas('UserRoles', function ($query) {
+                $query->where('default_role', 'user'); // Adjust 'role' to the actual column name in your userRole table
+            })->first();
+
             if($user){
                 $userRole = UserRole::where('user_id', '=', $user->id)->whereDefaultRole('user')->first();
             }
@@ -29,7 +33,7 @@ class QueueServices
         catch (\Exception $e) {
             return redirect()->back()->with('error', $e->getMessage());
         }
-
+        
         //Check Condition already confirmed  or Not
         if ($user == null || $userRole == null) {
             return redirect()->back()->with('error', 'Wilayah tidak terdaftar !');

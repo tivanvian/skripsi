@@ -70,7 +70,7 @@ class User extends Authenticatable implements MustVerifyEmail
 
     public function UserRoles()
     {
-        return $this->hasOne(UserRole::class, 'user_id', 'id')->select(['id', 'user_id', 'roles as name']);
+        return $this->hasOne(UserRole::class, 'user_id', 'id')->select(['id', 'user_id', 'roles as name', 'default_role']);
     }
 
     // public function UserProfileData()

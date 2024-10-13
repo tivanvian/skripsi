@@ -9,6 +9,8 @@ use App\Models\QueueConfig;
 use App\Models\QueueCall;
 use App\Models\QueueNow;
 use App\Models\Wilayah;
+use App\Models\User;
+use App\Models\Slider;
 use App\Services\QueueServices;
 use App\Http\Requests\QueueRequest;
 
@@ -238,17 +240,26 @@ class QueueController extends Controller
             $data = Queue::selectRaw('*, CASE WHEN status = "waiting" THEN 1 ELSE 2 END as status_order')
                 ->where('tanggal', date('Y-m-d'))
                 ->orderBy('status_order', 'ASC')
-                ->orderBy('number', 'ASC')
-                ->get();
+                ->orderBy('number', 'ASC');
+            
+            if(\Auth::user()->wilayah){
+                $data->where('wilayah', \Auth::user()->wilayah)->get();
+            } else {
+                $data->get();
+            }
+            
             return DataTables::of($data)
                 ->addIndexColumn()
                 ->addColumn('status', function($row){
                     return Status($row->is_active);
                 })
+                ->addColumn('number', function($row){
+                    return $row->alias .'-'. $row->number;
+                })
                 ->addColumn('action', function($row){
                     $dataButton = '';
                     if($row->status == 'waiting'){
-                        $dataButton .= '<button type="button" data-action="'.route('antrian.post-call', [$row->wilayah, 'server', $row->tipe_loket, $row->number]).'" class="btn btn-primary btn-sm hover-up btnCall">Call</button>';
+                        $dataButton .= '<button type="button" data-action="'.route('antrian.post-call', [$row->wilayah, 'server', $row->tipe_loket, $row->alias, $row->number]).'" class="btn btn-primary btn-sm hover-up btnCall">Call</button>';
                         $dataButton .= '<button type="button" data-action="'.route('admin.queue.finish', [$row->id]).'" class="btn btn-success btn-sm hover-up btnFinish">Finish</button>';
                     } else {
                         $dataButton .= 'Already Finish';
@@ -274,7 +285,7 @@ class QueueController extends Controller
                     // ];
                     // return MenuButtonAction([], $dataLink);
                 })
-                ->rawColumns(['status', 'action'])
+                ->rawColumns(['number','status', 'action'])
                 ->make(true);
         }
 
@@ -412,7 +423,8 @@ class QueueController extends Controller
 
         $config = QueueConfig::where('wilayah', $authWilayah)->first();
         $wilayah = Wilayah::where('kode_pos', $authWilayah)->first();
-        // dd($config);
+        $slider = Slider::where('wilayah', \Auth::user()->wilayah)->latest()->get();
+        // dd(json_decode($config->pelayanan_loket, true));
 
         return view('antrian',
             [
@@ -420,6 +432,7 @@ class QueueController extends Controller
                 'config'            => $config,
                 'wilayah'           => $wilayah,
                 'pelayananLoket'    => json_decode($config->pelayanan_loket, true),
+                'sliders'            => $slider,
             ]
         );
     }
@@ -430,6 +443,7 @@ class QueueController extends Controller
 
         $config = QueueConfig::where('wilayah', $authWilayah)->first();
         $wilayah = Wilayah::where('kode_pos', $authWilayah)->first();
+        $slider = Slider::where('wilayah', \Auth::user()->wilayah)->latest()->get();
         // dd($config);
 
         return view('display',
@@ -438,6 +452,7 @@ class QueueController extends Controller
                 'config'            => $config,
                 'wilayah'           => $wilayah,
                 'pelayananLoket'    => json_decode($config->pelayanan_loket, true),
+                'sliders'           => $slider,
             ]
         );
     }
@@ -458,6 +473,7 @@ class QueueController extends Controller
             'tipe_loket'    => $request->tipe_loket,
             'wilayah'       => $request->kode_wilayah,
             'tanggal'       => date('Y-m-d'),
+            'alias'         => $request->alias,
             'number'        => $this->Queue->getNumberAntrian($request->tipe_loket, $request->kode_wilayah),
             'status'        => 'waiting',
         ]);
@@ -496,13 +512,11 @@ class QueueController extends Controller
     {
         $data = Queue::find($id);
         if($data){
-            return response()->json([
-                'success'   => true, 
-                'data'      => $data, 
-                'qrCode'    => '',
+            return view('queue_view', [
+                'data'      => $data,
             ]);
         } else {
-            return response()->json(['error' => 'Data tidak ditemukan !']);
+            return abort(404);
         }
     }
 
@@ -543,7 +557,7 @@ class QueueController extends Controller
         }
     }
 
-    public function antrianPostCall($wilayah, $caller, $loket = null, $number = null)
+    public function antrianPostCall($wilayah, $caller, $loket = null, $alias = null, $number = null)
     {
         $data = QueueCall::where('wilayah', $wilayah)->where('status', 1)->first();
 
@@ -563,16 +577,18 @@ class QueueController extends Controller
         if($caller == 'server'){
             if($dataServer){
                 $dataServer->loket = $loket;
+                $dataServer->alias = $alias;
                 $dataServer->number = $number;
-                $dataServer->sound_call = "Nomo Antrian, ".$number.". Silahkan Menuju Loket. ".$loket.".";
+                $dataServer->sound_call = "Nomo Antrian, ".$alias."-".$number.". Silahkan Menuju Loket. ".$loket.".";
                 $dataServer->status = 1;
                 $dataServer->save();
             } else {
                 $data = QueueCall::create([
                     'wilayah'       => $wilayah,
                     'loket'         => $loket,
+                    'alias'         => $alias,
                     'number'        => $number,
-                    'sound_call'    => "Nomo Antrian, ".$number.". Silahkan Menuju Loket. ".$loket.".",
+                    'sound_call'    => "Nomo Antrian, ".$alias."-".$number.". Silahkan Menuju Loket. ".$loket.".",
                     'status'        => 1,
                 ]);
             }
@@ -582,21 +598,45 @@ class QueueController extends Controller
             if($dataQueueNow){
                 $dataQueueNow->number = $number;
                 $dataQueueNow->loket = $loket;
+                $dataQueueNow->alias = $alias;
                 $dataQueueNow->updated_at = date('Y-m-d');
                 $dataQueueNow->save();
             } else {
                 $dataQueueNow = QueueNow::create([
                     'wilayah'       => $wilayah,
                     'number'        => $number,
+                    'alias'         => $alias,
                     'loket'         => $loket,
                     'tanggal'       => date('Y-m-d'),
                 ]);
             }
 
+            $this->callBroadcastAntrian($wilayah);
+
             return response()->json([
                 'success'   => true, 
                 'data'      => $data, 
+
             ]);
         }
+    }
+
+    public function callBroadcastAntrian($wilayah)
+    {
+        // $getClientUser = User::with('UserRoles')->whereWilayah($wilayah)->whereHas('UserRoles', function ($query) {
+        //     $query->where('default_role', 'user'); // Adjust 'role' to the actual column name in your userRole table
+        // })->first();
+
+        $dataCall = QueueCall::where('wilayah', $wilayah)->where('status', 1)->orderBy('number', 'DESC')->first();
+        $dataQueue = QueueNow::where('wilayah', $wilayah)->where('tanggal', date('Y-m-d'))->get();
+
+        // $data = [
+        //     'wilayah'       => $wilayah,
+        //     'dataCall'      => $dataCall,
+        //     'dataQueue'     => $dataQueue,
+        // ];
+
+        //event
+        event(new \App\Events\CallAntrianEvent($dataCall, $dataQueue, $wilayah));
     }
 }

@@ -27,34 +27,6 @@
 
         <link href="{{asset('vendor/fontawesome/css/all.css') }}" rel="stylesheet">
 
-        <link
-              rel="stylesheet"
-              href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
-              />
-        <link
-              rel="stylesheet"
-              href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css"
-              />
-        <style>
-          #myCarousel {
-            --f-carousel-spacing: 10px;
-            --f-carousel-slide-width: 100%;
-            --f-progress-color: #ff3520;
-          }
-
-          #myCarousel .f-carousel__slide {
-            padding-top: 20px;
-            padding-bottom: 20px;
-            /* margin-bottom:20px; */
-            background: #eee;
-          }
-
-          #myCarousel .f-carousel__dots {
-            /* margin-top: -0px !important; */
-            display: none;
-          }
-        </style>
-
         <style>
           .bd-placeholder-img {
             font-size: 1.125rem;
@@ -345,14 +317,14 @@
         <div class="px-5 py-5 text-center">
 
           <header class="pb-3 mb-4 border-bottom d-flex justify-content-between">
-            <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+            {{-- <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
               <img src="{{asset('example/assets/brand/bootstrap-logo.svg')}}" alt="" height="32" class="me-2">
               <span class="fs-4 d-flex">
                 {{ strtoupper($wilayah->name) }} &nbsp;&nbsp;|&nbsp;&nbsp; <span id="live-date"></span>&nbsp;<span id="live-clock"></span>
               </span>
-            </a>
+            </a> --}}
 
-            <div class="dropdown">
+            {{-- <div class="dropdown">
               <button class="dropbtn" onclick="toggleDropdown()">
                   <i class="fa fa-bars"></i>
               </button>
@@ -362,7 +334,7 @@
                     <a href="{{ route('logout') }}" class="" onclick="event.preventDefault(); this.closest('form').submit();"><i class="fa fa-sign-out"></i>&nbsp;Logout</a>
                   </form>
               </div>
-          </div>
+            </div> --}}
 
             {{-- <form method="POST" action="{{ route('logout') }}">
                 @csrf
@@ -370,19 +342,38 @@
             </form> --}}
           </header>
       
-          <div class="f-carousel" id="myCarousel">
-            @foreach($sliders as $slider)
-              @if(in_array($slider->extension, ['jpg', 'jpeg', 'png', 'gif']))
-                <div class="f-carousel__slide">
-                  <img src="{{ url($slider->url) }}" alt="Image 2" style="max-height:500px;">
-                </div>
-              @endif
-            @endforeach
+          <div class="mb-3 bg-body-tertiary rounded-3" style="height: 400px;">
+            <div class="container-fluid">
+              {{-- @foreach($sliders as $slider)
+                  @if(in_array($slider->extension, ['jpg', 'jpeg', 'png', 'gif']))
+                  <img src="{{ url($slider->url) }}" alt="Image 2">
+                  @endif
+                @endforeach --}}
+                <h4 class="text-center" id="headerModal" style="font-size: 45pt;">
+                    ANTRIAN LOKET {{$data->tipe_loket}}
+                </h4>
+                <br>
+                  <p class="text-center">
+                    <span class="text-center" style="font-size: 30pt;">
+                      Nomor Antrian Anda adalah
+                    </span>
+                    <div id="bodyModal" class="text-center" style="font-size: 50pt;">
+                        <strong style="font-size: 50pt;">{{$data->alias}}-{{$data->number}}</strong>
+                    </div>
+                    <br>
+                    <div class="d-flex flex-row align-items-center justify-content-center">
+                      <i class="text-center" style="font-size: 20pt;">
+                        Silahkan menunggu panggilan dari petugas loket. Terima Kasih
+                      </i>
+                    </div>
+                  </p>
+            </div>
+            
           </div>
       
           <div class="row align-items-md-stretch">
             
-            @php
+            {{-- @php
               $count = count($pelayananLoket);
               if($count == 0) {
                 $classColMd = 'col-md-12';
@@ -401,7 +392,6 @@
               }
             @endphp
             @foreach($pelayananLoket as $pelayanan)
-              {{-- {{dd($pelayanan)}} --}}
               <div class="{{$classColMd}}">
                 <a href="#" class="text-decoration-none clickAntrian" data-antrian="{{$pelayanan["nama"]}}" data-alias="{{$pelayanan["alias"]}}" data-action="{{route('antrian.get-antrian')}}" data-wilayah="{{\Auth::user()->wilayah}}">
                   <div class="bg-body-tertiary border rounded-3 d-flex align-items-center justify-content-center" style="height: 300px">
@@ -411,7 +401,7 @@
                   </div>
                 </a>
               </div>
-            @endforeach
+            @endforeach --}}
             
             
           </div>
@@ -469,17 +459,6 @@
             console.log(event);
         });
       </script> --}}
-      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
-      <script>
-        new Carousel(document.getElementById("myCarousel"), {
-          Autoplay : {
-            timeout : 10000
-          }
-        }, {
-          Autoplay
-        });
-      </script>
 
       
 

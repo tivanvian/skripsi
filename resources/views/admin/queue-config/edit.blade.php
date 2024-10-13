@@ -73,7 +73,8 @@
                                     <thead>
                                         <tr>
                                             {{-- <th style="width:40%;">Id</th> --}}
-                                            <th style="width:85%; text-align:center;">Jenis Pelayanan</th>
+                                            <th style="width:20%; text-align:center;">Alias</th>
+                                            <th style="width:65%; text-align:center;">Jenis Pelayanan</th>
                                             <th style="width:15%; text-align:center;"><button type="button" class="btn btn-sm btn-info addRow"><i class="fa fa-plus"></i></button></th>
                                         </tr>
                                     </thead>
@@ -82,20 +83,25 @@
                 
                                     </tbody>
                                     @php($i = 0)
-                                    @foreach($data_pelayanan_loket as $key => $value)
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <input id="id-{{$i}}" name="pelayanan_loket[]" placeholder="name" type="text" class="form-control required-check " required="" value="{{$value}}">
-                                                </td>
-                                                <td style="text-align:center;">
-                                                    <button type="button" class="btn btn-sm btn-danger removeRow"><i class="fa fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
+                                    @if($data_pelayanan_loket)
+                                        @foreach($data_pelayanan_loket as $key => $value)
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input id="alias-{{$key}}" name="pelayanan_loket[{{$key}}][alias]" placeholder="name" type="text" class="form-control required-check " required="" value="{{$value['alias']}}">
+                                                    </td>
+                                                    <td>
+                                                        <input id="id-{{$key}}" name="pelayanan_loket[{{$key}}][nama]" placeholder="name" type="text" class="form-control required-check " required="" value="{{$value['nama']}}">
+                                                    </td>
+                                                    <td style="text-align:center;">
+                                                        <button type="button" class="btn btn-sm btn-danger removeRow"><i class="fa fa-trash"></i></button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
 
-                                        @php($i++)
-                                    @endforeach
+                                            @php($i++)
+                                        @endforeach
+                                    @endif
                                 </table>
                             </div>
                         </div>
@@ -119,7 +125,10 @@
     function rowTable(no){
         var html = '<tr>';
             html += '<td>\
-                <input id="value-'+parseInt(no)+'" name="pelayanan_loket[]" placeholder="name" type="text" class="form-control required-check " required="">\
+                <input id="alias-'+parseInt(no)+'" name="pelayanan_loket['+no+'][alias]" placeholder="name" type="text" class="form-control required-check " required="">\
+            </td>';
+            html += '<td>\
+                <input id="value-'+parseInt(no)+'" name="pelayanan_loket['+no+'][nama]" placeholder="name" type="text" class="form-control required-check " required="">\
             </td>';
         html += '<td style="text-align:center;">\
             <button type="button" class="btn btn-sm btn-danger removeRow"><i class="fa fa-trash"></i></button>\
@@ -131,8 +140,6 @@
 
     $(document).ready(function() {
         var i = parseInt({{ count($data_pelayanan_loket) }});
-
-        console.log(i);
 
         //addRow
         $(document).on('click', '.addRow', function() {
